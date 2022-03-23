@@ -1,11 +1,14 @@
 <table min_lib_ver="4.5" name="PredatorHeist">
-	<level ai_group_type="america" id="alien_robbed" max_bags="54">
+	<level ai_group_type="America" briefing_dialog="" id="pre1" intro_event="" max_bags="54" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
 		<packages/>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -13,13 +16,16 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="alien_revenge" max_bags="54">
+	<level ai_group_type="America" briefing_dialog="" id="pre2" intro_event="" max_bags="54" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
+		<outro_event>
+			<value_node value=""/>
+		</outro_event>
 		<packages/>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -27,10 +33,10 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<narrative contact="custom" id="PredatorHeist">
+	<narrative briefing_event="" contact="custom" id="pre">
 		<chain>
-			<table level_id="alien_robbed" type="d" type_id="heist_type_assault"/>
-			<table level_id="alien_revenge" type="d" type_id="heist_type_assault"/>
+			<table level_id="pre1" type="d" type_id="heist_type_assault"/>
+			<table level_id="pre2" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="4000"/>
@@ -47,7 +53,9 @@
 		<crimenet_videos>
 			<value_node value="cn_branchbank2"/>
 		</crimenet_videos>
-		<debrief_event/>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
 		<experience_mul>
 			<value_node value="1"/>
 			<value_node value="1"/>
@@ -85,9 +93,9 @@
 			<value_node value="60000"/>
 		</payout>
 	</narrative>
-	<narrative contact="custom" id="PredatorHeistDay2">
+	<narrative briefing_event="" contact="custom" id="pre_day2">
 		<chain>
-			<table level_id="alien_revenge" type="d" type_id="heist_type_assault"/>
+			<table level_id="pre2" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="4000"/>
@@ -104,7 +112,9 @@
 		<crimenet_videos>
 			<value_node value="cn_branchbank2"/>
 		</crimenet_videos>
-		<debrief_event/>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
 		<experience_mul>
 			<value_node value="1"/>
 			<value_node value="1"/>
@@ -142,8 +152,10 @@
 			<value_node value="60000"/>
 		</payout>
 	</narrative>
-	<narrative contact="custom" id="PredatorHeistDay1">
-		<chain/>
+	<narrative briefing_event="" contact="custom" id="pre_day1">
+		<chain>
+			<table level_id="pre1" type="d" type_id="heist_type_assault"/>
+		</chain>
 		<contract_cost>
 			<value_node value="4000"/>
 			<value_node value="8000"/>
@@ -159,6 +171,9 @@
 		<crimenet_videos>
 			<value_node value="cn_branchbank2"/>
 		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
 		<experience_mul>
 			<value_node value="1"/>
 			<value_node value="1"/>
@@ -196,6 +211,8 @@
 			<value_node value="60000"/>
 		</payout>
 	</narrative>
+	<AddFiles directory="assets"/>
+	<AssetUpdates id="-1" provider="modworkshop" version="1"/>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
