@@ -1,7 +1,831 @@
 <table directory="assets">
+	<add from_db="true" path="units/payday2/architecture/res/res_welcometothejungle_house_a" type="unit">
+		<material_config path="units/payday2/architecture/res/res"/>
+		<object path="units/payday2/architecture/res/res_welcometothejungle_house_a"/>
+		<unit path="units/payday2/architecture/res/res_welcometothejungle_house_a"/>
+	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
 		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/air_hangar_segment/air_shed_welcometothejungle_a" type="unit">
+		<material_config path="units/payday2/architecture/air_hangar_segment/air_hangar_segment01"/>
+		<object path="units/payday2/architecture/air_hangar_segment/air_shed_welcometothejungle_a"/>
+		<unit path="units/payday2/architecture/air_hangar_segment/air_shed_welcometothejungle_a"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/backdrop_trees_back_01" type="unit">
+		<material_config path="units/world/vegetation/jungle/backdrop_trees"/>
+		<object path="units/world/vegetation/jungle/backdrop_trees_back_01"/>
+		<unit path="units/world/vegetation/jungle/backdrop_trees_back_01"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/aloeverabushbig_b_01" type="unit">
+		<material_config path="units/world/vegetation/jungle/aloeverabushbig"/>
+		<object path="units/world/vegetation/jungle/aloeverabushbig_b_01"/>
+		<unit path="units/world/vegetation/jungle/aloeverabushbig_b_01"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/aloeverabushbig_01" type="unit">
+		<material_config path="units/world/vegetation/jungle/aloeverabushbig"/>
+		<object path="units/world/vegetation/jungle/aloeverabushbig_01"/>
+		<unit path="units/world/vegetation/jungle/aloeverabushbig_01"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/aloeverabushbig_b_02" type="unit">
+		<material_config path="units/world/vegetation/jungle/aloeverabushbig"/>
+		<object path="units/world/vegetation/jungle/aloeverabushbig_b_02"/>
+		<unit path="units/world/vegetation/jungle/aloeverabushbig_b_02"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/burned_palmtree_01" type="unit">
+		<material_config path="units/world/vegetation/jungle/burned_palmtrees"/>
+		<object path="units/world/vegetation/jungle/burned_palmtree_01"/>
+		<unit path="units/world/vegetation/jungle/burned_palmtree_01"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/burned_palmtree_small_01" type="unit">
+		<material_config path="units/world/vegetation/jungle/burned_palmtrees"/>
+		<object path="units/world/vegetation/jungle/burned_palmtree_small_01"/>
+		<unit path="units/world/vegetation/jungle/burned_palmtree_small_01"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/fanpalmbushbig_02" type="unit">
+		<material_config path="units/world/vegetation/jungle/fanpalmbush"/>
+		<object path="units/world/vegetation/jungle/fanpalmbushbig_02"/>
+		<unit path="units/world/vegetation/jungle/fanpalmbushbig_02"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/foliage_floor_large_b" type="unit">
+		<material_config path="units/world/vegetation/jungle/foliage_wall"/>
+		<object path="units/world/vegetation/jungle/foliage_floor_large_b"/>
+		<unit path="units/world/vegetation/jungle/foliage_floor_large_b"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/jungletree_small" type="unit">
+		<material_config path="units/world/vegetation/jungle/jungletrees"/>
+		<object path="units/world/vegetation/jungle/jungletree_small"/>
+		<unit path="units/world/vegetation/jungle/jungletree_small"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/thinpalmtree_anim_01" type="unit">
+		<material_config path="units/world/vegetation/jungle/palmtrees_anim_skinned"/>
+		<object path="units/world/vegetation/jungle/thinpalmtree_anim_01"/>
+		<unit path="units/world/vegetation/jungle/thinpalmtree_anim_01"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/vegetation_treestall_gentalltree_full" type="unit">
+		<material_config path="units/world/vegetation/jungle/vegetation_treestall"/>
+		<object path="units/world/vegetation/jungle/vegetation_treestall_gentalltree_full"/>
+		<unit path="units/world/vegetation/jungle/vegetation_treestall_gentalltree_full"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/nature/hlp_pnau_start_area/hlp_pnau_start_area" type="unit">
+		<material_config path="units/pd2_dlc_help/nature/hlp_pnau_start_area/hlp_pnau_start_area"/>
+		<object path="units/pd2_dlc_help/nature/hlp_pnau_start_area/hlp_pnau_start_area"/>
+		<unit path="units/pd2_dlc_help/nature/hlp_pnau_start_area/hlp_pnau_start_area"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pines/nature/pnau_tree_pine_burnt/pna_tree_pine_burnt" type="unit">
+		<material_config path="units/pd2_dlc_pines/nature/pnau_tree_pine_burnt/pna_tree_pine_burnt"/>
+		<object path="units/pd2_dlc_pines/nature/pnau_tree_pine_burnt/pna_tree_pine_burnt"/>
+		<unit path="units/pd2_dlc_pines/nature/pnau_tree_pine_burnt/pna_tree_pine_burnt"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/pnau_small_bridge/pnau_small_bridge" type="unit">
+		<material_config path="units/pd2_dlc_cro/pnau_small_bridge/pnau_small_bridge"/>
+		<object path="units/pd2_dlc_cro/pnau_small_bridge/pnau_small_bridge"/>
+		<unit path="units/pd2_dlc_cro/pnau_small_bridge/pnau_small_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/pnau_terrain_stage_03/pnau_stage_03_water" type="unit">
+		<material_config path="units/pd2_dlc_cro/pnau_terrain_stage_03/pnau_stage_03_water"/>
+		<object path="units/pd2_dlc_cro/pnau_terrain_stage_03/pnau_stage_03_water"/>
+		<unit path="units/pd2_dlc_cro/pnau_terrain_stage_03/pnau_stage_03_water"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/pnau_tree_pine/pnau_tree_pine_04_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_tree_pine/pnau_tree_pine"/>
+		<object path="units/pd2_dlc_cro/pnau_tree_pine/pnau_tree_pine_04_a"/>
+		<unit path="units/pd2_dlc_cro/pnau_tree_pine/pnau_tree_pine_04_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/pnau_terrain_stage_03/pnau_terrain_stage_03" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge"/>
+		<object path="units/pd2_dlc_cro/pnau_terrain_stage_03/pnau_terrain_stage_03"/>
+		<unit path="units/pd2_dlc_cro/pnau_terrain_stage_03/pnau_terrain_stage_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_01_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment"/>
+		<object path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_01_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_01_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment"/>
+		<object path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_b" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_b"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_c" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_c"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_d" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_d"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_e"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_f" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_boulder"/>
+		<object path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_f"/>
+		<unit path="units/payday2/nature/pnau/pnau_boulders/pna_ext_landscape_cliff_f"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_floor_large_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall"/>
+		<object path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_floor_large_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_floor_large_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_floor_large_b" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall"/>
+		<object path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_floor_large_b"/>
+		<unit path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_floor_large_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_floor_large_c" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall"/>
+		<object path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_floor_large_c"/>
+		<unit path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_floor_large_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_ivy_roof_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall"/>
+		<object path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_ivy_roof_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_ivy_roof_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall_small_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall"/>
+		<object path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall_small_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_foliage_wall/pnau_foliage_wall_small_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_01" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_stone/pnau_stone"/>
+		<object path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_01"/>
+		<unit path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_02" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_stone/pnau_stone"/>
+		<object path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_02"/>
+		<unit path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_03" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_stone/pnau_stone"/>
+		<object path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_03"/>
+		<unit path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_04" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_stone/pnau_stone"/>
+		<object path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_04"/>
+		<unit path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_04"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_05" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_stone/pnau_stone"/>
+		<object path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_05"/>
+		<unit path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_05"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_06" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_stone/pnau_stone"/>
+		<object path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_06"/>
+		<unit path="units/payday2/nature/pnau/pnau_stone/pnau_stone_large_06"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_stone/pnau_stone_small_02" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_stone/pnau_stone"/>
+		<object path="units/payday2/nature/pnau/pnau_stone/pnau_stone_small_02"/>
+		<unit path="units/payday2/nature/pnau/pnau_stone/pnau_stone_small_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_bdrop_alex" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_terrain_custom_alex"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_bdrop_alex"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_bdrop_alex"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_terrain_custom_alex_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_terrain_custom_alex"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_terrain_custom_alex_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_terrain_custom_alex_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_terrain_custom_alex_b" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_terrain_custom_alex"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_terrain_custom_alex_b"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_terrain_custom_alex_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_custom_firestarter/pnau_terrain_custom_firestarter_1_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_custom_firestarter/pnau_terrain_custom_firestarter"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_custom_firestarter/pnau_terrain_custom_firestarter_1_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_custom_firestarter/pnau_terrain_custom_firestarter_1_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_bdrop_turfwar" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_bdrop_turfwar"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_bdrop_turfwar"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar_01" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar_01"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar_02" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar_02"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar_03" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar_03"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_road_hill/pnau_terrain_road_hill_left_90" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_road_hill/pnau_terrain_road_hill"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_road_hill/pnau_terrain_road_hill_left_90"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_road_hill/pnau_terrain_road_hill_left_90"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a_v2" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a_v2"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v2" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v2"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v3" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v3"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v3"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_lake_8x8" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_lake_8x8"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_lake_8x8"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_01" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_01"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_05" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_05"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_05"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_plane" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_plane"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_plane"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_medium_03" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_medium_03"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_medium_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_tree_cotton/pnau_tree_cotton_dead" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_tree_cotton/pnau_tree_cotton"/>
+		<object path="units/payday2/nature/pnau/pnau_tree_cotton/pnau_tree_cotton_dead"/>
+		<unit path="units/payday2/nature/pnau/pnau_tree_cotton/pnau_tree_cotton_dead"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_tree_segment/pnau_tree_segment_01_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_tree_segment/pnau_tree_segment"/>
+		<object path="units/payday2/nature/pnau/pnau_tree_segment/pnau_tree_segment_01_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_tree_segment/pnau_tree_segment_01_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave_big_full_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave"/>
+		<object path="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave_big_full_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave_big_full_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave_big_dead_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave"/>
+		<object path="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave_big_dead_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_tree_thickleave/pnau_tree_thickleave_big_dead_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pines/props/pnau_prop_hallway_exit/pnau_prop_hallway_exit" type="unit">
+		<material_config path="units/pd2_dlc_pines/props/pnau_prop_hallway_exit/pnau_prop_hallway_exit"/>
+		<object path="units/pd2_dlc_pines/props/pnau_prop_hallway_exit/pnau_prop_hallway_exit"/>
+		<unit path="units/pd2_dlc_pines/props/pnau_prop_hallway_exit/pnau_prop_hallway_exit"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/nature/mad_terrain/mad_terrain_tunnel" type="unit">
+		<material_config path="units/pd2_dlc_mad/nature/mad_terrain/mad_terrain"/>
+		<object path="units/pd2_dlc_mad/nature/mad_terrain/mad_terrain_tunnel"/>
+		<unit path="units/pd2_dlc_mad/nature/mad_terrain/mad_terrain_tunnel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chew/effects/chw_wind_tunnel" type="unit">
+		<material_config path="units/pd2_dlc_chew/effects/chw_wind_tunnel"/>
+		<object path="units/pd2_dlc_chew/effects/chw_wind_tunnel"/>
+		<unit path="units/pd2_dlc_chew/effects/chw_wind_tunnel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_elevator_beams/bry_mountain_elevator_beams" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_elevator_beams/bry_mountain_elevator_beams"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_elevator_beams/bry_mountain_elevator_beams"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_elevator_beams/bry_mountain_elevator_beams"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_transition_area_vent" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_transition_area_vent"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_transition_area_vent"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending_rightbend" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending_rightbend"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending_rightbend"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/cas_bdrop/cas_bdrop_mountain_east" type="unit">
+		<material_config path="units/payday2/architecture/cas_bdrop/cas_bdrop_mountain"/>
+		<object path="units/payday2/architecture/cas_bdrop/cas_bdrop_mountain_east"/>
+		<unit path="units/payday2/architecture/cas_bdrop/cas_bdrop_mountain_east"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/cas_bdrop/cas_bdrop_mountain_west" type="unit">
+		<material_config path="units/payday2/architecture/cas_bdrop/cas_bdrop_mountain"/>
+		<object path="units/payday2/architecture/cas_bdrop/cas_bdrop_mountain_west"/>
+		<unit path="units/payday2/architecture/cas_bdrop/cas_bdrop_mountain_west"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_mountains" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_mountains"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_mountains"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_mountains_02" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_mountains_02"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_mountains_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/architecture/ext/backdrop/chas_ext_backdrop_far_mountains" type="unit">
+		<material_config path="units/pd2_dlc_chas/architecture/ext/backdrop/chas_ext_backdrop_skyline"/>
+		<object path="units/pd2_dlc_chas/architecture/ext/backdrop/chas_ext_backdrop_far_mountains"/>
+		<unit path="units/pd2_dlc_chas/architecture/ext/backdrop/chas_ext_backdrop_far_mountains"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_cliffs" type="unit">
+		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks"/>
+		<object path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_cliffs"/>
+		<unit path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_cliffs"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_road_vista" type="unit">
+		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks"/>
+		<object path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_road_vista"/>
+		<unit path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_road_vista"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior" type="unit">
+		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks"/>
+		<object path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior"/>
+		<unit path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_02" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilars"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_02"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_highway_pilar_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_dam" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_dam"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_river_dam"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_riverside" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_riverside"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_riverside"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/nature/terrain/sfm_backdrop_river" type="unit">
+		<material_config path="units/pd2_dlc_friend/nature/terrain/sfm_backdrop"/>
+		<object path="units/pd2_dlc_friend/nature/terrain/sfm_backdrop_river"/>
+		<unit path="units/pd2_dlc_friend/nature/terrain/sfm_backdrop_river"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/res/res_forest_house_b" type="unit">
+		<material_config path="units/payday2/architecture/res/res_forest_house_b"/>
+		<object path="units/payday2/architecture/res/res_forest_house_b"/>
+		<unit path="units/payday2/architecture/res/res_forest_house_b"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" type="unit">
+		<material_config path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01"/>
+		<object path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01"/>
+		<unit path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+		<object path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+	</add>
+	<add from_db="true" path="units/world/environment/mansion/man_ground_ext/man_ground_lake_8x8m" type="unit">
+		<material_config path="units/world/environment/mansion/man_ground_ext/man_ground_material"/>
+		<object path="units/world/environment/mansion/man_ground_ext/man_ground_lake_8x8m"/>
+		<unit path="units/world/environment/mansion/man_ground_ext/man_ground_lake_8x8m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fex/props/fex_xmas_decorations/fex_xmas_snowflake" type="unit">
+		<material_config path="units/pd2_dlc_fex/props/fex_xmas_decorations/fex_xmas_star"/>
+		<object path="units/pd2_dlc_fex/props/fex_xmas_decorations/fex_xmas_snowflake"/>
+		<unit path="units/pd2_dlc_fex/props/fex_xmas_decorations/fex_xmas_snowflake"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pines/nature/pna_ext_ground_burnt/pna_ext_ground_burnt_a" type="unit">
+		<material_config path="units/pd2_dlc_pines/nature/pna_ext_ground_burnt/pna_ext_ground_burnt"/>
+		<object path="units/pd2_dlc_pines/nature/pna_ext_ground_burnt/pna_ext_ground_burnt_a"/>
+		<unit path="units/pd2_dlc_pines/nature/pna_ext_ground_burnt/pna_ext_ground_burnt_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pines/nature/pna_ext_ground_teared/pna_ext_ground_teared" type="unit">
+		<material_config path="units/pd2_dlc_pines/nature/pna_ext_ground_teared/pna_ext_ground_teared"/>
+		<object path="units/pd2_dlc_pines/nature/pna_ext_ground_teared/pna_ext_ground_teared"/>
+		<unit path="units/pd2_dlc_pines/nature/pna_ext_ground_teared/pna_ext_ground_teared"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pines/vehicles/sub_vehicle_train_frontdoor_2/sub_vehicle_train_frontdoor_2" type="unit">
+		<material_config path="units/payday2/vehicles/shared_textures/sub_vehicle_train"/>
+		<object path="units/pd2_dlc_pines/vehicles/sub_vehicle_train_frontdoor_2/sub_vehicle_train_frontdoor_2"/>
+		<sequence_manager path="units/pd2_dlc_pines/vehicles/sub_vehicle_train_frontdoor_2/sub_vehicle_train_frontdoor_2"/>
+		<unit path="units/pd2_dlc_pines/vehicles/sub_vehicle_train_frontdoor_2/sub_vehicle_train_frontdoor_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel_door" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel"/>
+		<object path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel_door"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel_door"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel"/>
+		<object path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel_left" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel"/>
+		<object path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel_left"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel_left"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop_oakland_bridge" type="unit">
+		<material_config path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop"/>
+		<object path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop_oakland_bridge"/>
+		<unit path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop_oakland_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge" type="unit">
+		<material_config path="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge"/>
+		<object path="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge"/>
+		<unit path="units/pd2_dlc_born/architecture/bor_bridge/bor_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_cables_b" type="unit">
+		<material_config path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge"/>
+		<object path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_cables_b"/>
+		<unit path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_cables_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
+		<object path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
+		<sequence_manager path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
+		<unit path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge"/>
+		<object path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_bridge_bdrop" type="unit">
+		<material_config path="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_bridge_bdrop"/>
+		<object path="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_bridge_bdrop"/>
+		<unit path="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_bridge_bdrop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/props/bph_rolling_bridge/bph_ext_rolling_bridge" type="unit">
+		<material_config path="units/pd2_dlc_bph/props/bph_rolling_bridge/bph_ext_rolling_bridge"/>
+		<object path="units/pd2_dlc_bph/props/bph_rolling_bridge/bph_ext_rolling_bridge"/>
+		<sequence_manager path="units/pd2_dlc_bph/props/bph_rolling_bridge/bph_ext_rolling_bridge"/>
+		<unit path="units/pd2_dlc_bph/props/bph_rolling_bridge/bph_ext_rolling_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/drk_prop_wall_underbridge/drk_prop_wall_underbridge" type="unit">
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_wall_underbridge/drk_prop_wall_underbridge"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_wall_underbridge/drk_prop_wall_underbridge"/>
+		<unit path="units/pd2_dlc_dark/props/drk_prop_wall_underbridge/drk_prop_wall_underbridge"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_catwalk_bridge" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_catwalk_bridge"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_catwalk_bridge"/>
+	</add>
+	<add from_db="true" path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_destroyed" type="unit">
+		<material_config path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_near_bridgestone"/>
+		<object path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_destroyed"/>
+		<unit path="units/world/environment/train/vista/tra_backdrop_near_bridgestone/tra_backdrop_near_bridgestone_destroyed"/>
+	</add>
+	<add from_db="true" path="units/world/props/goal_units/goal_bridge" type="unit">
+		<material_config path="units/world/props/goal_units/goal_octagon"/>
+		<object path="units/world/props/goal_units/goal_bridge"/>
+		<sequence_manager path="units/world/props/goal_units/goal_bridge"/>
+		<unit path="units/world/props/goal_units/goal_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor" type="unit">
+		<effect load="true" path="effects/particles/dest/security_camera_dest"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<material_config path="units/world/props/display/display_io"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor"/>
+		<sequence_manager path="units/pd2_dlc_lxy/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor" type="unit">
+		<material_config path="units/world/props/display/display_io"/>
+		<object path="units/world/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor"/>
+		<sequence_manager path="units/world/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor"/>
+		<unit path="units/world/architecture/yacht/pilot_house/lxy_int_pilothouse_bridge_monitor"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v2" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v2"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v3" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v3"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v3"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_medium_01" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_medium_01"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_medium_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_01" type="unit">
+		<material_config path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_building_01"/>
+		<object path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_01"/>
+		<unit path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_02" type="unit">
+		<material_config path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_building_01"/>
+		<object path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_02"/>
+		<unit path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_03" type="unit">
+		<material_config path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_building_01"/>
+		<object path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_03"/>
+		<unit path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_04" type="unit">
+		<material_config path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_building_01"/>
+		<object path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_04"/>
+		<unit path="units/pd2_dlc_mad/architecture/mad_sawmill/mad_sawmill_hut_04"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/ext/sand_building_hut_01/sand_hut_01" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/ext/sand_building_hut_01/sand_hut_01"/>
+		<object path="units/pd2_dlc_sand/architecture/ext/sand_building_hut_01/sand_hut_01"/>
+		<unit path="units/pd2_dlc_sand/architecture/ext/sand_building_hut_01/sand_hut_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/fst_hut/fst_hut" type="unit">
+		<material_config path="units/pd2_dlc_cro/fst_hut/fst_hut"/>
+		<object path="units/pd2_dlc_cro/fst_hut/fst_hut"/>
+		<unit path="units/pd2_dlc_cro/fst_hut/fst_hut"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a_v3" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a_v3"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a_v3"/>
+	</add>
+	<add from_db="true" path="units/world/environment/mansion/man_ground_ext/man_ground_ext_gravel_b_2x6m" type="unit">
+		<material_config path="units/world/environment/mansion/man_ground_ext/man_ground_material"/>
+		<object path="units/world/environment/mansion/man_ground_ext/man_ground_ext_gravel_b_2x6m"/>
+		<unit path="units/world/environment/mansion/man_ground_ext/man_ground_ext_gravel_b_2x6m"/>
+	</add>
+	<add from_db="true" path="units/world/environment/mansion/man_ground_ext/man_ground_ext_gravel_b_2x2m" type="unit">
+		<material_config path="units/world/environment/mansion/man_ground_ext/man_ground_material"/>
+		<object path="units/world/environment/mansion/man_ground_ext/man_ground_ext_gravel_b_2x2m"/>
+		<unit path="units/world/environment/mansion/man_ground_ext/man_ground_ext_gravel_b_2x2m"/>
+	</add>
+	<add from_db="true" path="units/world/environment/mansion/man_ground_ext/man_ground_ext_gravel_center_12m" type="unit">
+		<material_config path="units/world/environment/mansion/man_ground_ext/man_ground_material"/>
+		<object path="units/world/environment/mansion/man_ground_ext/man_ground_ext_gravel_center_12m"/>
+		<unit path="units/world/environment/mansion/man_ground_ext/man_ground_ext_gravel_center_12m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_grass_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_01_grass"/>
+		<object path="units/payday2/architecture/str/str_ext_grass_4x4m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_grass_4x4m_a"/>
+	</add>
+	<add from_db="true" path="units/world/environment/mansion/man_ground_ext/man_ground_ext_grass_16m" type="unit">
+		<material_config path="units/world/environment/mansion/man_ground_ext/grasss"/>
+		<object path="units/world/environment/mansion/man_ground_ext/man_ground_ext_grass_16m"/>
+		<unit path="units/world/environment/mansion/man_ground_ext/man_ground_ext_grass_16m"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/ground_grass/ground_grass" type="unit">
+		<material_config path="units/world/vegetation/ground_grass/ground_grass"/>
+		<object path="units/world/vegetation/ground_grass/ground_grass"/>
+		<unit path="units/world/vegetation/ground_grass/ground_grass"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/ground_grass/ground_grass_50x50" type="unit">
+		<material_config path="units/world/vegetation/ground_grass/ground_grass"/>
+		<object path="units/world/vegetation/ground_grass/ground_grass_50x50"/>
+		<unit path="units/world/vegetation/ground_grass/ground_grass_50x50"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/ground_grass/street_alley_grass" type="unit">
+		<material_config path="units/world/vegetation/ground_grass/ground_grass"/>
+		<object path="units/world/vegetation/ground_grass/street_alley_grass"/>
+		<unit path="units/world/vegetation/ground_grass/street_alley_grass"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane" type="unit">
+		<material_config path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane"/>
+		<object path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane"/>
+		<unit path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane" type="unit">
+		<material_config path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane"/>
+		<object path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane"/>
+		<unit path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane"/>
+	</add>
+	<add from_db="true" path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp"/>
+		<object path="units/test/jocke/plane_black_temp"/>
+		<unit path="units/test/jocke/plane_black_temp"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_wall_1m_a" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_wall_1m_a"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_wall_1m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_tree_fallen/pnau_tree_fallen_01_a" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_tree_elm/pnau_tree_elm"/>
+		<object path="units/payday2/nature/pnau/pnau_tree_fallen/pnau_tree_fallen_01_a"/>
+		<unit path="units/payday2/nature/pnau/pnau_tree_fallen/pnau_tree_fallen_01_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_tree_fallen/pnau_tree_fallen_01_b" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_tree_elm/pnau_tree_elm"/>
+		<object path="units/payday2/nature/pnau/pnau_tree_fallen/pnau_tree_fallen_01_b"/>
+		<unit path="units/payday2/nature/pnau/pnau_tree_fallen/pnau_tree_fallen_01_b"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/moss_slope_big_a" type="unit">
+		<material_config path="units/world/vegetation/jungle/mosspiles"/>
+		<object path="units/world/vegetation/jungle/moss_slope_big_a"/>
+		<unit path="units/world/vegetation/jungle/moss_slope_big_a"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/moss_slope_big" type="unit">
+		<material_config path="units/world/vegetation/jungle/mosspiles"/>
+		<object path="units/world/vegetation/jungle/moss_slope_big"/>
+		<unit path="units/world/vegetation/jungle/moss_slope_big"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/moss_slope_small" type="unit">
+		<material_config path="units/world/vegetation/jungle/mosspiles"/>
+		<object path="units/world/vegetation/jungle/moss_slope_small"/>
+		<unit path="units/world/vegetation/jungle/moss_slope_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cage/architecture/ind_tunnel_expressway/ind_tunnel_expressway_slope_a" type="unit">
+		<material_config path="units/pd2_dlc_cage/architecture/ind_tunnel_expressway/ind_tunnel_expressway_01"/>
+		<object path="units/pd2_dlc_cage/architecture/ind_tunnel_expressway/ind_tunnel_expressway_slope_a"/>
+		<unit path="units/pd2_dlc_cage/architecture/ind_tunnel_expressway/ind_tunnel_expressway_slope_a"/>
+	</add>
+	<add from_db="true" path="environments/env_forest_fog/env_forest_fog" type="environment">
+		<environment path="environments/env_forest_fog/env_forest_fog"/>
+		<material_config path="core/environments/skies/sky_cloudy_blue/sky_cloudy_blue"/>
+		<scene path="core/environments/skies/default/default"/>
+	</add>
+	<add from_db="true" path="environments/env_1830_low_sun_clouds/env_1830_low_sun_clouds" type="environment">
+		<environment path="environments/env_1830_low_sun_clouds/env_1830_low_sun_clouds"/>
+		<material_config path="core/environments/skies/sky_1830_low_sun_clouds/sky_1830_low_sun_clouds"/>
+		<scene path="core/environments/skies/sky_1830_low_sun_clouds/sky_1830_low_sun_clouds"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_1830_low_sun_clouds/sky_1830_low_sun_clouds" type="scene">
+		<material_config path="core/environments/skies/sky_1830_low_sun_clouds/sky_1830_low_sun_clouds"/>
+		<scene path="core/environments/skies/sky_1830_low_sun_clouds/sky_1830_low_sun_clouds"/>
+	</add>
+	<add from_db="true" path="environments/pd2_indiana_corridor_skylight/pd2_indiana_corridor_skylight" type="environment">
+		<environment path="environments/pd2_indiana_corridor_skylight/pd2_indiana_corridor_skylight"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue" type="scene">
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="environments/env_assault_forest/env_assault_forest" type="environment">
+		<environment path="environments/env_assault_forest/env_assault_forest"/>
+		<material_config path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
+		<scene path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_pines/pd2_env_pines" type="environment">
+		<environment path="environments/pd2_env_pines/pd2_env_pines"/>
+		<material_config path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+		<scene path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy" type="scene">
+		<material_config path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+		<scene path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_cro_night/pd2_env_cro_night" type="environment">
+		<environment path="environments/pd2_env_cro_night/pd2_env_cro_night"/>
+		<material_config path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+		<scene path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon" type="scene">
+		<material_config path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+		<scene path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_spa/pd2_env_spa_outside" type="environment">
+		<environment path="environments/pd2_env_spa/pd2_env_spa_outside"/>
+		<material_config path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+		<scene path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+	</add>
+	<add from_db="true" path="environments/pd2_glace/glace_outside" type="environment">
+		<environment path="environments/pd2_glace/glace_outside"/>
+		<material_config path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy"/>
+		<scene path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy_dark"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy_dark" type="scene">
+		<material_config path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy"/>
+		<scene path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy_dark"/>
+	</add>
+	<add from_db="true" path="environments/pd2_peta1_outside/env_peta1_outside" type="environment">
+		<environment path="environments/pd2_peta1_outside/env_peta1_outside"/>
+		<material_config path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky"/>
+		<scene path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky" type="scene">
+		<material_config path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky"/>
+		<scene path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky"/>
+	</add>
+	<add from_db="true" path="environments/pd2_peta2_new_try_outside/pd2_peta2_new_try_outside" type="environment">
+		<environment path="environments/pd2_peta2_new_try_outside/pd2_peta2_new_try_outside"/>
+		<material_config path="core/environments/skies/sky_1931_low_sun/sky_1931_low_sun"/>
+		<scene path="core/environments/skies/sky_1931_low_sun/sky_1931_low_sun"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_1931_low_sun/sky_1931_low_sun" type="scene">
+		<material_config path="core/environments/skies/sky_1931_low_sun/sky_1931_low_sun"/>
+		<scene path="core/environments/skies/sky_1931_low_sun/sky_1931_low_sun"/>
+	</add>
+	<add from_db="true" path="environments/pd2_run/run_outside" type="environment">
+		<environment path="environments/pd2_run/run_outside"/>
+		<material_config path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky"/>
+		<scene path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky"/>
+	</add>
+	<add from_db="true" path="environments/pd2_man/pd2_man_corridor_nofog" type="environment">
+		<environment path="environments/pd2_man/pd2_man_corridor_nofog"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/environments/pd2_bph_env_exterior_fog" type="environment">
+		<environment path="units/pd2_dlc_bph/environments/pd2_bph_env_exterior_fog"/>
+		<material_config path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy"/>
+		<scene path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy_dark"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_foggy_bright/pd2_env_foggy_bright" type="environment">
+		<environment path="environments/pd2_env_foggy_bright/pd2_env_foggy_bright"/>
+		<material_config path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+		<scene path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark" type="scene">
+		<material_config path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+		<scene path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+	</add>
+	<add from_db="true" path="environments/env_forest_fog2/env_forest_fog2" type="environment">
+		<environment path="environments/env_forest_fog2/env_forest_fog2"/>
+		<material_config path="core/environments/skies/sky_cloudy_blue/sky_cloudy_blue"/>
+	</add>
+	<add from_db="true" path="core/environments/default" type="environment">
+		<environment path="core/environments/default"/>
+		<material_config path="core/environments/skies/sky_cloudy_blue/sky_cloudy_blue"/>
 	</add>
 </table>
