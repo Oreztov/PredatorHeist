@@ -49,24 +49,9 @@
 			<entry index="1" type="string" value="units/world/vegetation/forest/vegetation/vegetation_brush_grass_5b/vegetation_brush_grass_5b"/>
 			<entry index="2" type="string" value="units/world/vegetation/forest/vegetation/vegetation_brush_grass_5a/vegetation_brush_grass_5a"/>
 			<entry index="3" type="string" value="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_5a"/>
-			<entry index="4" type="string" value="units/world/vegetation/jungle/brushes/brush_tallgrass_lp_dead"/>
-			<entry index="5" type="string" value="units/world/vegetation/jungle/brushes/brush_tallgrass_small"/>
-			<entry index="6" type="string" value="units/world/vegetation/jungle/brushes/brush_tallgrass_big"/>
-			<entry index="7" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_02_far"/>
-			<entry index="8" type="string" value="units/world/vegetation/forest/vegetation/vegetation_brush_grass_5a/vegetation_brush_grass_5a"/>
-			<entry index="9" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_dry_01"/>
-			<entry index="10" type="string" value="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_5a"/>
-			<entry index="11" type="string" value="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_bush_small/lxa_vegetation_bush_small_a"/>
-			<entry index="12" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_dry_02"/>
-			<entry index="13" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_03"/>
-			<entry index="14" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_01"/>
-			<entry index="15" type="string" value="units/pd2_dlc1/brushes/eus_veg_grass_weed/eus_veg_grass_weed_a"/>
-			<entry index="16" type="string" value="units/world/vegetation/forest/zones/forest/brushes/fst_brush_mushrooms_05/fst_brush_mushrooms_05"/>
-			<entry index="17" type="string" value="units/payday2/nature/pnau/pnau_brush/pnau_brush_leafs/pnau_brush_leafs_01_a"/>
-			<entry index="18" type="string" value="units/world/vegetation/jungle/brushes/brush_tallgrass_lp_small"/>
-			<entry index="19" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_02"/>
-			<entry index="20" type="string" value="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_1_small"/>
-			<entry index="21" type="string" value="units/payday2/nature/pnau/pnau_brush/pnau_brush_ganja/pnau_brush_ganja_01_a"/>
+			<entry index="4" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_02"/>
+			<entry index="5" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_01"/>
+			<entry index="6" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_03"/>
 		</entry>
 	</entry>
 	<entry key="camera_bookmarks" type="table">
@@ -82,7 +67,7 @@
 		</entry>
 		<entry key="environment_values" type="table">
 			<entry key="color_grading" type="string" value="color_payday"/>
-			<entry key="environment" type="string" value="units/pd2_dlc_bph/environments/pd2_bph_env_exterior_fog"/>
+			<entry key="environment" type="string" value=".map/environments/default"/>
 			<entry key="sky_rot" type="number" value="53"/>
 		</entry>
 		<entry key="wind" type="table">
