@@ -2581,8 +2581,25 @@
 		<unit path="units/payday2/props/ind_prop_warehouse_set/ind_prop_warehouse_pallet"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m" type="unit">
-		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m"/>
-		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m"/>
 		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_grass_8x8m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_01_grass"/>
+		<object path="units/payday2/architecture/str/str_ext_grass_8x8m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_grass_8x8m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_grass_16x16m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str_01_grass"/>
+		<object path="units/payday2/architecture/str/str_ext_grass_16x16m_a"/>
+		<unit path="units/payday2/architecture/str/str_ext_grass_16x16m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate_v2" type="unit">
+		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate_v2"/>
+		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate_v2"/>
+		<material_config path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate_v2"/>
+		<sequence_manager path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate"/>
+		<bnk path="soundbanks/regular_sfx"/>
 	</add>
 </table>
