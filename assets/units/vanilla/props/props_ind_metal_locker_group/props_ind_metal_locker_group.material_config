@@ -1,0 +1,19 @@
+<materials version="3">
+    <material name="c_box" render_template="generic" version="2"/>
+    <material name="new:lambert3" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/vanilla/props/props_ind_metal_locker_group/mat_ind_metal_locker_group_01_df"/>
+        <bump_normal_texture file="units/vanilla/props/props_ind_metal_locker_group/mat_ind_metal_locker_group_01_nm"/>
+        <material_texture file="units/vanilla/props/props_ind_metal_locker_group/mat_ind_metal_locker_group_01_gsm"/>
+    </material>
+    <material name="new:lambert4" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/vanilla/props/props_ind_metal_locker_group/mat_ind_metal_locker_group_01_df"/>
+        <bump_normal_texture file="units/vanilla/props/props_ind_metal_locker_group/mat_ind_metal_locker_group_01_nm"/>
+        <material_texture file="units/vanilla/props/props_ind_metal_locker_group/mat_ind_metal_locker_group_01_gsm"/>
+    </material>
+    <material name="props_ind_metal_locker_group_op" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:OPACITY_TEXTURE" version="2">
+        <diffuse_texture file="units/vanilla/props/props_ind_metal_locker_group/mat_ind_metal_locker_group_01_df"/>
+        <variable value="0.28200000524521" type="scalar" name="alpha_ref"/>
+        <opacity_texture file="units/vanilla/props/props_ind_metal_locker_group/props_ind_metal_locker_group_op"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

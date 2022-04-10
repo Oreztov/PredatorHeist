@@ -1,0 +1,32 @@
+<dynamic_object>
+    <diesel orientation_object="rp_props_metal_crate_02" materials="units/vanilla/props/props_metal_crate_01/props_metal_crate_01" />
+    <sequence_manager file="units/vanilla/props/props_metal_crate_01/props_metal_crate_02" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true">
+            <object name="rp_props_metal_crate_02" />
+            <object name="c_box_11" collision_type="box" padding="-2.5" />
+            <object name="c_box_12" collision_type="box" padding="-2.5" />
+            <object name="c_box_13" collision_type="box" padding="-2.5" />
+            <object name="c_box_14" collision_type="box" padding="-2.5" />
+            <object name="c_box_15" collision_type="box" padding="-2.5" />
+        </body>
+        <body name="closed_body" template="static" enabled="true">
+            <object name="rp_props_metal_crate_02" />
+            <object name="c_box_lid" collision_type="box" padding="-2.5" />
+        </body>
+        <body name="open_body" template="mover_blocker" enabled="false">
+            <object name="rp_props_metal_crate_02" />
+            <object name="c_box_lid" collision_type="box" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh name="dm_metal_01" enabled="true" material="metal" />
+        <decal_mesh name="dm_metal_02" enabled="true" material="metal" />
+    </decal_surfaces>
+    <graphics>
+        <object name="g_big_close" enabled="true" />
+        <object name="g_big_open" enabled="false" />
+        <object name="s_s" enabled="true" shadow_caster="true" />
+        <object name="s_s_2" enabled="true" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

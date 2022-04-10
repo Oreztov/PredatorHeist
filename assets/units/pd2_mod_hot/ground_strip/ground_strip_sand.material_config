@@ -1,5 +1,0 @@
-<materials version="3">
-    <material name="mat_ground" render_template="generic:DIFFUSE_TEXTURE" version="2">
-        <diffuse_texture file="units/pd2_mod_hot/ground_strip/ground_strip_sand"/>
-    </material>
-</materials>

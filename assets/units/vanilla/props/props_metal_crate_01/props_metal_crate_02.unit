@@ -1,0 +1,16 @@
+<unit type="props" slot="1">
+    <object file="units/vanilla/props/props_metal_crate_01/props_metal_crate_02" />
+    <network sync="spawn"/>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+        <extension name="damage" class="UnitDamage" />
+        <extension name="interaction" class="LootCrateInteractionExt">
+        	<var name="tweak_data" value="open_army_crate" />
+        	<var name="_interact_object" value="InteractionLocatorHere"/>
+            <var name="_ray_object_names" type="table" >
+                <var value="a_ray_01"/>
+                <var value="a_ray_02"/>
+            </var>
+        </extension>
+    </extensions>
+</unit>

@@ -1,0 +1,41 @@
+<dynamic_object>
+    <diesel orientation_object="rp_props_bunkbed_01" materials="units/vanilla/props/props_bunkbed_01/props_bunkbed_01" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body">
+            <object name="rp_props_bunkbed_01" />
+            <object name="c_box_02" collision_type="box" padding="-2.5" />
+            <object name="c_box_03" collision_type="box" padding="-2.5" />
+            <object name="c_box_04" collision_type="box" padding="-2.5" />
+            <object name="c_box_05" collision_type="box" padding="-2.5" />
+            <object name="c_box_06" collision_type="box" padding="-2.5" />
+            <object name="c_box_07" collision_type="box" padding="-2.5" />
+            <object name="c_box_08" collision_type="box" padding="-2.5" />
+            <object name="c_box_09" collision_type="box" padding="-2.5" />
+            <object name="c_box_10" collision_type="box" padding="-2.5" />
+            <object name="c_box_11" collision_type="box" padding="-2.5" />
+            <object name="c_box_12" collision_type="box" padding="-2.5" />
+            <object name="c_box_13" collision_type="box" padding="-2.5" />
+            <object name="c_box_14" collision_type="box" padding="-2.5" />
+            <object name="c_box_15" collision_type="box" padding="-2.5" />
+            <object name="c_box_16" collision_type="box" padding="-2.5" />
+            <object name="c_box_17" collision_type="box" padding="-2.5" />
+            <object name="c_box_18" collision_type="box" padding="-2.5" />
+            <object name="c_box_19" collision_type="box" padding="-2.5" />
+            <object name="c_box_20" collision_type="box" padding="-2.5" />
+            <object name="c_box_21" collision_type="box" padding="-2.5" />
+            <object name="c_box_22" collision_type="box" padding="-2.5" />
+            <object name="c_box_23" collision_type="box" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh name="dm_cloth" enabled="true" material="cloth" />
+        <decal_mesh name="dm_metal" enabled="true" material="metal" />
+    </decal_surfaces>
+    <graphics>
+        <lod_object name="lod_bunkbed">
+            <object name="g_bunkbed" enabled="true"  max_distance="800" />
+            <object name="g_bunkbed_lod" enabled="true" />
+        </lod_object>
+        <object name="s_bunkbed" enabled="true" shadow_caster="true" />
+    </graphics>
+</dynamic_object>

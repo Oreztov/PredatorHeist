@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel orientation_object="rp_str_ext_park_water_a" materials="units/pd2_mod_pre/pre_dirty_water/pre_dirty_water" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="rp_str_ext_park_water_a"/>
+            <object collision_type="box" name="c_box" padding="-2.5" />
+        </body>
+    </bodies>
+    <decal_surfaces default_material="water_puddle">
+    	<decal_mesh name="g_water" enabled="true" material="water_puddle" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_water" />
+        <object enabled="false" name="g_decal" />
+    </graphics>
+</dynamic_object>

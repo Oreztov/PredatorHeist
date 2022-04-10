@@ -55,6 +55,10 @@
 		</entry>
 	</entry>
 	<entry key="camera_bookmarks" type="table">
+		<entry key="camp/murky" type="table">
+			<entry key="position" type="vector3" value="4790.94 12421.7 1086.09"/>
+			<entry key="rotation" type="quaternion" value="0.0643973 0.0348924 -0.475115 -0.87687"/>
+		</entry>
 	</entry>
 	<entry key="environment" type="table">
 		<entry key="cubemap_gizmos" type="table">
