@@ -1,0 +1,6 @@
+<unit type="fst" slot="1">
+	<object file="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

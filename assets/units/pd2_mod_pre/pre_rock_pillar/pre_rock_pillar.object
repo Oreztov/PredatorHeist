@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" orientation_object="rp_root" />
+	<bodies>
+		<body name="body_static" template="static" enabled="true">
+			<object name="rp_root" />
+			<object name="rock" collision_type="mesh_mopp" />
+		</body>
+    </bodies>
+	<graphics>
+		<object name="rock" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

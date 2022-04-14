@@ -35,6 +35,12 @@
 		<texture path="units/payday2/characters/ene_rebel_1/rebel_body_nm"/>
 	</add>
 	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" unload="true"/>
+		<model path="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" unload="true"/>
+		<object path="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" unload="true"/>
+		<unit load="true" path="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
 		<material_config path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
 		<model path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
 		<object path="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" unload="true"/>
@@ -5204,8 +5210,82 @@
 		<unit path="units/payday2/architecture/hcm_d/hcm_d_ext_steel_pillar_a"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
 		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a" type="unit">
+		<material_config path="units/payday2/architecture/com_int_construction_floor/com_int_construction_walls"/>
+		<object path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a"/>
+		<unit path="units/payday2/architecture/com_int_construction_floor/com_int_construction_planks_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_interact_a" type="unit">
+		<effect load="true" path="effects/particles/dest/stair_dest"/>
+		<material_config path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks"/>
+		<object path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_interact_a"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_interact"/>
+		<unit path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_interact_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_pickup" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks"/>
+		<object path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_pickup"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_planks_pile"/>
+		<unit path="units/pd2_dlc2/csgo_de_bank/csgo_de_planks_pickup"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_barn_planks_barricade/pta_prop_barn_planks_pile" type="unit">
+		<material_config path="units/pd2_dlc_peta/props/pta_prop_barn_planks_barricade/pta_prop_barn_planks_pickable"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_barn_planks_barricade/pta_prop_barn_planks_pile"/>
+		<sequence_manager path="units/pd2_dlc_peta/props/pta_prop_barn_planks_barricade/pta_prop_barn_planks_pile"/>
+		<unit path="units/pd2_dlc_peta/props/pta_prop_barn_planks_barricade/pta_prop_barn_planks_pile"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_planks_fence" type="unit">
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_planks_fence"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_planks_fence"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_planks_fence"/>
+		<unit path="units/world/architecture/secret_stash/props/planks_debris"/>
+		<object path="units/world/architecture/secret_stash/props/planks_debris"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/planks_debris"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/stair_dest"/>
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_planks_outline"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/hlm_interactable_win_planks/hlm_interactable_win_planks" type="unit">
+		<unit path="units/payday2/equipment/hlm_interactable_win_planks/hlm_interactable_win_planks"/>
+		<object path="units/payday2/equipment/hlm_interactable_win_planks/hlm_interactable_win_planks"/>
+		<material_config path="units/payday2/equipment/hlm_interactable_win_planks/hlm_interactable_win_planks"/>
+		<sequence_manager path="units/payday2/equipment/hlm_interactable_win_planks/hlm_interactable_win_planks"/>
+		<unit path="units/world/architecture/secret_stash/props/planks_debris"/>
+		<object path="units/world/architecture/secret_stash/props/planks_debris"/>
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_planks_outline"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/planks_debris"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/stair_dest"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_01" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_01"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_02" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_02"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_03" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_03"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_04" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_04"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_planks_04"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_lighthouse/bph_ext_lighthouse" type="unit">
+		<unit path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_lighthouse/bph_ext_lighthouse"/>
+		<object path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_lighthouse/bph_ext_lighthouse"/>
+		<material_config path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_lighthouse/bph_ext_lighthouse"/>
 	</add>
 </table>

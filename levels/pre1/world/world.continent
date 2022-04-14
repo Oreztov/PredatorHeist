@@ -54,19 +54,13 @@
 			<unit_data _prev_pos="2503.5 2409.61 2154.64" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-786.5 1979.61 1604.64" local_rot="-0 0 0 1" name="units/pd2_dlc_pines/props/pnau_prop_hallway_exit/pnau_prop_hallway_exit" name_id="pnau_prop_hallway_exit_001" position="2503.5 2409.61 3154.64" rotation="0 0 0 -1" unit_id="100008"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-12702.7 -8006.93 -248.885" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-952.66 1183.07 -248.885" local_rot="0 0 0 1" name="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_solid_wall" name_id="bry_mountain_solid_wall_001" position="-12702.7 -8006.93 -248.885" rotation="0 0 0 -1" unit_id="100009"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-11750 -9190 0" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior" name_id="bry_mountain_solid_wall_exterior_001" position="-11750 -9190 0" rotation="0 0 0 -1" unit_id="100010"/>
+			<unit_data _prev_pos="-13000 -370.001 -350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="952.7 -1183.07 248.885" local_rot="0 0 0 1" name="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior" name_id="bry_mountain_solid_wall_exterior_001" position="-13000 4290 -350" rotation="0 0 0 -1" unit_id="100010"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-4969.6 -1106.67 5.59894" _prev_rot="0 0 -0.649448 -0.760406" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-8259.6 -1536.67 -544.401" local_rot="0 0 0.649448 0.760406" name="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel" name_id="ind_ext_tunnel_001" position="-4969.6 -1106.67 1005.6" rotation="0 0 -0.649448 -0.760406" unit_id="100015"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3938.84 -5898.84 1400" _prev_rot="0 0 0.382683 -0.92388" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-7228.84 -6328.84 850" local_rot="-0 0 -0.382683 0.92388" name="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar" name_id="pnau_terrain_custom_turfwar_002" position="-3938.84 -5898.84 2400" rotation="0 0 0.382683 -0.92388" unit_id="100016"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-15290 3310 0" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="anim_unfold" name="units/pd2_dlc_bph/props/bph_rolling_bridge/bph_ext_rolling_bridge" name_id="bph_ext_rolling_bridge_001" position="-15290 3310 0" rotation="0 0 0 -1" unit_id="100018"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="544.862 1674.97 -380" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2768.89 689.197 -4160.54" local_rot="0 0 0.707107 0.707107" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" name_id="pnau_terrain_rock_edge_01_d_001" position="544.862 1674.97 -380" rotation="0 0 -0.707107 -0.707107" unit_id="100019"/>
@@ -3984,7 +3978,7 @@
 			<unit_data _prev_pos="11170 13940 -250" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="true" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="510 -8160 160" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_dirty_water/pre_dirty_water" name_id="pre_dirty_water_037" position="11170 13940 -250" rotation="0 0 -0.707107 -0.707107" unit_id="101238"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="13349.6 14888.2 -750" _prev_rot="0 0 0.986286 0.165048" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" name_id="pnau_terrain_rock_edge_01_d_015" position="13349.6 14888.2 -750" rotation="0 0 0.986286 0.165048" unit_id="101239"/>
+			<unit_data _prev_pos="13349.6 14888.2 -750" _prev_rot="0 0 0.986286 0.165048" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" name_id="pnau_terrain_rock_edge_01_d_015" position="13626.8 15416.8 -750" rotation="0 0 0.986286 0.165048" unit_id="101239"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="10364.9 15285.1 -754.309" _prev_rot="0 0 0.130527 -0.991445" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v3" name_id="pnau_terrain_rock_edge_01_c_v3_012" position="10364.9 15285.1 -754.309" rotation="0 0 0.130527 -0.991445" unit_id="101240"/>
@@ -4009,9 +4003,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="7357.62 11042.7 -1030" _prev_rot="0 0 0.986286 0.165048" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" name_id="pnau_terrain_rock_edge_01_d_017" position="7357.62 11042.7 -1030" rotation="0 0 0.986286 0.165048" unit_id="101247"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-14330 3570 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/props/bry_prop_sign_murkywater/bry_prop_sign_murkywater" name_id="bry_prop_sign_murkywater_001" position="-14330 3570 0" rotation="0 0 0 -1" unit_id="101248"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="6892.24 11930.8 801.45" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/props/bry_prop_watchtower/bry_prop_watchtower" name_id="bry_prop_watchtower_001" position="6892.24 11930.8 801.45" rotation="0 0 0 -1" unit_id="101228"/>
@@ -4591,7 +4582,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="3449.72 14572.4 -185.682" _prev_rot="0.018876 -0.0455707 0.383343 -0.922288" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/anim_vehicle_suv_murky/anim_vehicle_suv_murky" name_id="anim_vehicle_suv_murky_003" position="3448.73 14572.4 -195.634" rotation="0.018876 -0.0455707 0.383343 -0.922288" unit_id="101435">
+			<unit_data _prev_pos="3448.73 14572.4 -195.634" _prev_rot="-0.00527316 -0.0355204 0.384405 -0.922466" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/vehicles/anim_vehicle_suv_murky/anim_vehicle_suv_murky" name_id="anim_vehicle_suv_murky_003" position="3448.73 14572.4 -195.634" rotation="0.00143643 -0.0194157 0.384438 -0.922945" unit_id="101435">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="0.117647 0.513726 1" enabled="false" falloff_exponent="4" far_range="350" multiplier="@IDd07c4dc12188729d@" name="li_light_blue" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 					<table clipping_values="10000 -10000 0" color="1 0.118 0.118" enabled="false" falloff_exponent="4" far_range="350" multiplier="@ID90cc6917c5799ad8@" name="li_light_red" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
@@ -4682,19 +4673,19 @@
 			<unit_data _prev_pos="12300 10100 -500" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3200 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/str/str_ext_grass_16x16m_a" name_id="str_ext_grass_16x16m_a_050" position="12300 10100 -500" rotation="0 0 0 -1" unit_id="101458"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="10573.4 13358.2 -250" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder" name_id="bph_rock_terrain_02_boulder_003" position="10573.4 13358.2 -460" rotation="0 0 0 -1" unit_id="101459"/>
+			<unit_data _prev_pos="10523.4 13358.2 -460" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="-382.222 -4.57939 -180.921" local_rot="-0.00436966 0.0168962 0.250342 0.968" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder" name_id="bph_rock_terrain_02_boulder_003" position="10654.5 13285.5 -455.422" rotation="0 0 0 -1" unit_id="101459"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="13115.2 14207.4 -1160" _prev_rot="0 0 0.986286 0.165048" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" name_id="pnau_terrain_rock_edge_01_d_019" position="13115.2 14207.4 -1160" rotation="0 0 0.986286 0.165048" unit_id="101460"/>
+			<unit_data _prev_pos="13392.4 14736 -1160" _prev_rot="0 0 0.986286 0.165048" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" name_id="pnau_terrain_rock_edge_01_d_019" position="13392.4 14736 -1160" rotation="0 0 0.986286 0.165048" unit_id="101460"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="10178.7 13382.4 -199.254" _prev_rot="0 -0.104529 0 -0.994522" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong" name_id="bph_rock_terrain_01_oblong_001" position="10178.7 13382.4 -199.254" rotation="0 -0.104529 0 -0.994522" unit_id="101461"/>
+			<unit_data _prev_pos="10178.7 13382.4 -199.254" _prev_rot="0 -0.104529 0 -0.994522" continent="world" instance_data="false" local_pos="-687.294 -146.014 91.6957" local_rot="-0.0305137 0.117988 0.248514 0.960931" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong" name_id="bph_rock_terrain_01_oblong_001" position="10309.8 13309.7 -194.676" rotation="0 -0.104529 0 -0.994522" unit_id="101461"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="10853.4 13176.9 -267.445" _prev_rot="-0.00436966 0.0168962 0.250342 -0.968" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong" name_id="bph_rock_terrain_01_oblong_002" position="10853.4 13176.9 -267.445" rotation="-0.00436966 0.0168962 0.250342 -0.968" unit_id="101462"/>
+			<unit_data _prev_pos="10853.4 13176.9 -267.445" _prev_rot="-0.00436966 0.0168962 0.250342 -0.968" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong" name_id="bph_rock_terrain_01_oblong_002" position="10984.5 13104.2 -262.867" rotation="-0.00436966 0.0168962 0.250342 -0.968" unit_id="101462"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="12869 11747.8 -73.5997" _prev_rot="-0.052336 0 0 -0.99863" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a" name_id="pnau_terrain_rock_edge_01_a_008" position="12869 11747.8 -73.5997" rotation="-0.052336 0 0 -0.99863" unit_id="101463"/>
+			<unit_data _prev_pos="12869 11747.8 -73.5997" _prev_rot="-0.052336 0 0 -0.99863" continent="world" instance_data="false" local_pos="-568.001 3125.77 676.4" local_rot="-0.00863794 0.0516182 0.984934 -0.164822" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a" name_id="pnau_terrain_rock_edge_01_a_008" position="13146.2 12276.4 -73.5997" rotation="-0.052336 0 0 -0.99863" unit_id="101463"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="9312.1 7988.58 -2.07251" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a" name_id="pnau_terrain_rock_edge_01_a_009" position="9312.1 7988.58 -2.07251" rotation="0 0 0 -1" unit_id="101464"/>
@@ -4757,7 +4748,7 @@
 			<unit_data _prev_pos="14470 6740 -250" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="true" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-6690 -11460 160" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_dirty_water/pre_dirty_water" name_id="pre_dirty_water_052" position="14470 6740 -250" rotation="0 0 -0.707107 -0.707107" unit_id="101486"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="15789.7 10795.5 -540" _prev_rot="0 0 -0.224951 -0.97437" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" name_id="pnau_terrain_rock_edge_01_d_020" position="15789.7 10795.5 -540" rotation="0 0 -0.224951 -0.97437" unit_id="101487"/>
+			<unit_data _prev_pos="15789.7 10795.5 -540" _prev_rot="0 0 -0.224951 -0.97437" continent="world" instance_data="false" local_pos="-3639.62 3075.3 210" local_rot="0 0 0.923879 -0.382684" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" name_id="pnau_terrain_rock_edge_01_d_020" position="16066.9 11324.1 -540" rotation="0 0 -0.224951 -0.97437" unit_id="101487"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="13457.9 7451.23 -110" _prev_rot="0 0 0.996917 0.0784594" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v3" name_id="pnau_terrain_rock_edge_01_c_v3_014" position="13457.9 7451.23 -110" rotation="0 0 0.996917 0.0784594" unit_id="101488"/>
@@ -4860,6 +4851,87 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="8312.82 -4272.83 3070" _prev_rot="0 0 -0.292372 -0.956305" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar" name_id="pnau_terrain_custom_turfwar_011" position="8312.82 -4272.83 3070" rotation="0 0 -0.292372 -0.956305" unit_id="101516"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12113 10836 -667" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_001" position="12113 10836 -667" rotation="0 0 0 -1" unit_id="101517"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12493 10316 -667" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_002" position="12373 10326 -667" rotation="0 0 0 -1" unit_id="101518"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12583 9896 -617" _prev_rot="0 0 0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_003" position="12583 9896 -617" rotation="0 0 0.382683 -0.92388" unit_id="101519"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12583 9896 -667" _prev_rot="0 0 0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_004" position="12370.9 9415.17 -667" rotation="0 0 0.382683 -0.92388" unit_id="101520"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12745.6 9238.39 -577" _prev_rot="0 0 0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_005" position="12745.6 9238.39 -577" rotation="0 0 -0.382683 -0.92388" unit_id="101521"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10103 12536 -667" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_006" position="10103 12536 -667" rotation="0 0 0 -1" unit_id="101522"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10473 12376 -577" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_007" position="10623 12406 -577" rotation="0 0 0 -1" unit_id="101523"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10653.3 11978.3 -527" _prev_rot="0 0 0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_008" position="10653.3 11978.3 -527" rotation="0 0 0.382683 -0.92388" unit_id="101524"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10956.1 11138.5 -95.7847" _prev_rot="0 0 0.981627 -0.190808" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_bph/props/bph_rolling_bridge/bph_ext_rolling_bridge" name_id="bph_ext_rolling_bridge_001" position="10956.1 11138.5 -95.7847" rotation="0 0 0.981627 -0.190808" unit_id="101526"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11101.5 11092.9 -370" _prev_rot="0 0 0.52992 -0.848048" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_friend/vehicles/sfm_vehicle_macboat/sfm_vehicle_cb90" name_id="sfm_vehicle_cb90_003" position="11101.5 11092.9 -370" rotation="0 0 0.52992 -0.848048" unit_id="100018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="9579.74 12991.5 -580" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a" name_id="pnau_terrain_rock_edge_01_a_v3_008" position="9579.74 12991.5 -570" rotation="0 0 0 -1" unit_id="100009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15808.2 8815.71 314.578" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v3" name_id="pnau_terrain_rock_edge_01_b_v3_003" position="15808.2 8815.71 284.578" rotation="0 0 0 -1" unit_id="101525"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12483 11116 -667" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_009" position="12483 11116 -667" rotation="0 0 0.707107 -0.707107" unit_id="101527"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12243 11686 -667" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_010" position="12243 11686 -667" rotation="0 0 -0.382683 -0.92388" unit_id="101528"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12250.1 11339.5 -747" _prev_rot="0 0 0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_011" position="12193.5 11226.4 -747" rotation="0 0 0.382683 -0.92388" unit_id="101529"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11247.3 10154 -527" _prev_rot="0 0 0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_012" position="11247.3 10154 -527" rotation="0 0 0.382683 -0.92388" unit_id="101530"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11006.9 9842.84 -527" _prev_rot="0 0 0.923879 -0.382684" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_013" position="11006.9 9842.84 -527" rotation="0 0 0.923879 -0.382684" unit_id="101531"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11318 9277.15 -527" _prev_rot="0 0 1 -5.06639e-007" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_014" position="11318 9277.15 -527" rotation="0 0 1 -5.06639e-007" unit_id="101532"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11298 8777.15 -577" _prev_rot="0 0 -0.707107 -0.707106" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_015" position="11298 8777.15 -577" rotation="0 0 -0.707107 -0.707106" unit_id="101533"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11288 8327.15 -617" _prev_rot="0 0 -0.707107 -0.707106" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_016" position="11288 8327.15 -617" rotation="0 0 -0.707107 -0.707106" unit_id="101534"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11368 8077.15 -617" _prev_rot="0 0 -5.06639e-007 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_017" position="11368 8077.15 -617" rotation="0 0 -5.06639e-007 -1" unit_id="101535"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11530.1 9729.7 -527" _prev_rot="0 0 -0.382684 -0.923879" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_018" position="11530.1 9729.7 -527" rotation="0 0 -0.382684 -0.923879" unit_id="101536"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10253 12186 -577" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_rock_pillar/pre_rock_pillar" name_id="pre_rock_pillar_019" position="10163 12146 -577" rotation="0 0 0.707107 -0.707107" unit_id="101537"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="9990.21 8514.76 14.4211" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/props/bry_prop_watchtower/bry_prop_watchtower" name_id="bry_prop_watchtower_002" position="9990.21 8514.76 14.4211" rotation="0 0 0 -1" unit_id="101538"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11707.3 12995.5 -28.3779" _prev_rot="-0.0656248 0.0273367 0.381872 -0.921477" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_watchtower/bph_ext_watchtower" name_id="bph_ext_watchtower_001" position="11707.3 12995.5 -28.3779" rotation="-0.0656248 0.0273367 0.381872 -0.921477" unit_id="101539"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="344.205 1516.9 928.283" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_swat_tripmine/gen_prop_swat_tripmine" name_id="gen_prop_swat_tripmine_001" position="344.205 1516.9 928.283" rotation="0 0 0 -1" unit_id="101248"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="420.374 1494.57 882.459" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_swat_tripmine_shootable/gen_prop_swat_tripmine_shootable" name_id="gen_prop_swat_tripmine_shootable_001" position="420.374 1494.57 882.459" rotation="0 0 0 -1" unit_id="101540"/>
 		</table>
 	</statics>
 	<values>
