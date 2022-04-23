@@ -54,9 +54,6 @@
 			<unit_data _prev_pos="2503.5 2409.61 2154.64" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-786.5 1979.61 1604.64" local_rot="-0 0 0 1" name="units/pd2_dlc_pines/props/pnau_prop_hallway_exit/pnau_prop_hallway_exit" name_id="pnau_prop_hallway_exit_001" position="2503.5 2409.61 3154.64" rotation="0 0 0 -1" unit_id="100008"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-13000 5350 -350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior" name_id="bry_mountain_solid_wall_exterior_001" position="-14140 5350 -350" rotation="0 0 0 -1" unit_id="100010"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-4969.6 -1106.67 5.59894" _prev_rot="0 0 -0.649448 -0.760406" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-8259.6 -1536.67 -544.401" local_rot="0 0 0.649448 0.760406" name="units/payday2/architecture/ind/ind_ext_tunnel/ind_ext_tunnel" name_id="ind_ext_tunnel_001" position="-4969.6 -1106.67 1005.6" rotation="0 0 -0.649448 -0.760406" unit_id="100015"/>
 		</table>
 		<table>
@@ -1071,97 +1068,97 @@
 			<unit_data _prev_pos="-876.125 5031.05 704.446" _prev_rot="0 0 -0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_bush_windmillpalm/sfm_veg_bush_windmillpalm_small" name_id="sfm_veg_bush_windmillpalm_small_006" position="-890.268 5045.19 704.446" rotation="0 0 -0.382683 -0.92388" unit_id="100362"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3078.78 9273.4 1035.41" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_half" name_id="vegetation_treestall_gentalltree_half_001" position="3168.78 9023.4 1035.41" rotation="0 0 0 -1" unit_id="100315"/>
+			<unit_data _prev_pos="-14070 3310 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_half" name_id="vegetation_treestall_gentalltree_half_001" position="-14070 3310 0" rotation="0 0 0 -1" unit_id="100315"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2636.78 9391.22 2013.57" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-442 117.82 978.159" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_001" position="2726.78 9141.22 2013.57" rotation="0.707107 0 0 -0.707107" unit_id="100347"/>
+			<unit_data _prev_pos="-14512 3427.82 978.16" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_001" position="-14512 3427.82 978.16" rotation="0.707107 0 0 -0.707107" unit_id="100347"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2636.78 9391.22 2013.57" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-442 117.82 978.159" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_002" position="2726.78 9141.22 2013.57" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="100363"/>
+			<unit_data _prev_pos="-14512 3427.82 978.16" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_002" position="-14512 3427.82 978.16" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="100363"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2636.78 9391.22 2013.57" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-442 117.82 978.159" local_rot="-0.369462 -0.602908 0.602908 0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_003" position="2726.78 9141.22 2013.57" rotation="0.369462 0.602908 -0.602908 -0.369462" unit_id="100364"/>
+			<unit_data _prev_pos="-14512 3427.82 978.16" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.369462 -0.602908 0.602908 0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_003" position="-14512 3427.82 978.16" rotation="0.369462 0.602908 -0.602908 -0.369462" unit_id="100364"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2636.78 9391.22 2013.57" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-442 117.82 978.159" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_004" position="2726.78 9141.22 2013.57" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100365"/>
+			<unit_data _prev_pos="-14512 3427.82 978.16" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_004" position="-14512 3427.82 978.16" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100365"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2636.78 9391.22 2013.57" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-442 117.82 978.159" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_005" position="2726.78 9141.22 2013.57" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100366"/>
+			<unit_data _prev_pos="-14512 3427.82 978.16" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_005" position="-14512 3427.82 978.16" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100366"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2636.78 9391.22 2013.57" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-442 117.82 978.159" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_006" position="2726.78 9141.22 2013.57" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100367"/>
+			<unit_data _prev_pos="-14512 3427.82 978.16" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_006" position="-14512 3427.82 978.16" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100367"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3371.18 9616.54 2215.89" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_007" position="3461.18 9366.54 2215.89" rotation="0.707107 0 0 -0.707107" unit_id="100368"/>
+			<unit_data _prev_pos="-13777.6 3653.14 1180.48" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_007" position="-13777.6 3653.14 1180.48" rotation="0.707107 0 0 -0.707107" unit_id="100368"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3371.18 9616.54 2215.89" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_008" position="3461.18 9366.54 2215.89" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="100369"/>
+			<unit_data _prev_pos="-13777.6 3653.14 1180.48" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_008" position="-13777.6 3653.14 1180.48" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="100369"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3371.18 9616.54 2215.89" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.369462 -0.602908 0.602908 0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_009" position="3461.18 9366.54 2215.89" rotation="0.369462 0.602908 -0.602908 -0.369462" unit_id="100370"/>
+			<unit_data _prev_pos="-13777.6 3653.14 1180.48" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.369462 -0.602908 0.602908 0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_009" position="-13777.6 3653.14 1180.48" rotation="0.369462 0.602908 -0.602908 -0.369462" unit_id="100370"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3371.18 9616.54 2215.89" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_010" position="3461.18 9366.54 2215.89" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100371"/>
+			<unit_data _prev_pos="-13777.6 3653.14 1180.48" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_010" position="-13777.6 3653.14 1180.48" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100371"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3371.18 9616.54 2215.89" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_011" position="3461.18 9366.54 2215.89" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100372"/>
+			<unit_data _prev_pos="-13777.6 3653.14 1180.48" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_011" position="-13777.6 3653.14 1180.48" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100372"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3371.18 9616.54 2215.89" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_012" position="3461.18 9366.54 2215.89" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100373"/>
+			<unit_data _prev_pos="-13777.6 3653.14 1180.48" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_012" position="-13777.6 3653.14 1180.48" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100373"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3029.28 9558.32 2031.94" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-49.5 284.92 996.527" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_013" position="3119.28 9308.32 2031.94" rotation="0.707107 0 0 -0.707107" unit_id="100374"/>
+			<unit_data _prev_pos="-14119.5 3594.92 996.53" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_013" position="-14119.5 3594.92 996.53" rotation="0.707107 0 0 -0.707107" unit_id="100374"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3029.28 9558.32 2031.94" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-49.5 284.92 996.527" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_014" position="3119.28 9308.32 2031.94" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="100375"/>
+			<unit_data _prev_pos="-14119.5 3594.92 996.53" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_014" position="-14119.5 3594.92 996.53" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="100375"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3029.28 9558.32 2031.94" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-49.5 284.92 996.527" local_rot="-0.369462 -0.602908 0.602908 0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_015" position="3119.28 9308.32 2031.94" rotation="0.369462 0.602908 -0.602908 -0.369462" unit_id="100376"/>
+			<unit_data _prev_pos="-14119.5 3594.92 996.53" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.369462 -0.602908 0.602908 0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_015" position="-14119.5 3594.92 996.53" rotation="0.369462 0.602908 -0.602908 -0.369462" unit_id="100376"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3029.28 9558.32 2031.94" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-49.5 284.92 996.527" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_016" position="3119.28 9308.32 2031.94" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100377"/>
+			<unit_data _prev_pos="-14119.5 3594.92 996.53" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_016" position="-14119.5 3594.92 996.53" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100377"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3029.28 9558.32 2031.94" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-49.5 284.92 996.527" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_017" position="3119.28 9308.32 2031.94" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100378"/>
+			<unit_data _prev_pos="-14119.5 3594.92 996.53" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_017" position="-14119.5 3594.92 996.53" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100378"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3029.28 9558.32 2031.94" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-49.5 284.92 996.527" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_018" position="3119.28 9308.32 2031.94" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100379"/>
+			<unit_data _prev_pos="-14119.5 3594.92 996.53" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_018" position="-14119.5 3594.92 996.53" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100379"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2956.08 9097.59 2116.93" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-122.7 -175.81 1081.52" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_019" position="3046.08 8847.59 2116.93" rotation="0.707107 0 0 -0.707107" unit_id="100380"/>
+			<unit_data _prev_pos="-14192.7 3134.19 1081.52" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_019" position="-14192.7 3134.19 1081.52" rotation="0.707107 0 0 -0.707107" unit_id="100380"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2956.08 9097.59 2116.93" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-122.7 -175.81 1081.52" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_020" position="3046.08 8847.59 2116.93" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="100381"/>
+			<unit_data _prev_pos="-14192.7 3134.19 1081.52" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_020" position="-14192.7 3134.19 1081.52" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="100381"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2956.08 9097.59 2116.93" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-122.7 -175.81 1081.52" local_rot="-0.369462 -0.602908 0.602908 0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_021" position="3046.08 8847.59 2116.93" rotation="0.369462 0.602908 -0.602908 -0.369462" unit_id="100382"/>
+			<unit_data _prev_pos="-14192.7 3134.19 1081.52" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.369462 -0.602908 0.602908 0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_021" position="-14192.7 3134.19 1081.52" rotation="0.369462 0.602908 -0.602908 -0.369462" unit_id="100382"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2956.08 9097.59 2116.93" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-122.7 -175.81 1081.52" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_022" position="3046.08 8847.59 2116.93" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100383"/>
+			<unit_data _prev_pos="-14192.7 3134.19 1081.52" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_022" position="-14192.7 3134.19 1081.52" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100383"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2956.08 9097.59 2116.93" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-122.7 -175.81 1081.52" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_023" position="3046.08 8847.59 2116.93" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100384"/>
+			<unit_data _prev_pos="-14192.7 3134.19 1081.52" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_023" position="-14192.7 3134.19 1081.52" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100384"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2956.08 9097.59 2116.93" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-122.7 -175.81 1081.52" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_024" position="3046.08 8847.59 2116.93" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100385"/>
+			<unit_data _prev_pos="-14192.7 3134.19 1081.52" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_024" position="-14192.7 3134.19 1081.52" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100385"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3319.68 9318.35 2129.39" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="240.9 44.9502 1093.98" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_025" position="3409.68 9068.35 2129.39" rotation="0.707107 0 0 -0.707107" unit_id="100386"/>
+			<unit_data _prev_pos="-13829.1 3354.95 1093.98" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_025" position="-13829.1 3354.95 1093.98" rotation="0.707107 0 0 -0.707107" unit_id="100386"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3319.68 9318.35 2129.39" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="240.9 44.9502 1093.98" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_026" position="3409.68 9068.35 2129.39" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="100387"/>
+			<unit_data _prev_pos="-13829.1 3354.95 1093.98" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_026" position="-13829.1 3354.95 1093.98" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="100387"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3319.68 9318.35 2129.39" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="240.9 44.9502 1093.98" local_rot="-0.369462 -0.602908 0.602908 0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_027" position="3409.68 9068.35 2129.39" rotation="0.369462 0.602908 -0.602908 -0.369462" unit_id="100388"/>
+			<unit_data _prev_pos="-13829.1 3354.95 1093.98" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.369462 -0.602908 0.602908 0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_027" position="-13829.1 3354.95 1093.98" rotation="0.369462 0.602908 -0.602908 -0.369462" unit_id="100388"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3319.68 9318.35 2129.39" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="240.9 44.9502 1093.98" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_028" position="3409.68 9068.35 2129.39" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100389"/>
+			<unit_data _prev_pos="-13829.1 3354.95 1093.98" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_028" position="-13829.1 3354.95 1093.98" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100389"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3319.68 9318.35 2129.39" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="240.9 44.9502 1093.98" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_029" position="3409.68 9068.35 2129.39" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100390"/>
+			<unit_data _prev_pos="-13829.1 3354.95 1093.98" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_029" position="-13829.1 3354.95 1093.98" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100390"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3319.68 9318.35 2129.39" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="240.9 44.9502 1093.98" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_030" position="3409.68 9068.35 2129.39" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100391"/>
+			<unit_data _prev_pos="-13829.1 3354.95 1093.98" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_030" position="-13829.1 3354.95 1093.98" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100391"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-498.846 -171.351 664.782" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_half" name_id="vegetation_treestall_gentalltree_half_002" position="-498.846 -171.351 664.782" rotation="0 0 1 4.37114e-008" unit_id="100392"/>
@@ -1902,22 +1899,10 @@
 			<unit_data _prev_pos="200.938 8059.9 -297.5" _prev_rot="0 0 0.92388 -0.382683" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_peta/terrain/pta_2_cliff_01" name_id="pta_2_cliff_01_003" position="-951.646 7713.42 -297.5" rotation="0 0 0.92388 -0.382683" unit_id="100630"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="4640.77 13179.9 -473" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 -2000 0" local_rot="0 0 0 1" name="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" name_id="gcr_pool_water_002" position="4640.77 13179.9 -410" rotation="0 0 -0.707107 -0.707107" unit_id="100638"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="6640.77 14319.9 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="1200 -6000 0" local_rot="0 0 0 1" name="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" name_id="gcr_pool_water_007" position="6640.77 14379.9 -300" rotation="0 0 -0.707107 -0.707107" unit_id="100643"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="4640.77 14379.9 -410" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="-161.971 274.39 -167.617" local_rot="0 0 0.121869 0.992546" name="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" name_id="gcr_pool_water_008" position="4640.77 14379.9 -410" rotation="0 0 -0.707107 -0.707107" unit_id="100644"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-3655.03 13509.9 -430" _prev_rot="0 0 0.608761 -0.793353" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" name_id="pnau_terrain_rock_edge_01_d_009" position="-3655.03 13509.9 -430" rotation="0 0 0.608761 -0.793353" unit_id="100645"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3066.57 14146.5 631.664" _prev_rot="0 0 0.0610496 -0.998135" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v3" name_id="pnau_terrain_rock_edge_01_c_v3_006" position="-2853.73 13689.2 631.664" rotation="0 0 0.0610496 -0.998135" unit_id="100646"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="6640.77 15519.9 -300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="2400 -6000 0" local_rot="0 0 0 1" name="units/pd2_mod_gcr/architecture/gcr_pool/gcr_pool_water" name_id="gcr_pool_water_012" position="6640.77 15579.9 -300" rotation="0 0 -0.707107 -0.707107" unit_id="100652"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-869.695 6842.73 292.299" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="-2079.7 -1177.27 472.299" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b" name_id="pnau_terrain_rock_edge_01_b_001" position="-869.695 6842.73 292.299" rotation="0 0 0 -1" unit_id="100653"/>
@@ -1936,9 +1921,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="749.193 10871.9 -295" _prev_rot="0 0 -0.515038 -0.857167" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/river/props/lxa_prop_hobo_hanging_sheets/lxa_prop_hobo_hanging_sheets_center" name_id="lxa_prop_hobo_hanging_sheets_center_001" position="749.193 10871.9 -295" rotation="0 0 -0.515038 -0.857167" unit_id="100660"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="593.949 11495.6 -297.5" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="-1231.4 -324.114 0" local_rot="-0 0 -0.284015 0.95882" name="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_2x2_indoor_metal_floor" name_id="ind_ext_dock_bld_2x2_indoor_metal_floor_001" position="593.949 11495.6 -297.5" rotation="0 0 0 -1" unit_id="100664"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2545.56 7303.6 738.479" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a" name_id="pnau_terrain_rock_edge_01_a_005" position="2545.56 7303.6 738.479" rotation="0 0 0 -1" unit_id="100637"/>
@@ -2571,9 +2553,6 @@
 			<unit_data _prev_pos="9755.97 14449.3 -109.261" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v3" name_id="pnau_terrain_rock_edge_01_b_008" position="9755.97 14449.3 -109.261" rotation="0 0 0 -1" unit_id="100786"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="5376.49 16300.5 -574.201" _prev_rot="-0.334565 0.128428 0.334565 -0.871572" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v3" name_id="pnau_terrain_rock_edge_01_b_009" position="7122.88 14728 -574.201" rotation="-0.334565 0.128428 0.334565 -0.871572" unit_id="100682"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="5205.9 15513 -1214.19" _prev_rot="-0.109346 -0.0292991 0.959717 -0.257155" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v3" name_id="pnau_terrain_rock_edge_01_c_v3_008" position="5241.17 15533.4 -1390.55" rotation="-0.109346 -0.0292991 0.959717 -0.257155" unit_id="100683"/>
 		</table>
 		<table>
@@ -2772,7 +2751,7 @@
 			<unit_data _prev_pos="4085.24 10536 135.467" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_bush_windmillpalm/sfm_veg_bush_windmillpalm_large" name_id="sfm_veg_bush_windmillpalm_large_008" position="4085.24 10536 135.467" rotation="0 0 0 -1" unit_id="100939"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="4210.72 10488.5 -56.085" _prev_rot="-0.0704586 -0.15346 0.50828 -0.844475" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_hedge" name_id="ind_ext_warehouse_hedge_022" position="4210.72 10488.5 -56.085" rotation="-0.0704586 -0.15346 0.50828 -0.844475" unit_id="100940"/>
+			<unit_data _prev_pos="4210.72 10488.5 -56.085" _prev_rot="-0.0704586 -0.15346 0.50828 -0.844475" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_hedge" name_id="ind_ext_warehouse_hedge_022" position="4219.44 10471.8 -62.7012" rotation="-0.0704586 -0.15346 0.50828 -0.844475" unit_id="100940"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="4085.24 10536 -39.5329" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_bush_windmillpalm/sfm_veg_bush_windmillpalm_large" name_id="sfm_veg_bush_windmillpalm_large_009" position="4085.24 10536 -14.5329" rotation="0 0 0 -1" unit_id="100942"/>
@@ -3885,7 +3864,7 @@
 			<unit_data _prev_pos="1010 21830 -410" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="true" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="8400 2000 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_dirty_water/pre_dirty_water" name_id="pre_dirty_water_028" position="1010 21830 -410" rotation="0 0 -0.707107 -0.707107" unit_id="101206"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="5267.73 17715.1 -851.26" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b" name_id="pnau_terrain_rock_edge_01_b_002" position="5267.73 17715.1 -961.26" rotation="0 0 0 -1" unit_id="101207"/>
+			<unit_data _prev_pos="5267.73 17525.1 -961.26" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b" name_id="pnau_terrain_rock_edge_01_b_002" position="5267.73 17525.1 -961.26" rotation="0 0 0 -1" unit_id="101207"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="7010 20630 -410" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="true" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="7200 -4000 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/pre_dirty_water/pre_dirty_water" name_id="pre_dirty_water_029" position="7010 20630 -410" rotation="0 0 -0.707107 -0.707107" unit_id="101208"/>
@@ -4539,7 +4518,7 @@
 			<unit_data _prev_pos="3645.21 16230.9 -367" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="-55 131 0" local_rot="0 0 -0.707107 0.707107" name="units/pd2_dlc_run/props/run_prop_cover_shipping_crate/run_prop_cover_shipping_crate_wide_01" name_id="run_prop_cover_shipping_crate_wide_01_005" position="3765.21 16230.9 -367" rotation="0 0 0 -1" unit_id="101426"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2822.05 15452.1 -367.5" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_mill_pallet_stacks/ind_prop_mill_pallet_stacks_high_covered" name_id="ind_prop_mill_pallet_stacks_high_covered_002" position="2822.05 15452.1 -367.5" rotation="0 0 -0.707107 -0.707107" unit_id="101427"/>
+			<unit_data _prev_pos="2822.05 15452.1 -367.5" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_mill_pallet_stacks/ind_prop_mill_pallet_stacks_high_covered" name_id="ind_prop_mill_pallet_stacks_high_covered_002" position="2811.05 15455.1 -367.5" rotation="0 0 -0.707107 -0.707107" unit_id="101427"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2796.08 15655.5 -367.197" _prev_rot="0 0 -0.782608 -0.622515" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/ind_prop_mill_pallet_stacks/ind_prop_mill_pallet_stacks_covered" name_id="ind_prop_mill_pallet_stacks_covered_003" position="2796.08 15655.5 -367.197" rotation="0 0 -0.782608 -0.622515" unit_id="101428"/>
@@ -5910,6 +5889,669 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-1529.66 12952.8 632.014" _prev_rot="0 0 -0.414694 -0.909961" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_hedge" name_id="ind_ext_warehouse_hedge_029" position="-1382.07 13275 632.014" rotation="0 0 -0.414694 -0.909961" unit_id="101861"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2447.04 11403.8 -32.4943" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_02" name_id="thinpalmtree_02_013" position="2447.04 11403.8 -42.4943" rotation="0 0 0 -1" unit_id="100010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1448.95 13473.2 -351.827" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_03" name_id="thinpalmtree_03_012" position="1448.95 13473.2 -351.827" rotation="0 0 0 -1" unit_id="100664"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="898.522 13443.6 -348.402" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_03" name_id="thinpalmtree_03_013" position="898.522 13443.6 -348.402" rotation="0 0 0 -1" unit_id="101862"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3281.33 10048.7 272.708" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_03" name_id="thinpalmtree_03_014" position="3281.33 10048.7 272.708" rotation="0 0 0 -1" unit_id="101863"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2181.2 9485.42 102.392" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_03" name_id="thinpalmtree_03_015" position="2181.2 9485.42 102.392" rotation="0 0 0 -1" unit_id="101864"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-448.138 10173.8 -295" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_03" name_id="thinpalmtree_03_016" position="-448.138 10173.8 -295" rotation="0 0 0 -1" unit_id="101865"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="899.67 9165.04 -295" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_01" name_id="thinpalmtree_01_004" position="899.67 9165.04 -295" rotation="0 0 0 -1" unit_id="101866"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-783.04 11677.7 -295" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_01" name_id="thinpalmtree_01_005" position="-783.04 11677.7 -295" rotation="0 0 0 -1" unit_id="101867"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2789.77 10778.7 347.904" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_01" name_id="thinpalmtree_01_006" position="2789.77 10778.7 347.904" rotation="0 0 0 -1" unit_id="101868"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-757.044 10462.5 -146.721" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/mansion/vegetation/lxa_veg/lxa_veg_tree_palm_a" name_id="lxa_veg_tree_palm_a_001" position="-757.044 10462.5 -146.721" rotation="0 0 0 -1" unit_id="101869"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2577.11 9490.66 272.708" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/mansion/vegetation/lxa_veg/lxa_veg_tree_palm_a" name_id="lxa_veg_tree_palm_a_009" position="2577.11 9490.66 272.708" rotation="0 0 0 -1" unit_id="101870"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-734.606 15145.9 -297.079" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/mansion/vegetation/lxa_veg/lxa_veg_tree_palm_a" name_id="lxa_veg_tree_palm_a_010" position="-734.606 15145.9 -297.079" rotation="0 0 0 -1" unit_id="101871"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2346.31 11011.5 685.569" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/mansion/vegetation/lxa_veg/lxa_veg_tree_palm_a" name_id="lxa_veg_tree_palm_a_011" position="-2346.31 11011.5 685.569" rotation="0 0 0 -1" unit_id="101872"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2491.65 12647.4 838.904" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/mansion/vegetation/lxa_veg/lxa_veg_tree_palm_a" name_id="lxa_veg_tree_palm_a_012" position="-2491.65 12647.4 838.904" rotation="0 0 0 -1" unit_id="101873"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2736.93 11909.6 -295" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/mansion/vegetation/lxa_veg/lxa_veg_tree_palm_b" name_id="lxa_veg_tree_palm_b_019" position="2736.93 11909.6 -295" rotation="0 0 0 -1" unit_id="101874"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2515.4 11994.7 -295" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/mansion/vegetation/lxa_veg/lxa_veg_tree_palm_c" name_id="lxa_veg_tree_palm_c_020" position="2515.4 11994.7 -295" rotation="0 0 0 -1" unit_id="101875"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1437.93 6917.61 1125.66" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_001" position="-1437.93 6917.61 1125.66" rotation="0 0 0 -1" unit_id="101876"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1859.55 8434.88 887.335" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_002" position="-1859.55 8434.88 887.335" rotation="0 0 0 -1" unit_id="101877"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2510.2 11297.3 690.588" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_003" position="-2510.2 11297.3 690.588" rotation="0 0 0 -1" unit_id="101878"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1507.14 14035.9 687.175" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_004" position="-1507.14 14035.9 687.175" rotation="0 0 0 -1" unit_id="101879"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1807.2 15217.6 683.865" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_005" position="-1807.2 15217.6 683.865" rotation="0 0 0 -1" unit_id="101880"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1936.31 16503 318.986" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_006" position="-1936.31 16503 318.986" rotation="0 0 0 -1" unit_id="101881"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2584.32 7268.43 1091.18" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_007" position="2584.32 7268.43 1091.18" rotation="0 0 0 -1" unit_id="101882"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2689.89 8352.87 1011.39" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_008" position="2689.89 8352.87 1011.39" rotation="0 0 0 -1" unit_id="101883"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4687.35 9574.04 944.522" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_009" position="4687.35 9574.04 944.522" rotation="0 0 0 -1" unit_id="101884"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1931.3 4988.14 1965.58" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_010" position="-1931.3 4988.14 1965.58" rotation="0 0 0 -1" unit_id="101885"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3002.3 1108.73 1775.04" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_011" position="-3002.3 1108.73 1775.04" rotation="0 0 0 -1" unit_id="101886"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2506.21 2367.92 1774.5" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_012" position="-2506.21 2367.92 1774.5" rotation="0 0 0 -1" unit_id="101887"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2587.43 3343.24 1863.44" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_013" position="2587.43 3343.24 1863.44" rotation="0 0 0 -1" unit_id="101888"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2697.46 2224.22 1864.77" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_014" position="2697.46 2224.22 1864.77" rotation="0 0 0 -1" unit_id="101889"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3166.65 301.753 1286.55" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_015" position="3166.65 301.753 1286.55" rotation="0 0 0 -1" unit_id="101890"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2633.18 -418.703 1143.34" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_016" position="2633.18 -418.703 1143.34" rotation="0 0 0 -1" unit_id="101891"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2402.58 -4390.12 1009.72" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_017" position="-2402.58 -4390.12 1009.72" rotation="0 0 0 -1" unit_id="101892"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2.97737 -4873.43 778.959" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_018" position="2.97737 -4873.43 778.959" rotation="0 0 0 -1" unit_id="101893"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2253.01 -4981.76 555.881" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_019" position="2253.01 -4981.76 555.881" rotation="0 0 0 -1" unit_id="101894"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4232.87 -3778.56 1067.82" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_020" position="-4232.87 -3778.56 1067.82" rotation="0 0 0 -1" unit_id="101895"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3781.22 -4007.87 953.725" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_021" position="3781.22 -4007.87 953.725" rotation="0 0 0 -1" unit_id="101896"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5001.4 15695 -253.405" _prev_rot="-0.00436966 0.0168962 0.250342 -0.968" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong" name_id="bph_rock_terrain_01_oblong_003" position="5001.4 15695 -253.405" rotation="-0.00436966 0.0168962 0.250342 -0.968" unit_id="101898"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6359.47 12686.3 -595.421" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a" name_id="pnau_terrain_rock_edge_01_a_011" position="6359.47 12686.3 -595.421" rotation="0 0 0 -1" unit_id="101897"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5008.32 14464.9 562.763" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v3" name_id="pnau_terrain_rock_edge_01_b_v3_004" position="7122.88 14728 -574.201" rotation="-0.334565 0.128428 0.334565 -0.871572" unit_id="100682"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3147.11 9253.7 1091.1" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_half" name_id="vegetation_treestall_gentalltree_half_013" position="3147.11 9253.7 1091.1" rotation="0 0 0 -1" unit_id="100638"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3097.61 9538.62 2087.63" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_361" position="3097.61 9538.62 2087.63" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="100643"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3097.61 9538.62 2087.63" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_362" position="3097.61 9538.62 2087.63" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="100644"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3097.61 9538.62 2087.63" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_363" position="3097.61 9538.62 2087.63" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="100652"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3097.61 9538.62 2087.63" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_364" position="3097.61 9538.62 2087.63" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101899"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3097.61 9538.62 2087.63" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_365" position="3097.61 9538.62 2087.63" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101900"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3097.61 9538.62 2087.63" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_366" position="3097.61 9538.62 2087.63" rotation="0.707107 0 0 -0.707107" unit_id="101901"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2705.11 9371.52 2069.26" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_367" position="2705.11 9371.52 2069.26" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101902"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2705.11 9371.52 2069.26" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_368" position="2705.11 9371.52 2069.26" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101903"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2705.11 9371.52 2069.26" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_369" position="2705.11 9371.52 2069.26" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101904"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2705.11 9371.52 2069.26" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_370" position="2705.11 9371.52 2069.26" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101905"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2705.11 9371.52 2069.26" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_371" position="2705.11 9371.52 2069.26" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101906"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2705.11 9371.52 2069.26" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_372" position="2705.11 9371.52 2069.26" rotation="0.707107 0 0 -0.707107" unit_id="101907"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3388.01 9298.65 2185.08" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_373" position="3388.01 9298.65 2185.08" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101908"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3388.01 9298.65 2185.08" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_374" position="3388.01 9298.65 2185.08" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101909"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3388.01 9298.65 2185.08" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_375" position="3388.01 9298.65 2185.08" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101910"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3388.01 9298.65 2185.08" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_376" position="3388.01 9298.65 2185.08" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101911"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3388.01 9298.65 2185.08" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_377" position="3388.01 9298.65 2185.08" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101912"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3388.01 9298.65 2185.08" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_378" position="3388.01 9298.65 2185.08" rotation="0.707107 0 0 -0.707107" unit_id="101913"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3024.41 9077.89 2172.62" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_379" position="3024.41 9077.89 2172.62" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101914"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3024.41 9077.89 2172.62" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_380" position="3024.41 9077.89 2172.62" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101915"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3024.41 9077.89 2172.62" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_381" position="3024.41 9077.89 2172.62" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101916"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3024.41 9077.89 2172.62" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_382" position="3024.41 9077.89 2172.62" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101917"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3024.41 9077.89 2172.62" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_383" position="3024.41 9077.89 2172.62" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101918"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3024.41 9077.89 2172.62" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_384" position="3024.41 9077.89 2172.62" rotation="0.707107 0 0 -0.707107" unit_id="101919"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3439.51 9596.84 2271.58" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_385" position="3439.51 9596.84 2271.58" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101920"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3439.51 9596.84 2271.58" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_386" position="3439.51 9596.84 2271.58" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101921"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3439.51 9596.84 2271.58" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_387" position="3439.51 9596.84 2271.58" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101922"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3439.51 9596.84 2271.58" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_388" position="3439.51 9596.84 2271.58" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101923"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3439.51 9596.84 2271.58" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_389" position="3439.51 9596.84 2271.58" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101924"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3439.51 9596.84 2271.58" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_390" position="3439.51 9596.84 2271.58" rotation="0.707107 0 0 -0.707107" unit_id="101925"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5789.5 15382 -115.215" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_half" name_id="vegetation_treestall_gentalltree_half_014" position="5789.5 15382 -115.215" rotation="0 0 0 -1" unit_id="101926"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5740 15666.9 881.315" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_391" position="5740 15666.9 881.315" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101927"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5740 15666.9 881.315" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_392" position="5740 15666.9 881.315" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101928"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5740 15666.9 881.315" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_393" position="5740 15666.9 881.315" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101929"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5740 15666.9 881.315" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_394" position="5740 15666.9 881.315" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101930"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5740 15666.9 881.315" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_395" position="5740 15666.9 881.315" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101931"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5740 15666.9 881.315" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_396" position="5740 15666.9 881.315" rotation="0.707107 0 0 -0.707107" unit_id="101932"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5347.5 15499.8 862.945" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_397" position="5347.5 15499.8 862.945" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101933"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5347.5 15499.8 862.945" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_398" position="5347.5 15499.8 862.945" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101934"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5347.5 15499.8 862.945" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_399" position="5347.5 15499.8 862.945" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101935"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5347.5 15499.8 862.945" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_400" position="5347.5 15499.8 862.945" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101936"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5347.5 15499.8 862.945" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_401" position="5347.5 15499.8 862.945" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101937"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5347.5 15499.8 862.945" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_402" position="5347.5 15499.8 862.945" rotation="0.707107 0 0 -0.707107" unit_id="101938"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6030.4 15426.9 978.765" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_403" position="6030.4 15426.9 978.765" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101939"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6030.4 15426.9 978.765" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_404" position="6030.4 15426.9 978.765" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101940"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6030.4 15426.9 978.765" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_405" position="6030.4 15426.9 978.765" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101941"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6030.4 15426.9 978.765" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_406" position="6030.4 15426.9 978.765" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101942"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6030.4 15426.9 978.765" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_407" position="6030.4 15426.9 978.765" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101943"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6030.4 15426.9 978.765" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_408" position="6030.4 15426.9 978.765" rotation="0.707107 0 0 -0.707107" unit_id="101944"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5666.8 15206.2 966.305" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_409" position="5666.8 15206.2 966.305" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101945"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5666.8 15206.2 966.305" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_410" position="5666.8 15206.2 966.305" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101946"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5666.8 15206.2 966.305" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_411" position="5666.8 15206.2 966.305" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101947"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5666.8 15206.2 966.305" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_412" position="5666.8 15206.2 966.305" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101948"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5666.8 15206.2 966.305" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_413" position="5666.8 15206.2 966.305" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101949"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5666.8 15206.2 966.305" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_414" position="5666.8 15206.2 966.305" rotation="0.707107 0 0 -0.707107" unit_id="101950"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6081.9 15725.1 1065.27" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_415" position="6081.9 15725.1 1065.27" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101951"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6081.9 15725.1 1065.27" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_416" position="6081.9 15725.1 1065.27" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101952"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6081.9 15725.1 1065.27" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_417" position="6081.9 15725.1 1065.27" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101953"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6081.9 15725.1 1065.27" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_418" position="6081.9 15725.1 1065.27" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101954"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6081.9 15725.1 1065.27" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_419" position="6081.9 15725.1 1065.27" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101955"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6081.9 15725.1 1065.27" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_420" position="6081.9 15725.1 1065.27" rotation="0.707107 0 0 -0.707107" unit_id="101956"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5175.64 13114.2 -264.525" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_half" name_id="vegetation_treestall_gentalltree_half_015" position="5175.64 13114.2 -264.525" rotation="0 0 0 -1" unit_id="101957"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5126.14 13399.1 732.005" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_421" position="5126.14 13399.1 732.005" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101958"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5126.14 13399.1 732.005" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_422" position="5126.14 13399.1 732.005" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101959"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5126.14 13399.1 732.005" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_423" position="5126.14 13399.1 732.005" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101960"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5126.14 13399.1 732.005" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_424" position="5126.14 13399.1 732.005" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101961"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5126.14 13399.1 732.005" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_425" position="5126.14 13399.1 732.005" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101962"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5126.14 13399.1 732.005" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_426" position="5126.14 13399.1 732.005" rotation="0.707107 0 0 -0.707107" unit_id="101963"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4733.64 13232 713.635" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_427" position="4733.64 13232 713.635" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101964"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4733.64 13232 713.635" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_428" position="4733.64 13232 713.635" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101965"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4733.64 13232 713.635" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_429" position="4733.64 13232 713.635" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101966"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4733.64 13232 713.635" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_430" position="4733.64 13232 713.635" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101967"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4733.64 13232 713.635" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_431" position="4733.64 13232 713.635" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101968"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4733.64 13232 713.635" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_432" position="4733.64 13232 713.635" rotation="0.707107 0 0 -0.707107" unit_id="101969"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5416.54 13159.2 829.455" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_433" position="5416.54 13159.2 829.455" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101970"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5416.54 13159.2 829.455" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_434" position="5416.54 13159.2 829.455" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101971"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5416.54 13159.2 829.455" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_435" position="5416.54 13159.2 829.455" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101972"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5416.54 13159.2 829.455" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_436" position="5416.54 13159.2 829.455" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101973"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5416.54 13159.2 829.455" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_437" position="5416.54 13159.2 829.455" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101974"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5416.54 13159.2 829.455" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_438" position="5416.54 13159.2 829.455" rotation="0.707107 0 0 -0.707107" unit_id="101975"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5052.94 12938.4 816.995" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_439" position="5052.94 12938.4 816.995" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101976"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5052.94 12938.4 816.995" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_440" position="5052.94 12938.4 816.995" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101977"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5052.94 12938.4 816.995" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_441" position="5052.94 12938.4 816.995" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101978"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5052.94 12938.4 816.995" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_442" position="5052.94 12938.4 816.995" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101979"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5052.94 12938.4 816.995" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_443" position="5052.94 12938.4 816.995" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101980"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5052.94 12938.4 816.995" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_444" position="5052.94 12938.4 816.995" rotation="0.707107 0 0 -0.707107" unit_id="101981"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5468.04 13457.4 915.955" _prev_rot="-0.298836 0.640856 -0.640856 0.298836" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_445" position="5468.04 13457.4 915.955" rotation="-0.298836 0.640856 -0.640856 0.298836" unit_id="101982"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5468.04 13457.4 915.955" _prev_rot="0.606109 -0.364187 0.364187 -0.606109" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_446" position="5468.04 13457.4 915.955" rotation="0.606109 -0.364187 0.364187 -0.606109" unit_id="101983"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5468.04 13457.4 915.955" _prev_rot="0.0431677 0.705788 -0.705788 -0.0431677" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_447" position="5468.04 13457.4 915.955" rotation="0.0431677 0.705788 -0.705788 -0.0431677" unit_id="101984"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5468.04 13457.4 915.955" _prev_rot="-0.369462 -0.602908 0.602908 0.369462" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_448" position="5468.04 13457.4 915.955" rotation="-0.369462 -0.602908 0.602908 0.369462" unit_id="101985"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5468.04 13457.4 915.955" _prev_rot="0.602908 0.369462 -0.369462 -0.602908" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_449" position="5468.04 13457.4 915.955" rotation="0.602908 0.369462 -0.369462 -0.602908" unit_id="101986"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5468.04 13457.4 915.955" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_450" position="5468.04 13457.4 915.955" rotation="0.707107 0 0 -0.707107" unit_id="101987"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3278.65 13867 -273.562" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_half" name_id="vegetation_treestall_gentalltree_half_016" position="3278.65 13867 -293.562" rotation="0 0 -0.707107 -0.707107" unit_id="101988"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2993.73 13817.5 722.968" _prev_rot="0.664463 -0.241845 0.241845 -0.664463" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_451" position="2993.73 13817.5 702.968" rotation="-0.664463 0.241845 -0.241845 0.664463" unit_id="101989"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2993.73 13817.5 722.968" _prev_rot="0.686103 0.171065 -0.171065 -0.686103" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_452" position="2993.73 13817.5 702.968" rotation="0.686103 0.171065 -0.171065 -0.686103" unit_id="101990"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2993.73 13817.5 722.968" _prev_rot="-0.468543 0.529592 -0.529592 0.468543" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_453" position="2993.73 13817.5 702.968" rotation="-0.468543 0.529592 -0.529592 0.468543" unit_id="101991"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2993.73 13817.5 722.968" _prev_rot="0.165071 -0.687569 0.687569 -0.165071" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_454" position="2993.73 13817.5 702.968" rotation="0.165071 -0.687569 0.687569 -0.165071" unit_id="101992"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2993.73 13817.5 722.968" _prev_rot="0.165071 0.687569 -0.687569 -0.165071" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_455" position="2993.73 13817.5 702.968" rotation="0.165071 0.687569 -0.687569 -0.165071" unit_id="101993"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2993.73 13817.5 722.968" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="-49.5 284.92 996.53" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_456" position="2993.73 13817.5 702.968" rotation="0.5 0.5 -0.5 -0.5" unit_id="101994"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3160.83 13425 704.598" _prev_rot="0.664463 -0.241845 0.241845 -0.664463" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_457" position="3160.83 13425 684.598" rotation="-0.664463 0.241845 -0.241845 0.664463" unit_id="101995"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3160.83 13425 704.598" _prev_rot="0.686103 0.171065 -0.171065 -0.686103" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_458" position="3160.83 13425 684.598" rotation="0.686103 0.171065 -0.171065 -0.686103" unit_id="101996"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3160.83 13425 704.598" _prev_rot="-0.468543 0.529592 -0.529592 0.468543" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_459" position="3160.83 13425 684.598" rotation="-0.468543 0.529592 -0.529592 0.468543" unit_id="101997"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3160.83 13425 704.598" _prev_rot="0.165071 -0.687569 0.687569 -0.165071" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_460" position="3160.83 13425 684.598" rotation="0.165071 -0.687569 0.687569 -0.165071" unit_id="101998"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3160.83 13425 704.598" _prev_rot="0.165071 0.687569 -0.687569 -0.165071" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_461" position="3160.83 13425 684.598" rotation="0.165071 0.687569 -0.687569 -0.165071" unit_id="101999"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3160.83 13425 704.598" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="-442 117.819 978.16" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_462" position="3160.83 13425 684.598" rotation="0.5 0.5 -0.5 -0.5" unit_id="102000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3233.7 14107.9 820.418" _prev_rot="0.664463 -0.241845 0.241845 -0.664463" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_463" position="3233.7 14107.9 800.418" rotation="-0.664463 0.241845 -0.241845 0.664463" unit_id="102001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3233.7 14107.9 820.418" _prev_rot="0.686103 0.171065 -0.171065 -0.686103" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_464" position="3233.7 14107.9 800.418" rotation="0.686103 0.171065 -0.171065 -0.686103" unit_id="102002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3233.7 14107.9 820.418" _prev_rot="-0.468543 0.529592 -0.529592 0.468543" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_465" position="3233.7 14107.9 800.418" rotation="-0.468543 0.529592 -0.529592 0.468543" unit_id="102003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3233.7 14107.9 820.418" _prev_rot="0.165071 -0.687569 0.687569 -0.165071" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_466" position="3233.7 14107.9 800.418" rotation="0.165071 -0.687569 0.687569 -0.165071" unit_id="102004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3233.7 14107.9 820.418" _prev_rot="0.165071 0.687569 -0.687569 -0.165071" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_467" position="3233.7 14107.9 800.418" rotation="0.165071 0.687569 -0.687569 -0.165071" unit_id="102005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3233.7 14107.9 820.418" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="240.9 44.9492 1093.98" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_468" position="3233.7 14107.9 800.418" rotation="0.5 0.5 -0.5 -0.5" unit_id="102006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3454.46 13744.3 807.958" _prev_rot="0.664463 -0.241845 0.241845 -0.664463" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_469" position="3454.46 13744.3 787.958" rotation="-0.664463 0.241845 -0.241845 0.664463" unit_id="102007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3454.46 13744.3 807.958" _prev_rot="0.686103 0.171065 -0.171065 -0.686103" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_470" position="3454.46 13744.3 787.958" rotation="0.686103 0.171065 -0.171065 -0.686103" unit_id="102008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3454.46 13744.3 807.958" _prev_rot="-0.468543 0.529592 -0.529592 0.468543" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_471" position="3454.46 13744.3 787.958" rotation="-0.468543 0.529592 -0.529592 0.468543" unit_id="102009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3454.46 13744.3 807.958" _prev_rot="0.165071 -0.687569 0.687569 -0.165071" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_472" position="3454.46 13744.3 787.958" rotation="0.165071 -0.687569 0.687569 -0.165071" unit_id="102010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3454.46 13744.3 807.958" _prev_rot="0.165071 0.687569 -0.687569 -0.165071" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_473" position="3454.46 13744.3 787.958" rotation="0.165071 0.687569 -0.687569 -0.165071" unit_id="102011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3454.46 13744.3 807.958" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="-122.7 -175.811 1081.52" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_474" position="3454.46 13744.3 787.958" rotation="0.5 0.5 -0.5 -0.5" unit_id="102012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2935.51 14159.4 906.918" _prev_rot="0.664463 -0.241845 0.241845 -0.664463" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="0.298836 -0.640856 0.640856 -0.298836" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_475" position="2935.51 14159.4 886.918" rotation="-0.664463 0.241845 -0.241845 0.664463" unit_id="102013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2935.51 14159.4 906.918" _prev_rot="0.686103 0.171065 -0.171065 -0.686103" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.606109 0.364187 -0.364187 0.606109" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_476" position="2935.51 14159.4 886.918" rotation="0.686103 0.171065 -0.171065 -0.686103" unit_id="102014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2935.51 14159.4 906.918" _prev_rot="-0.468543 0.529592 -0.529592 0.468543" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.0431677 -0.705788 0.705788 0.0431677" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_477" position="2935.51 14159.4 886.918" rotation="-0.468543 0.529592 -0.529592 0.468543" unit_id="102015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2935.51 14159.4 906.918" _prev_rot="0.165071 -0.687569 0.687569 -0.165071" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="0.369462 0.602908 -0.602908 -0.369462" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_478" position="2935.51 14159.4 886.918" rotation="0.165071 -0.687569 0.687569 -0.165071" unit_id="102016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2935.51 14159.4 906.918" _prev_rot="0.165071 0.687569 -0.687569 -0.165071" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.602908 -0.369462 0.369462 0.602908" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_479" position="2935.51 14159.4 886.918" rotation="0.165071 0.687569 -0.687569 -0.165071" unit_id="102017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2935.51 14159.4 906.918" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="292.4 343.14 1180.48" local_rot="-0.707107 0 0 0.707107" name="units/pd2_mcmansion/props/mcm_prop_garden_bush_large/mcm_prop_garden_bush_large_a" name_id="mcm_prop_garden_bush_large_a_480" position="2935.51 14159.4 886.918" rotation="0.5 0.5 -0.5 -0.5" unit_id="102018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6324.79 10950.8 818.811" _prev_rot="0 0 0.92388 0.382683" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_full" name_id="vegetation_treestall_gentalltree_full_015" position="6324.79 10950.8 818.811" rotation="0 0 0.92388 0.382683" unit_id="102019"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="8196.04 11839.9 847.971" _prev_rot="0 0 0.92388 0.382683" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_full" name_id="vegetation_treestall_gentalltree_full_016" position="8196.04 11839.9 847.971" rotation="0 0 0.923879 -0.382684" unit_id="102020"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4111.93 14843.2 -243.826" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/mall_tree_large01" name_id="mall_tree_large01_007" position="4111.93 14843.2 -243.826" rotation="0 0 0 -1" unit_id="102021"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4163.48 12887.6 -295" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/mall_tree_large01" name_id="mall_tree_large01_008" position="4163.48 12887.6 -295" rotation="0 0 0 -1" unit_id="102022"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5933.12 14297.9 -112.163" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_foliage/mall_tree_large01" name_id="mall_tree_large01_009" position="5933.12 14297.9 -112.163" rotation="0 0 0 -1" unit_id="102023"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4244.5 14833.3 -241.111" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/bush/bushthickleaves/bush_thickleaves_06" name_id="bush_thickleaves_06_031" position="4244.5 14833.3 -241.111" rotation="0 0 0 -1" unit_id="102024"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6121.43 12809 -241.642" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/bush/bushthickleaves/bush_thickleaves_06" name_id="bush_thickleaves_06_032" position="6121.43 12809 -241.642" rotation="0 0 0 -1" unit_id="102025"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5018.21 14665.5 -237.731" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/bush/bushthickleaves/bush_thickleaves_06" name_id="bush_thickleaves_06_033" position="5018.21 14665.5 -237.731" rotation="0 0 0 -1" unit_id="102026"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5977.73 17955.1 -891.26" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b" name_id="pnau_terrain_rock_edge_01_b_007" position="5897.73 17955.1 -891.26" rotation="0 0 0 -1" unit_id="102027"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4645.66 16897.6 -219.571" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/juniperbushbig_01" name_id="juniperbushbig_01_025" position="4645.66 16897.6 -219.571" rotation="0 0 0 -1" unit_id="102028"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4507 16849 -250" _prev_rot="0.0555231 0.0695276 -0.00387579 -0.996026" continent="world" instance_data="false" local_pos="-138.657 -48.6406 -30.4288" local_rot="-0.0555231 -0.0695276 0.00387579 0.996026" name="units/world/vegetation/jungle/juniperbushbig_03" name_id="juniperbushbig_03_010" position="4507 16849 -250" rotation="0.0555231 0.0695276 -0.00387579 -0.996026" unit_id="102029"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4596 17110 -182" _prev_rot="-0.213747 -0.0900494 -0.0465828 -0.971614" continent="world" instance_data="false" local_pos="-49.6567 212.359 37.5712" local_rot="0.213747 0.0900494 0.0465828 0.971614" name="units/world/vegetation/jungle/juniperbushbig_02" name_id="juniperbushbig_02_011" position="4596 17110 -182" rotation="-0.213747 -0.0900494 -0.0465828 -0.971614" unit_id="102030"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4115 14942 -233" _prev_rot="-0.0473777 -0.0211278 -0.00100235 -0.998653" continent="world" instance_data="false" local_pos="2208.56 -352.18 24.816" local_rot="-0.00455207 0.051675 0.944571 0.324182" name="units/world/vegetation/jungle/juniperbushbig_02" name_id="juniperbushbig_02_012" position="4115 14942 -233" rotation="-0.0473777 -0.0211278 -0.00100235 -0.998653" unit_id="102031"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4882 11385 -22" _prev_rot="-0.0199212 -0.122953 -0.00246861 -0.992209" continent="world" instance_data="false" local_pos="3794.06 2922.99 235.816" local_rot="-0.109769 0.0588654 0.938956 0.320697" name="units/world/vegetation/jungle/juniperbushbig_03" name_id="juniperbushbig_03_011" position="4882 11385 -22" rotation="-0.0199212 -0.122953 -0.00246861 -0.992209" unit_id="102032"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4169 12277 -294" _prev_rot="0 0 -0.00505134 -0.999987" continent="world" instance_data="false" local_pos="3806.74 1781.12 -36.184" local_rot="0 0 0.947151 0.320788" name="units/world/vegetation/jungle/juniperbushbig_03" name_id="juniperbushbig_03_012" position="4169 12277 -294" rotation="0 0 -0.00505134 -0.999987" unit_id="102033"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5303.28 11981 -352.181" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_bush_windmillpalm/sfm_veg_bush_windmillpalm_small" name_id="sfm_veg_bush_windmillpalm_small_007" position="5303.28 11981 -352.181" rotation="0 0 0 -1" unit_id="102034"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3193 14003 -265" _prev_rot="-0.0824513 0.0866941 0.00719995 -0.992791" continent="world" instance_data="false" local_pos="-2110.28 2021.97 87.1814" local_rot="0.0824513 -0.0866941 -0.00719995 0.992791" name="units/pd2_dlc_casino/vegetation/sfm_veg_bush_windmillpalm/sfm_veg_bush_windmillpalm_small" name_id="sfm_veg_bush_windmillpalm_small_008" position="3193 14003 -265" rotation="-0.0824513 0.0866941 0.00719995 -0.992791" unit_id="102035"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6071.67 14584.5 -152.821" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_bush_windmillpalm/sfm_veg_bush_windmillpalm_medium" name_id="sfm_veg_bush_windmillpalm_medium_006" position="6071.67 14584.5 -152.821" rotation="0 0 0 -1" unit_id="102036"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3939.98 13719.2 -254.941" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_bush_windmillpalm/sfm_veg_bush_windmillpalm_medium" name_id="sfm_veg_bush_windmillpalm_medium_007" position="3939.98 13719.2 -254.941" rotation="0 0 0 -1" unit_id="102037"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5938.59 13027.9 -228.205" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_bush_windmillpalm/sfm_veg_bush_windmillpalm_medium" name_id="sfm_veg_bush_windmillpalm_medium_008" position="5938.59 13027.9 -228.205" rotation="0 0 0 -1" unit_id="102038"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4917.42 14371.5 -240.591" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/jungletree_small" name_id="jungletree_small_026" position="4917.42 14371.5 -240.591" rotation="0 0 0 -1" unit_id="102039"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4027.36 11722.8 157.901" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/jungletree_small" name_id="jungletree_small_027" position="4027.36 11722.8 157.901" rotation="0 0 0 -1" unit_id="102040"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2690.27 14055.4 -282.755" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/jungletree_small" name_id="jungletree_small_028" position="2690.27 14055.4 -282.755" rotation="0 0 0 -1" unit_id="102041"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4878.67 15659.6 -276.356" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_014" position="4878.67 15659.6 -276.356" rotation="0 0 0 -1" unit_id="102042"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3201.41 14933.9 -215.473" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_015" position="3201.41 14933.9 -215.473" rotation="0 0 0 -1" unit_id="102043"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4268.97 12272.5 -295" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_016" position="4268.97 12272.5 -295" rotation="0 0 0 -1" unit_id="102044"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5218.03 13177.8 -253.474" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinbranchtree_02" name_id="thinbranchtree_02_017" position="5218.03 13177.8 -253.474" rotation="0 0 0 -1" unit_id="102045"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4891.02 10454 -26.0008" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_anim_01" name_id="thinpalmtree_anim_01_009" position="4891.02 10454 -26.0008" rotation="0 0 0 -1" unit_id="102046"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4298.86 11301.6 119.399" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_01" name_id="thinpalmtree_01_007" position="4298.86 11301.6 119.399" rotation="0 0 0 -1" unit_id="102047"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5469.49 11437.8 -112.216" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_02" name_id="thinpalmtree_02_014" position="5469.49 11437.8 -122.216" rotation="0 0 0 -1" unit_id="102048"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4922.82 11402.7 -30.3475" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_03" name_id="thinpalmtree_03_017" position="4922.82 11402.7 -30.3475" rotation="0 0 0 -1" unit_id="102049"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5209.12 10908.8 -59.8333" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/mansion/vegetation/lxa_veg/lxa_veg_bush_palm_a" name_id="lxa_veg_bush_palm_a_018" position="5209.12 10908.8 -59.8333" rotation="0 0 0 -1" unit_id="102050"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4261.92 10867 86.8085" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/mansion/vegetation/lxa_veg/lxa_veg_bush_palm_a" name_id="lxa_veg_bush_palm_a_019" position="4261.92 10867 86.8085" rotation="0 0 0 -1" unit_id="102051"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4331.73 11827.6 107.406" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_holly/mansion/vegetation/lxa_veg/lxa_veg_bush_palm_a" name_id="lxa_veg_bush_palm_a_020" position="4331.73 11827.6 107.406" rotation="0 0 0 -1" unit_id="102052"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4952.06 7195.68 1745.75" _prev_rot="0 0 0.948324 0.317305" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_022" position="4962.47 7375.65 1745.75" rotation="0 0 0.948324 0.317305" unit_id="102053"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7165.3 8079.56 1745.75" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_023" position="7165.3 8079.56 1745.75" rotation="0 0 0.707107 0.707107" unit_id="102054"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7195.3 5979.56 1745.75" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_024" position="7395.3 6489.56 1745.75" rotation="0 0 0 -1" unit_id="102055"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4519.52 14157 -247.347" _prev_rot="0 0 0.92388 0.382683" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_full" name_id="vegetation_treestall_gentalltree_full_017" position="4519.52 14157 -247.347" rotation="0 0 0.92388 0.382683" unit_id="102056"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="5905.76 17277.1 882.838" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_022" position="5905.76 17277.1 882.838" rotation="0 0 0 -1" unit_id="102057"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="6847.25 16227.2 892.609" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_023" position="6847.25 16227.2 892.609" rotation="0 0 0 -1" unit_id="102058"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="8057 15503.3 947.925" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_024" position="8057 15503.3 947.925" rotation="0 0 0 -1" unit_id="102059"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11930.3 7076.47 -76.0517" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_medium_05" name_id="pnau_terrain_rock_medium_05_003" position="11930.3 7076.47 -95.0517" rotation="0 0 0 -1" unit_id="102060"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7485.18 11310.5 791.176" _prev_rot="-0.0739132 -0.0739132 -0.703233 -0.703233" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong" name_id="bph_rock_terrain_01_oblong_004" position="7485.18 11310.5 791.176" rotation="-0.0739132 -0.0739132 -0.703233 -0.703233" unit_id="102061"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7407.17 11871.9 758.684" _prev_rot="-0.0829284 -0.0636332 -0.789007 -0.605426" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong" name_id="bph_rock_terrain_01_oblong_005" position="7428.44 11790.8 754.164" rotation="-0.0829284 -0.0636332 -0.789007 -0.605426" unit_id="102062"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10725.2 6916.59 -70.4882" _prev_rot="0.0166139 0.0081939 0.241855 -0.970136" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck" name_id="str_vehicle_m35_truck_003" position="10776.6 7145.11 -78.3616" rotation="0.0166139 0.0081939 0.241855 -0.970136" unit_id="102063">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 1 0.65" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="1 1 0.65" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
+					<table clipping_values="10000 -10000 0" color="0.882353 0.481739 0.17301" enabled="false" falloff_exponent="4" far_range="350" multiplier="@IDbca13ba1d306f87b@" name="ls_rear" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="6727.39 10205.2 973.854" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_025" position="6727.39 10205.2 973.854" rotation="0 0 0 -1" unit_id="102064"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="8019.13 10162.1 844.662" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_026" position="8019.13 10162.1 844.662" rotation="0 0 0 -1" unit_id="102065"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4559.89 17071.7 -543.891" _prev_rot="-0.015883 0.181542 -0.085697 -0.979513" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_hedge" name_id="ind_ext_warehouse_hedge_030" position="4742.85 17104 -472.575" rotation="-0.015883 0.181542 -0.085697 -0.979513" unit_id="102066"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="9274.96 15301.5 948.415" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_027" position="9274.96 15301.5 948.415" rotation="0 0 0 -1" unit_id="102067"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="9871.04 16295 397.722" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_028" position="9871.04 16295 397.722" rotation="0 0 0 -1" unit_id="102068"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7805.78 10986.8 791.478" _prev_rot="0 0 0.956305 0.292371" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_hedge" name_id="ind_ext_warehouse_hedge_031" position="7805.78 10986.8 791.478" rotation="0 0 0.956305 0.292371" unit_id="102069"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7231.42 11063.8 791.478" _prev_rot="0 0 0.999391 -0.0349003" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_hedge" name_id="ind_ext_warehouse_hedge_032" position="7231.42 11063.8 791.478" rotation="0 0 0.978147 -0.207913" unit_id="102070"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1790.53 11371 42.9161" _prev_rot="0 0 0.87462 -0.484809" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fex/nature/fex_ivy_set/fex_ivyset_01_fade_down_high_2m_01" name_id="fex_ivyset_01_fade_down_high_2m_01_003" position="1790.53 11371 42.9161" rotation="0 0 0.87462 -0.48481" unit_id="102071"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1535.24 11920 513.503" _prev_rot="0 0 0.991445 -0.130526" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/foliage_mini_roof_c" name_id="foliage_mini_roof_c_002" position="-1507.23 11927.5 513.503" rotation="0 0 0.991445 -0.130526" unit_id="102072"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1416.42 9302.48 39.8413" _prev_rot="0 0 0.891007 0.453991" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fex/nature/fex_ivy_set/fex_ivyset_01_fade_down_high_2m_01" name_id="fex_ivyset_01_fade_down_high_2m_01_004" position="1421.28 9306 39.8413" rotation="0 0 0.891007 0.453991" unit_id="102073"/>
 		</table>
 	</statics>
 	<values>
