@@ -1,0 +1,8 @@
+
+<state_machine name="vehicle_driver" timebase="frames">
+	<segment name="base"/>
+	
+	<default state="std/empty"/>
+	<states file="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver"/>
+	
+</state_machine>

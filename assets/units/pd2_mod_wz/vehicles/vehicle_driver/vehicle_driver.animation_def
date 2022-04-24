@@ -1,0 +1,84 @@
+<xml>
+
+<!-- Animatable sets ------------------------------------------------------------->
+	<animatable_set name="vehicle_driver">
+		<!-- Root -->
+		<bone name="root_point"				alias="all root" root="true" alignment="true" />
+		<bone name="Hips"					alias="all" />
+		<bone name="Spine"					alias="all" />
+		<bone name="Spine1"					alias="all" />
+		<bone name="Spine2"					alias="all" />
+		<bone name="Neck"					alias="all" />
+		<bone name="Head"					alias="all" />
+		
+		<bone name="RightShoulder"			alias="all" />
+		<bone name="RightArm"				alias="all" />
+		<bone name="RightForeArm"			alias="all" />
+		<bone name="RightForeArmRoll"		alias="all" />
+		<bone name="RightHand"				alias="all" />
+		<bone name="RightHandThumb1"		alias="all" />
+		<bone name="RightHandThumb2"		alias="all" />
+		<bone name="RightHandThumb3"		alias="all" />
+		<bone name="RightHandIndex1"		alias="all" />
+		<bone name="RightHandIndex2"		alias="all" />
+		<bone name="RightHandIndex3"		alias="all" />
+		<bone name="RightHandMiddle1"		alias="all" />
+		<bone name="RightHandMiddle2"		alias="all" />
+		<bone name="RightHandMiddle3"		alias="all" />
+		<bone name="RightHandRing1"			alias="all" />
+		<bone name="RightHandRing2"			alias="all" />
+		<bone name="RightHandRing3"			alias="all" />
+		<bone name="RightHandPinky1"		alias="all" />
+		<bone name="RightHandPinky2"		alias="all" />
+		<bone name="RightHandPinky3"		alias="all" />
+		
+		<bone name="LeftShoulder"			alias="all" />
+		<bone name="LeftArm"				alias="all" />
+		<bone name="LeftForeArm"			alias="all" />
+		<bone name="LeftForeArmRoll"		alias="all" />
+		<bone name="LeftHand"				alias="all" />
+		<bone name="LeftHandThumb1"			alias="all" />
+		<bone name="LeftHandThumb2"			alias="all" />
+		<bone name="LeftHandThumb3"			alias="all" />
+		<bone name="LeftHandIndex1"			alias="all" />
+		<bone name="LeftHandIndex2"			alias="all" />
+		<bone name="LeftHandIndex3"			alias="all" />
+		<bone name="LeftHandMiddle1"		alias="all" />
+		<bone name="LeftHandMiddle2"		alias="all" />
+		<bone name="LeftHandMiddle3"		alias="all" />
+		<bone name="LeftHandRing1"			alias="all" />
+		<bone name="LeftHandRing2"			alias="all" />
+		<bone name="LeftHandRing3"			alias="all" />
+		<bone name="LeftHandPinky1"			alias="all" />
+		<bone name="LeftHandPinky2"			alias="all" />
+		<bone name="LeftHandPinky3"			alias="all" />
+		
+		<bone name="RightUpLeg"				alias="all" />
+		<bone name="RightLeg"				alias="all" />
+		<bone name="RightFoot"				alias="all" />
+		<bone name="RightToeBase"			alias="all" />
+		
+		<bone name="LeftUpLeg"				alias="all" />
+		<bone name="LeftLeg"				alias="all" />
+		<bone name="LeftFoot"				alias="all" />
+		<bone name="LeftToeBase"			alias="all" />
+	</animatable_set>
+	
+
+<!-- Blend sets ------------------------------------------------------------->
+	<blend_set name="all" animatable_set="vehicle_driver">
+		<blend alias="all"						weight="1.0"/>
+	</blend_set>
+	
+	<blend_set name="all_no_root" animatable_set="vehicle_driver">
+		<blend alias="all"						weight="1.0"/>
+		<blend name="root_point"				weight="0.0"/>
+	</blend_set>
+	
+<!-- Animation sets ------------------------------------------------------------->
+	
+	<animation_set name="vehicle_driver" animatable_set="vehicle_driver">
+		<subset file="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver"/>
+	</animation_set>
+	
+</xml>

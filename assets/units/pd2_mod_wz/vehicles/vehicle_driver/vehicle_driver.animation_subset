@@ -1,0 +1,6 @@
+<!-- Animate rootpoint if vehicle syncs in the level. -->
+
+<xml>
+	<anim	name="anim_m35_truck_driver"		file="units/pd2_mod_wz/vehicles/vehicle_driver/anims/anim_m35_truck_driver"			blend_set="all_no_root"/>
+	<anim	name="anim_m35_truck_killed"		file="units/pd2_mod_wz/vehicles/vehicle_driver/anims/anim_m35_truck_killed"			blend_set="all_no_root"/>
+</xml>

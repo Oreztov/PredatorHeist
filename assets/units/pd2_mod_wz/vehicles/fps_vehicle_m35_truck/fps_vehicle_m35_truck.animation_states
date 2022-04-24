@@ -1,0 +1,41 @@
+<xml>
+	<state name="std" type="template_state" segment="base">
+		<default blend="0"/>
+		<to	name="to_m35_truck_stop"				redirect="std/empty"/>
+		<to	name="to_m35_truck_test"				redirect="std/drive/m35_truck_test"/>
+		<to	name="to_m35_truck_wheels_loop"			redirect="std/drive/m35_truck_wheels_loop"/>
+		<to	name="to_m35_truck_wheels_stop"			redirect="std/drive/m35_truck_wheels_stop"/>
+	</state>
+
+	<!---->
+	<state name="std/empty" type="emptyloop" segment="base">
+		<keys>
+			<key at="9" callback="anim_clbk_empty_full_blend" class_name="base"/>
+			<key at="exit" callback="anim_clbk_empty_exit" class_name="base"/>
+		</keys>
+	</state>
+
+	<!---->
+	<state name="std/drive" type="template_state" segment="base">
+		<keys>
+			<key at="enter"		callback="anim_clbk_animated_driving"	class_name="base"	param1="true"/>
+			<key at="exit"		callback="anim_clbk_animated_driving"	class_name="base"	param1="false"/>
+		</keys>
+	</state>
+	
+	<!---->
+	<state name="std/drive/m35_truck_test" type="loop" segment="base" speed="0.25">
+		<anim name="anim_m35_truck_test"/>
+		<exit name="std/empty"/>
+	</state>
+	
+	<state name="std/drive/m35_truck_wheels_loop" type="loop" segment="wheels" speed="3" >
+		<anim name="anim_m35_truck_wheels_loop"/>
+		<exit name="std/empty"/>
+	</state>
+	
+	<state name="std/drive/m35_truck_wheels_stop" type="once" segment="wheels" >
+		<anim name="anim_m35_truck_wheels_stop"/>
+		<exit name="std/empty"/>
+	</state>
+</xml>

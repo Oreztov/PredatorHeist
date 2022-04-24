@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" orientation_object="rp_anim_car" />
+	<sequence_manager file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" />
+	<animation_def name="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" />
+	<animations>
+		<animation_group name="anim_steering_wheel_left" enabled="false">
+				<object name="anim_steering_wheel_left" />
+		</animation_group>
+		<animation_group name="anim_steering_wheel_right" enabled="false">
+				<object name="anim_steering_wheel_right" />
+		</animation_group>
+		<animation_group name="anim_door_left" enabled="false">
+				<object name="anim_door_left" />
+		</animation_group>
+		<animation_group name="anim_door_right" enabled="false">
+				<object name="anim_door_right" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<!--Animated Version-->
+		<body name="body_chassis_static" enabled="true" template="animated" >
+			<object name="anim_body" />
+			<object name="c_body" collision_type="convex" />
+			<object name="c_main_convex_001" collision_type="convex" padding="-2.5"/>
+			<object name="c_main_convex_002" collision_type="convex" padding="-2.5"/>
+			<object name="c_main_box_001" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_002" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_003" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_004" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_005" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_006" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_007" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_008" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_009" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_010" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_011" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_012" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_013" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_014" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_015" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_016" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_017" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_018" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_019" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_021" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_022" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_chassis_cover_static" enabled="true" template="animated" >
+			<object name="anim_body" />
+			<object name="c_cover_box_001" collision_type="box" padding="-2.5"/>
+			<object name="c_cover_box_002" collision_type="box" padding="-2.5"/>
+			<object name="c_cover_box_003" collision_type="box" padding="-2.5"/>
+			<object name="c_cover_box_004" collision_type="box" padding="-2.5"/>
+			<object name="c_cover_box_005" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_chassis_cage_static" enabled="false" template="animated" >
+			<object name="anim_body" />
+			<object name="c_box_cage_001" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_002" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_003" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_door_left_static" enabled="true" template="animated" >
+			<object name="anim_door_left" />
+			<object name="c_m35_door_l" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_door_right_static" enabled="true" template="animated" >
+			<object name="anim_door_right" />
+			<object name="c_m35_door_r" collision_type="box" padding="-2.5"/>
+		</body>
+		
+		<!--Vehicle Version-->
+		<body name="body_chassis" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="true" >
+			<object name="anim_body" />
+			<object name="c_body" collision_type="convex" />
+			<object name="c_main_convex_001" collision_type="convex" padding="-2.5"/>
+			<object name="c_main_convex_002" collision_type="convex" padding="-2.5"/>
+			<object name="c_main_box_001" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_002" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_003" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_004" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_005" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_006" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_007" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_008" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_009" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_010" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_011" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_012" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_013" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_014" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_015" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_016" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_017" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_018" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_019" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_021" collision_type="box" padding="-2.5"/>
+			<object name="c_main_box_022" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_chassis_cover" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="true" >
+			<object name="anim_body" />
+			<object name="c_cover_box_001" collision_type="box" padding="-2.5"/>
+			<object name="c_cover_box_002" collision_type="box" padding="-2.5"/>
+			<object name="c_cover_box_003" collision_type="box" padding="-2.5"/>
+			<object name="c_cover_box_004" collision_type="box" padding="-2.5"/>
+			<object name="c_cover_box_005" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_chassis_cage" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="true" >
+			<object name="anim_body" />
+			<object name="c_box_cage_001" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_002" collision_type="box" padding="-2.5"/>
+			<object name="c_box_cage_003" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_door_left_chassis" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="false" >
+			<object name="anim_door_left" />
+			<object name="c_m35_door_l" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_door_right_chassis" enabled="false" template="vehicle" collision_script_filter="1" collision_script_quiet_time="0.5" collision_script_tag="vehicle_collision" give_standing_velocity="false" >
+			<object name="anim_door_right" />
+			<object name="c_m35_door_r" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="body_driver_hitbox" enabled="false" template="animated" >
+			<object name="anim_body" />
+			<object name="c_driver_hitbox" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_metal" 			enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_cloth" 			enabled="true" material="cloth" />
+		<decal_mesh name="g_windows" 			enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_m35_door_r_glass"	enabled="true" material="glass_breakable" />
+		<decal_mesh name="g_m35_door_l_glass"	enabled="true" material="glass_breakable" />
+		<decal_mesh name="dm_m35_cage"			enabled="false" material="sheet_metal" />
+	</decal_surfaces>
+
+	<graphics>
+	
+
+		<lod_object name="lod_m35">
+			<object name="g_m35_lod0"			enabled="true"  max_distance="6400" />
+			<object name="g_m35_lod1"			enabled="true" />
+		</lod_object>
+		<lod_object name="lod_m35_door_l">
+			<object name="g_m35_door_l_lod0" 	enabled="true"  max_distance="6400" />
+			<object name="g_m35_door_l_lod1" 	enabled="true" />
+		</lod_object>
+		<lod_object name="lod_m35_door_r">
+			<object name="g_m35_door_r_lod0" 	enabled="true"  max_distance="6400" />
+			<object name="g_m35_door_r_lod1" 	enabled="true" />
+		</lod_object>
+		
+		<graphic_group name="grp_m35_cover" enabled="true">
+			<object name="s_m35_cover"				enabled="true" shadow_caster="true" />
+			<lod_object name="lod_m35_cover">
+				<object name="g_m35_cover_lod0" 	enabled="true"  max_distance="6400" />
+				<object name="g_m35_cover_lod1" 	enabled="true" />
+			</lod_object>
+		</graphic_group>
+		<graphic_group name="grp_m35_cage" enabled="false">
+			<object name="s_m35_cage"				enabled="true" shadow_caster="true" />
+			<lod_object name="lod_m35_cage">
+				<object name="g_m35_cage_lod0" 		enabled="true"  max_distance="6400" />
+				<object name="g_m35_cage_lod1" 		enabled="true" />
+			</lod_object>
+		</graphic_group>
+		
+		<object name="g_steering_wheel"			enabled="true" />
+		<object name="g_steering_wheel_fps"		enabled="false" />
+		
+		<object name="g_windows" 				enabled="true" />
+		<object name="g_m35_door_l_glass" 		enabled="true" />
+		<object name="g_m35_door_r_glass" 		enabled="true" />
+		<object name="g_lights" 				enabled="false" />
+		<object name="g_cone_light" 			enabled="false" />
+		
+		<object name="s_m35"					enabled="true" shadow_caster="true" />
+
+		<graphic_group name="grp_real_wheels" enabled="true">
+			<object name="g_wheel_front_left" 		enabled="true"	shadow_caster="true" />
+			<object name="g_wheel_front_right" 		enabled="true"	shadow_caster="true" />
+			<object name="g_wheel_rear1_left" 		enabled="true"	shadow_caster="true" />
+			<object name="g_wheel_rear1_right" 		enabled="true"	shadow_caster="true" />
+			<object name="g_wheel_rear2_left" 		enabled="true"	shadow_caster="true" />
+			<object name="g_wheel_rear2_right" 		enabled="true"	shadow_caster="true" />
+		</graphic_group>
+
+		<graphic_group name="grp_fake_wheels" enabled="true">
+			<object name="g_fake_wheels_front"	enabled="true"	shadow_caster="true" />
+			<object name="g_fake_wheels_rear"	enabled="true"	shadow_caster="true" />
+			<object name="g_fake_wheels_rear2"	enabled="true"	shadow_caster="true" />
+		</graphic_group>
+
+		<graphic_group name="grp_icon_entry" enabled="true">
+			<lod_object name="lod_icon_drive">
+				<object name="g_icon_door_drive_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_door_drive_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_icon_front_r_pass">
+				<object name="g_icon_door_passenger_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_door_passenger_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_icon_rear_l_pass">
+				<object name="g_icon_door_passenger_back_left_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_door_passenger_back_left_lod1" enabled="true" />
+			</lod_object>
+			<lod_object name="lod_icon_rear_r_pass">
+				<object name="g_icon_door_passenger_back_right_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_door_passenger_back_right_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_icon_loot" enabled="true">
+			<lod_object name="lod_icon_loot">
+				<object name="g_icon_loot_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_loot_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+		<graphic_group name="grp_icon_repair" enabled="true">
+			<lod_object name="lod_icon_repair">
+				<object name="g_icon_repair_lod0" enabled="true"  max_distance="450" />
+				<object name="g_icon_repair_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+		
+	</graphics>
+
+	<effects>
+		<effect_spawner
+			name="es_smoke_med"
+			enabled="false"
+			object="snd_engine"
+			effect="effects/payday2/particles/vehicle/vehicle_damage_small_smoke"
+		/>
+		<effect_spawner
+			name="es_smoke_full"
+			enabled="false"
+			object="snd_engine"
+			effect="effects/payday2/particles/vehicle/vehicle_damage_big_smoke"
+		/>
+	</effects>
+
+<!--Note: No model tools properly support custom lights, for now this information remains unused.-->
+<!--	
+	<lights>
+		<light name="ls_left"	far_range="2000"	type="spot|specular"	end_angle="53"	multiplier="identity"				editable="true" />
+		<light name="ls_right"	far_range="2000"	type="spot|specular"	end_angle="39"	multiplier="identity"				editable="true" />
+		<light name="ls_rear"	far_range="350"		type="omni|specular"					multiplier="0.1"		falloff="4"	editable="true" />
+	</lights>
+-->
+	
+	<vehicle name="vhc_vehicle">
+		<!-- IMPORTANT: suspension supported_mass must be 1/4 of chassis mass, if not vehicle behavior is undefined -->
+		<chassis body="body_chassis" mass="2000" center_of_mass_offset="0.0 0.2 0.2" inertia_multiplier="2.2 1.1 1.1" downforce_strength="4.0" drag_strength="4.0" />
+		<wheels>
+			<wheel spin_object="anim_tire_front_left"	turn_object="anim_tire_axel_front_left"		radius="0.56" width="0.28" mass="20" transmission_ratio="1.1" is_steering="true" max_steering="30" braking_torque="2500" handbrake_torque="0" />
+			<wheel spin_object="anim_tire_front_right"	turn_object="anim_tire_axel_front_right"	radius="0.56" width="0.28" mass="20" transmission_ratio="1.1" is_steering="true" max_steering="30" braking_torque="2500" handbrake_torque="0" />
+			<wheel spin_object="anim_tire_rear_left"	turn_object=""								radius="0.56" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
+			<wheel spin_object="anim_tire_rear_right"	turn_object=""								radius="0.56" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
+			<wheel spin_object="anim_tire_rear2_left"	turn_object=""								radius="0.56" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
+			<wheel spin_object="anim_tire_rear2_right"	turn_object=""								radius="0.56" width="0.37" mass="30" transmission_ratio="0.55" is_steering="false" max_steering="0" braking_torque="2500" handbrake_torque="2500" />
+		</wheels>
+		<suspension max_compression="0.18" max_extension="0.22" spring_strength="55000" damper_rate="4500" supported_mass="850" />
+		<gearbox switch_time="0.1" ratio_multiplier="4.0">
+			<ratios>
+				<ratio value="-3.0" />
+				<ratio value="0.0" />
+				<ratio value="4.0" />
+				<ratio value="2.0" />
+				<ratio value="1.6" />
+			</ratios>
+		</gearbox>
+		<engine max_torque="350" max_rpm="2000"/>
+	</vehicle>
+	
+</dynamic_object>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<unit type="prop" slot="1" >
+	<object file="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" />
+	<anim_state_machine name="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver"/>
+	<network sync="spawn"/>
+	
+	<dependencies>
+		<!--REQUIRED!-->
+		<depends_on animation_def="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver"/>
+		<depends_on animation_state_machine="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver"/>
+	</dependencies>
+	
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="base" class="AnimatedVehicleBase">
+			<var name="_body_name" value="Hips"/>
+		</extension>
+	</extensions>
+	<sounds>
+		<default_soundsource source="Head"/>
+	</sounds>
+</unit>

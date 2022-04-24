@@ -1,0 +1,9 @@
+
+<state_machine name="m35_truck" timebase="frames">
+	<segment name="base"/>
+	<segment name="wheels"/>
+	
+	<default state="std/empty"/>
+	<states file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck"/>
+	
+</state_machine>

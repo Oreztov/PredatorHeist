@@ -1,0 +1,277 @@
+<table>
+	<unit>
+		<variables>
+			<var_covered value="1"/>
+			<var_caged value="0"/>
+			<var_spawned_loot value="0"/>
+			<var_door_open_l value="0"/>
+			<var_door_open_r value="0"/>
+		</variables>
+		
+		<!--Generic Interactions-->
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+			<run_sequence name="'state_vis_icon_entry_enabled'" />
+			<run_sequence name="'state_vis_icon_loot_enabled'" />
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+			<run_sequence name="'state_vis_icon_entry_disabled'" />
+			<run_sequence name="'state_vis_icon_loot_disabled'" />
+		</sequence>
+		
+		<!--Science-->
+		<sequence editable_state="true" name="'spawn_loot_test'" triggable="true" >
+			<run_sequence name="'spawn_loot_unit'" start_time="1"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="2"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="3"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="4"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="5"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="6"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="7"/>
+			<run_sequence name="'spawn_loot_unit'" start_time="8"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_unit'" triggable="false" >
+			<set_variables var_spawned_loot="vars.var_spawned_loot + 1"/>
+			<function
+				extension="'spawn_manager'"
+				function="'spawn_unit'"
+				param1="'spawned_unit_'..vars.var_spawned_loot"
+				param2="'sp_loot_'..vars.var_spawned_loot"
+				param3="'units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static'"
+			/>
+		</sequence>
+		
+		<!--COVER-->
+		<filter name="'filter_include_cover'">
+			<check value="vars.var_covered == 1"/>
+		</filter>
+		<filter name="'filter_ignore_cover'">
+			<check value="vars.var_covered == 0"/>
+		</filter>
+		<filter name="'filter_include_cage'">
+			<check value="vars.var_caged == 1"/>
+		</filter>
+		<filter name="'filter_ignore_cage'">
+			<check value="vars.var_caged == 0"/>
+		</filter>
+		<filter name="'filter_door_l_open'">
+			<check value="vars.var_door_open_l == 1"/>
+		</filter>
+		<filter name="'filter_door_l_closed'">
+			<check value="vars.var_door_open_l == 0"/>
+		</filter>
+		<filter name="'filter_door_r_open'">
+			<check value="vars.var_door_open_r == 1"/>
+		</filter>
+		<filter name="'filter_door_r_closed'">
+			<check value="vars.var_door_open_r == 0"/>
+		</filter>
+		
+		<sequence editable_state="true" name="'disable_cover'" triggable="true" >
+			<set_variables var_covered="0"/>
+			<graphic_group	visibility="false"	name="'grp_m35_cover'"/>
+			<decal_mesh		enabled="false"		name="'dm_cloth'" />
+			<body			enabled="false"		name="'body_chassis_cover_static'" />
+			<body			enabled="false"		name="'body_chassis_cover'" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'enable_cover'" triggable="true" >
+			<set_variables var_covered="1"/>
+			<graphic_group	visibility="true"	name="'grp_m35_cover'"/>
+			<decal_mesh		enabled="true"		name="'dm_cloth'" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'disable_cage'" triggable="true" >
+			<set_variables var_caged="0"/>
+			<graphic_group	visibility="false"	name="'grp_m35_cage'"/>
+			<decal_mesh		enabled="false"		name="'dm_m35_cage'" />
+			<body			enabled="false"		name="'body_chassis_cage_static'" />
+			<body			enabled="false"		name="'body_chassis_cage'" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'enable_cage'" triggable="true" >
+			<run_sequence name="'disable_cover'" />
+			<set_variables var_caged="1"/>
+			<graphic_group	visibility="true"	name="'grp_m35_cage'"/>
+			<decal_mesh		enabled="true"		name="'dm_m35_cage'" />
+			<body			enabled="true"		name="'body_chassis_cage_static'" />
+		</sequence>
+		
+		<sequence editable_state="true" name="'anim_door_left_open'" triggable="true" filter="'filter_door_l_closed'">
+			<animation_group enabled="true" name="'anim_door_left'" from="0/30" to="20/30"/>
+			<set_variables var_door_open_l="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_door_left_close'" triggable="true" filter="'filter_door_l_open'">
+			<animation_group enabled="true" name="'anim_door_left'" from="20/30" to="40/30" start_time="0.307"/>
+			<set_variables var_door_open_l="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_door_right_open'" triggable="true" filter="'filter_door_r_closed'">
+			<animation_group enabled="true" name="'anim_door_right'" from="0/30" to="20/30"/>
+			<set_variables var_door_open_r="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_door_right_close'" triggable="true" filter="'filter_door_r_open'">
+			<animation_group enabled="true" name="'anim_door_right'" from="20/30" to="40/30" start_time="0.307"/>
+			<set_variables var_door_open_r="0"/>
+		</sequence>
+		
+		<!--FPS-->
+		<sequence editable_state="false" name="'local_driving_enter'" triggable="false">
+			<object enabled="false" name="'g_steering_wheel'"/>
+			<object enabled="true" name="'g_steering_wheel_fps'"/>
+			<run_sequence name="'anim_door_left_close'"/>
+		</sequence>
+		<sequence editable_state="false" name="'local_driving_exit'" triggable="false">
+			<object enabled="true" name="'g_steering_wheel'"/>
+			<object enabled="false" name="'g_steering_wheel_fps'"/>
+			<run_sequence name="'anim_door_left_open'"/>
+		</sequence>
+		
+		<!--Chassis states-->
+		<sequence editable_state="false" name="'not_driving'" triggable="false">
+			<interaction enabled="true"/>
+			<body enabled="true" name="'body_chassis_static'"/>
+			<body enabled="true" name="'body_chassis_cover_static'" filter="'filter_include_cover'" />
+			<body enabled="true" name="'body_chassis_cage_static'" filter="'filter_include_cage'" />
+			<body enabled="true" name="'body_door_left_static'"/>
+			<body enabled="true" name="'body_door_right_static'"/>
+			
+			<body enabled="false" name="'body_chassis'"/>
+			<body enabled="false" name="'body_chassis_cover'"/>
+			<body enabled="false" name="'body_chassis_cage'"/>
+			<body enabled="false" name="'body_door_left_chassis'"/>
+			<body enabled="false" name="'body_door_right_chassis'"/>
+			<slot slot="39"/>
+		</sequence>
+		<sequence editable_state="false" name="'driving'" triggable="false">
+			<function extension="'base'" function="'store_current_pos'"/>
+			<animation_redirect name="'to_m35_truck_stop'"/>
+			<run_sequence name="'stop_ai_driving'"/>
+			<interaction enabled="true"/>
+			<body enabled="false" name="'body_chassis_static'"/>
+			<body enabled="false" name="'body_chassis_cover_static'"/>
+			<body enabled="false" name="'body_chassis_cage_static'"/>
+			<body enabled="false" name="'body_door_left_static'"/>
+			<body enabled="false" name="'body_door_right_static'"/>
+			
+			<body enabled="true" name="'body_chassis'"/>
+			<body enabled="true" name="'body_chassis_cover'" filter="'filter_include_cover'" />
+			<body enabled="true" name="'body_chassis_cage'" filter="'filter_include_cage'" />
+			<body enabled="true" name="'body_door_left_chassis'"/>
+			<body enabled="true" name="'body_door_right_chassis'"/>
+			<!-- <light enabled="true" name="'light_interior'"/> -->
+			<slot slot="39"/>
+		</sequence>
+		
+		<!--Headlights-->
+		<sequence editable_state="false" name="'state_light_head_on'" triggable="false">
+			<light enabled="true" name="'light_head'"/>
+			<light enabled="true" name="'light_head_projection'"/>
+			<object enabled="true" name="'g_lights_front_effect'"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_light_head_off'" triggable="false">
+			<light enabled="false" name="'light_head'"/>
+			<light enabled="false" name="'light_head_projection'"/>
+			<object enabled="false" name="'g_lights_front_effect'"/>
+		</sequence>
+		
+		<!--Interaction GUI-->
+		<sequence editable_state="false" name="'state_vis_icon_entry_enabled'" triggable="false">
+			<graphic_group name="'grp_icon_entry'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_vis_icon_entry_disabled'" triggable="false">
+			<graphic_group name="'grp_icon_entry'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_vis_icon_loot_enabled'" triggable="false">
+			<graphic_group name="'grp_icon_loot'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_vis_icon_loot_disabled'" triggable="false">
+			<graphic_group name="'grp_icon_loot'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_vis_icon_repair_enabled'" triggable="false">
+			<graphic_group name="'grp_icon_repair'" visibility="true"/>
+		</sequence>
+		<sequence editable_state="false" name="'state_vis_icon_repair_disabled'" triggable="false">
+			<graphic_group name="'grp_icon_repair'" visibility="false"/>
+		</sequence>
+		
+		<!--Damage States-->
+		<sequence editable_state="false" name="'int_seq_repaired'" triggable="false">
+			<effect_spawner enabled="false" name="'es_smoke_full'"/>
+			<effect_spawner enabled="false" name="'es_smoke_med'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_med_damaged'" triggable="false">
+			<effect_spawner enabled="true" name="'es_smoke_med'"/>
+			<effect_spawner enabled="false" name="'es_smoke_full'"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_full_damaged'" triggable="false">
+			<effect_spawner enabled="false" name="'es_smoke_med'"/>
+			<effect_spawner enabled="true" name="'es_smoke_full'"/>
+		</sequence>
+		
+		<!--Ai Driver Wheels-->
+		<sequence editable_state="true" name="'state_enable_real_wheels'" triggable="true">
+			<graphic_group name="'grp_real_wheels'" visibility="true"/>
+			<graphic_group name="'grp_fake_wheels'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_enable_fake_wheels'" triggable="true">
+			<graphic_group name="'grp_real_wheels'" visibility="false"/>
+			<graphic_group name="'grp_fake_wheels'" visibility="true"/>
+		</sequence>
+		
+		<!-- Driver Hitbox -->
+		<body name="'body_driver_hitbox'">
+			<endurance damage="1">
+				<run_sequence name="'killed_driver'"/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name="'killed_driver'" triggable="true" once="true">
+			<function
+				extension="'spawn_manager'"
+				function="'spawn_run_sequence'"
+				param1="'unit_truck_driver'"
+				param2="'killed_driver_m35_truck'"
+			/>
+			<body enabled="false" name="'body_driver_hitbox'"/>
+			<run_sequence name="'stop_ai_driving'"/> <!--replace with slow stopping when animations are in-->
+			<run_sequence name="'anim_door_left_open'"/>
+			<run_sequence name="'state_interaction_enabled'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'spawn_driver'" triggable="true">
+			<run_sequence name="'state_interaction_disabled'"/>
+			<body enabled="true" name="'body_driver_hitbox'"/>
+			<function
+				extension="'spawn_manager'"
+				function="'spawn_unit'"
+				param1="'unit_truck_driver'"
+				param2="'rp_anim_car'"
+				param3="'units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver'"
+			/>
+			<function
+				extension="'spawn_manager'"
+				function="'spawn_run_sequence'"
+				param1="'unit_truck_driver'"
+				param2="'start_driver_m35_truck'"
+			/>
+		</sequence>
+		
+		<!--Ai Animations-->
+		<sequence editable_state="true" name="'stop_ai_driving'" triggable="true" once="true">
+			<function extension="'base'" function="'store_current_pos'"/>
+			<animation_redirect name="'to_m35_truck_stop'"/>
+			<run_sequence name="'state_enable_real_wheels'"/>
+			<function extension="'spawn_manager'" function="'remove_unit'" param1="'unit_truck_driver'" start_time="60"	/> <!--look into cleaner method-->
+		</sequence>
+		<sequence editable_state="true" name="'test_drive'" triggable="true">
+			<run_sequence name="'state_enable_fake_wheels'"/>
+			<run_sequence name="'spawn_driver'"/>
+			<function extension="'base'" function="'store_current_pos'"/>
+			<function extension="'vehicle_driving'" function="'_start_engine_sound'" />
+			<animation_redirect name="'to_m35_truck_test'"/>
+			<animation_redirect name="'to_m35_truck_wheels_loop'"/>
+		</sequence>
+		
+	</unit>
+</table>

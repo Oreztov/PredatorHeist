@@ -1,0 +1,6 @@
+<unit type="pre" slot="1">
+	<object file="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

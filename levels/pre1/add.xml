@@ -1,4 +1,11 @@
-<table>
+<table directory="assets">
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" unload="true"/>
+		<model path="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" unload="true"/>
+		<object path="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" unload="true"/>
+		<texture path="units/pd2_mod_pre/crystal_tunnel/crystal_il" unload="true"/>
+		<unit load="true" path="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" unload="true"/>
+	</add>
 	<add unload_on_restart="true">
 		<unit load="true" path="units/payday2/characters/ene_rebel_4/ene_rebel_4"/>
 		<unit load="true" path="units/payday2/characters/ene_rebel_4/ene_rebel_4_husk"/>
@@ -1487,8 +1494,47 @@
 		<unit path="units/pd2_dlc_mad/nature/mad_rocks/mad_rock_small_snowy_brush"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_jerry/terrain/jry_rock_03" type="unit">
-		<unit path="units/pd2_dlc_jerry/terrain/jry_rock_03"/>
-		<object path="units/pd2_dlc_jerry/terrain/jry_rock_03"/>
 		<material_config path="units/pd2_dlc_jerry/terrain/jry_terrain"/>
+		<object path="units/pd2_dlc_jerry/terrain/jry_rock_03"/>
+		<unit path="units/pd2_dlc_jerry/terrain/jry_rock_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/air_backdrop/air_backdrop" type="unit">
+		<material_config path="units/payday2/architecture/air_backdrop/air_backdrop"/>
+		<object path="units/payday2/architecture/air_backdrop/air_backdrop"/>
+		<unit path="units/payday2/architecture/air_backdrop/air_backdrop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/characters/wld_goat_1/wld_goat_1" type="unit">
+		<unit path="units/pd2_dlc_peta/characters/wld_goat_1/wld_goat_1"/>
+		<object path="units/pd2_dlc_peta/characters/wld_goat_1/wld_goat_1"/>
+		<material_config path="units/pd2_dlc_peta/characters/wld_goat_1/wld_goat_1"/>
+		<sequence_manager path="units/pd2_dlc_peta/characters/wld_goat_1/wld_goat_1"/>
+		<unit path="units/pd2_dlc_peta/pickups/pta_pku_goatbag/pta_pku_goatbag"/>
+		<object path="units/pd2_dlc_peta/pickups/pta_pku_goatbag/pta_pku_goatbag"/>
+		<material_config path="units/pd2_dlc_peta/pickups/pta_pku_goatbag/pta_pku_goatbag"/>
+		<sequence_manager path="units/pd2_dlc_peta/pickups/pta_pku_goatbag/pta_pku_goatbag"/>
+		<effect load="true" path="effects/payday2/particles/dye_pack/dye_pack_smoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/bag_explosion"/>
+		<effect load="true" path="effects/particles/explosions/burnpuff"/>
+		<animation_def path="anims/pd2_dlc_peta/goat_state_machine/goat"/>
+		<animation_state_machine path="anims/pd2_dlc_peta/goat_state_machine/goat"/>
+		<animation_states path="anims/pd2_dlc_peta/goat_state_machine/std"/>
+		<animation_subset path="anims/pd2_dlc_peta/goat_state_machine/std"/>
+		<bnk path="soundbanks/goat_sfx"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_survivors_pickaxe/sah_prop_survivors_pickaxe" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_survivors_pickaxe/sah_prop_survivors_pickaxe"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_survivors_pickaxe/sah_prop_survivors_pickaxe"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_survivors_pickaxe/sah_prop_survivors_pickaxe"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_survivors_pickaxe/sah_prop_survivors_pickaxe"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_hobo_bucket/brb_prop_hobo_bucket_a" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_hobo_bucket/brb_prop_hobo_bucket"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_hobo_bucket/brb_prop_hobo_bucket_a"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_hobo_bucket/brb_prop_hobo_bucket_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket" type="unit">
+		<unit path="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket"/>
+		<material_config path="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket"/>
 	</add>
 </table>

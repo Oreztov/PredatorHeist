@@ -45,7 +45,7 @@
 			<unit_data _prev_pos="-1900 -3080 1000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_custom_alex/pnau_terrain_custom_alex_a" name_id="pnau_terrain_custom_alex_a_001" position="-1900 -3080 1000" rotation="0 0 -0.707107 -0.707107" unit_id="100001"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1560 -10950 1400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-1730 -11380 850" local_rot="0 0 0.707107 0.707107" name="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar" name_id="pnau_terrain_custom_turfwar_001" position="1560 -10950 2400" rotation="0 0 -0.707107 -0.707107" unit_id="100002"/>
+			<unit_data _prev_pos="1560 -10950 2400" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_turfwar" name_id="pnau_terrain_custom_turfwar_001" position="1560 -10950 2400" rotation="0 0 -0.707107 -0.707107" unit_id="100002"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="693.405 7924.74 640" _prev_rot="-0.0161239 -0.00667874 0.923739 -0.382625" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_road_hill/pnau_terrain_road_hill_left_90" name_id="pnau_terrain_road_hill_left_90_001" position="693.405 7924.74 640" rotation="-0.0161239 -0.00667874 0.923739 -0.382625" unit_id="100003"/>
@@ -855,7 +855,7 @@
 			<unit_data _prev_pos="-2435.18 -6884.19 2662" _prev_rot="0 0 -0.587786 -0.809017" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_012" position="-2435.18 -6884.19 2662" rotation="0 0 -0.587786 -0.809017" unit_id="100290"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1779.34 -8729.74 2408.01" _prev_rot="0 0 0.743145 -0.669131" continent="world" instance_data="false" local_pos="-2226.56 -1194.05 -752.99" local_rot="0 0 -0.994522 0.104528" name="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a" name_id="pnau_backdrop_forest_segment_02_a_006" position="-1886.26 -9058.81 2408.01" rotation="0 0 0.743145 -0.669131" unit_id="100291"/>
+			<unit_data _prev_pos="-1886.26 -9058.81 2408.01" _prev_rot="0 0 0.743145 -0.669131" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a" name_id="pnau_backdrop_forest_segment_02_a_006" position="-1886.26 -9058.81 2408.01" rotation="0 0 0.743145 -0.669131" unit_id="100291"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-7260.3 -4971.54 3161" _prev_rot="0 0 -0.587786 -0.809017" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_013" position="-7260.3 -4971.54 2913" rotation="0 0 -0.587786 -0.809017" unit_id="100292"/>
@@ -867,7 +867,7 @@
 			<unit_data _prev_pos="-1886.26 -9058.81 2408.01" _prev_rot="0 0 0.743145 -0.669131" continent="world" instance_data="false" local_pos="-2226.56 -1194.05 -752.99" local_rot="0 0 -0.994522 0.104528" name="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a" name_id="pnau_backdrop_forest_segment_02_a_007" position="-6812.73 -7458.11 2408.01" rotation="0 0 0.743145 -0.669131" unit_id="100294"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-12227.1 -5746.33 3289.14" _prev_rot="0 0 0.48481 -0.87462" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_002" position="-12227.1 -5746.33 3269.14" rotation="0 0 0.48481 -0.87462" unit_id="100295"/>
+			<unit_data _prev_pos="-12227.1 -5746.33 2939.14" _prev_rot="0 0 0.48481 -0.87462" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_002" position="-9793.2 -4225.46 2939.14" rotation="0 0 0.48481 -0.87462" unit_id="100295"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="4960.67 -4676.3 1605.5" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_full" name_id="vegetation_treestall_gentalltree_full_007" position="4960.67 -4676.3 1605.5" rotation="0 0 0 -1" unit_id="100296"/>
@@ -4727,7 +4727,7 @@
 			<unit_data _prev_pos="13457.9 7451.23 -110" _prev_rot="0 0 0.996917 0.0784594" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v3" name_id="pnau_terrain_rock_edge_01_c_v3_014" position="13457.9 7451.23 -110" rotation="0 0 0.996917 0.0784594" unit_id="101488"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="8136.93 6034.89 815.664" _prev_rot="-0 -0 0.156435 -0.987688" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v3" name_id="pnau_terrain_rock_edge_01_c_v3_015" position="8226.06 6373.94 815.664" rotation="-0 -0 0.156435 -0.987688" unit_id="100011"/>
+			<unit_data _prev_pos="8226.06 6373.94 625.664" _prev_rot="0 0 0.156435 -0.987688" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_c_v3" name_id="pnau_terrain_rock_edge_01_c_v3_015" position="8226.06 6373.94 625.664" rotation="0 0 0.156435 -0.987688" unit_id="100011"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="6877.82 7188.9 -186" _prev_rot="0 0 0.986286 0.165048" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d" name_id="pnau_terrain_rock_edge_01_d_021" position="6877.82 7188.9 -186" rotation="0 0 0.986286 0.165048" unit_id="100202"/>
@@ -4739,13 +4739,10 @@
 			<unit_data _prev_pos="10625.6 7843.62 -840" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_b_v3" name_id="pnau_terrain_rock_edge_01_b_011" position="10625.6 7843.62 -840" rotation="0 0 0 -1" unit_id="101489"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="11640 6275 -106" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_mex/architecture/mex_tunnel_entrance/mex_tunnel_entrance_shack" name_id="mex_tunnel_entrance_shack_001" position="11640 6275 -106" rotation="0 0 1 -4.37114e-008" unit_id="101491"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="11629.4 6647.35 -119" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_plane" name_id="pnau_terrain_rock_plane_007" position="11629.4 6647.35 -119" rotation="0 0 0 -1" unit_id="101479"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="11312 6251 -106" _prev_rot="0 0 1 4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_closed" name="units/pd2_dlc_mex/props/mex_prop_mountain_door/mex_prop_mountain_door" name_id="mex_prop_mountain_door_001" position="11312 6251 -106" rotation="0 0 1 4.37114e-008" unit_id="101480"/>
+			<unit_data _prev_pos="11312 6251 -106" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_door_opened" name="units/pd2_dlc_mex/props/mex_prop_mountain_door/mex_prop_mountain_door" name_id="mex_prop_mountain_door_001" position="11312 6251 -106" rotation="0 0 1 -4.37114e-008" unit_id="101480"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="11209 6257 119.324" _prev_rot="0.5 0.5 -0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_beam_big" name_id="ind_ext_outdoor_beam_big_121" position="11209 6257 118.324" rotation="0.5 0.5 -0.5 -0.5" unit_id="101481"/>
@@ -4931,7 +4928,7 @@
 			<unit_data _prev_pos="-4915.61 24219.6 2950" _prev_rot="0 0 -0.333807 -0.942641" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_001" position="-4915.61 24219.6 2950" rotation="0 0 -0.333807 -0.942641" unit_id="101548"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1240.82 27120.4 2380" _prev_rot="0 0 0.0523358 -0.99863" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_003" position="1240.82 27120.4 2380" rotation="0 0 0.0523358 -0.99863" unit_id="101549"/>
+			<unit_data _prev_pos="1240.82 27120.4 2380" _prev_rot="0 0 0.0523358 -0.99863" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_003" position="1240.82 27120.4 2560" rotation="0 0 0.0523358 -0.99863" unit_id="101549"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3666.83 21745 1411.27" _prev_rot="0 0 0.350208 -0.936672" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_021" position="-3764.94 21830.3 1411.27" rotation="0 0 0.350208 -0.936672" unit_id="101550"/>
@@ -6491,7 +6488,7 @@
 			<unit_data _prev_pos="7165.3 8079.56 1745.75" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_023" position="7165.3 8079.56 1745.75" rotation="0 0 0.707107 0.707107" unit_id="102054"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="7195.3 5979.56 1745.75" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_024" position="7395.3 6489.56 1745.75" rotation="0 0 0 -1" unit_id="102055"/>
+			<unit_data _prev_pos="7395.3 6489.56 1965.75" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_024" position="7395.3 6489.56 1965.75" rotation="0 0 0 -1" unit_id="102055"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="4519.52 14157 -247.347" _prev_rot="0 0 0.92388 0.382683" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/vegetation_treestall_gentalltree_full" name_id="vegetation_treestall_gentalltree_full_017" position="4519.52 14157 -247.347" rotation="0 0 0.92388 0.382683" unit_id="102056"/>
@@ -6552,6 +6549,156 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="1416.42 9302.48 39.8413" _prev_rot="0 0 0.891007 0.453991" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fex/nature/fex_ivy_set/fex_ivyset_01_fade_down_high_2m_01" name_id="fex_ivyset_01_fade_down_high_2m_01_004" position="1421.28 9306 39.8413" rotation="0 0 0.891007 0.453991" unit_id="102073"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11640 6275 -106" _prev_rot="3.09086e-008 0.707107 -0.707107 -3.09086e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" name_id="mex_tunnel_entrance_shack_crystal" position="11640 6275 -106" rotation="-3.09086e-008 -0.707107 0.707107 3.09086e-008" unit_id="101491"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11365.4 4113.62 -286.528" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_003" position="11365.4 4113.62 -286.528" rotation="0.707107 0 0 -0.707107" unit_id="102074"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10668.9 26129.5 2560" _prev_rot="0 0 0.0523358 -0.99863" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_004" position="10668.9 26129.5 3100" rotation="0 0 0.0523358 -0.99863" unit_id="102075"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12396.3 24015.9 2850" _prev_rot="0 0 0.430511 -0.902585" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_005" position="12396.3 24015.9 2730" rotation="0 0 0.430511 -0.902585" unit_id="102076"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18431.2 16484.5 2640" _prev_rot="0 0 0.45399 -0.891007" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_006" position="18237.8 16393.5 2640" rotation="0 0 0.45399 -0.891007" unit_id="102077"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="20093.4 9657.27 2540" _prev_rot="0 0 0.566406 -0.824126" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_007" position="20093.4 9657.27 2540" rotation="0 0 0.566406 -0.824126" unit_id="102078"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2506.11 -9442.06 2939.14" _prev_rot="0 0 0.113203 -0.993572" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_008" position="-1999.42 -9292.21 2939.14" rotation="0 0 0.113203 -0.993572" unit_id="102079"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7152.89 -7502.86 2939.14" _prev_rot="0 0 -0.275637 -0.961262" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_009" position="7831.24 -8022.32 2939.14" rotation="0 0 -0.275637 -0.961262" unit_id="102080"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="16577 4419.19 2540" _prev_rot="0 0 0.838671 -0.544639" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_010" position="17309.4 4859.37 2540" rotation="0 0 0.838671 -0.544639" unit_id="102081"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12775.8 -1033.75 2540" _prev_rot="0 0 0.983255 -0.182236" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_02" name_id="backdrop_trees_back_02_011" position="13712.3 -738.561 2540" rotation="0 0 0.983255 -0.182236" unit_id="102082"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8640 7640 2380" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_trees_back_01" name_id="backdrop_trees_back_01_005" position="-8640 7640 2650" rotation="0 0 -0.707107 -0.707107" unit_id="102083"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10159.3 1217.04 1026.92" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a" name_id="pnau_backdrop_forest_segment_02_a_010" position="10159.3 1217.04 1026.92" rotation="0 0 0.707107 -0.707107" unit_id="102084"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15070 15850 0" _prev_rot="0 0 0.92388 -0.382683" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a" name_id="pnau_backdrop_forest_segment_02_a_012" position="15070 15850 0" rotation="0 0 0.92388 -0.382683" unit_id="102086"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11940 20530 0" _prev_rot="0 0 0.92388 -0.382683" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a" name_id="pnau_backdrop_forest_segment_02_a_013" position="11940 20530 630" rotation="0 0 0.92388 -0.382683" unit_id="102087"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="8260.32 3887.72 1804.23" _prev_rot="0 0 -0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_025" position="8260.32 3887.72 1804.23" rotation="0 0 -0.382683 -0.92388" unit_id="102088"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10588.5 2869.98 1408.03" _prev_rot="0 0 -0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_026" position="10588.5 2869.98 1408.03" rotation="0 0 -0.766044 -0.642788" unit_id="102089"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12747.7 3807.96 1040.24" _prev_rot="0 0 0.898794 0.438371" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_027" position="13024.7 3453.35 1040.24" rotation="0 0 0.898794 0.438371" unit_id="102090"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14301.1 5901.84 1068.48" _prev_rot="0 0 0.992546 0.121869" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_028" position="14456.6 5450.82 1068.48" rotation="0 0 0.992546 0.121869" unit_id="102091"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14670.2 7885.16 1042.65" _prev_rot="0 0 0.992546 0.121869" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_029" position="15179.6 7902.46 1042.65" rotation="0 0 0.992546 0.121869" unit_id="102092"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14701.4 13783.6 558.764" _prev_rot="0 0 0.96363 -0.267238" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_030" position="14701.4 13783.6 558.764" rotation="0 0 0.96363 -0.267238" unit_id="102093"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13310.8 16097.9 558.764" _prev_rot="0 0 0.96363 -0.267238" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_031" position="13310.8 16097.9 558.764" rotation="0 0 0.96363 -0.267238" unit_id="102094"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12071.9 18865.8 499.18" _prev_rot="0 0 0.898794 -0.438371" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_032" position="12297.7 19057.4 499.181" rotation="0 0 0.898794 -0.438371" unit_id="102095"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15929.4 10963.2 558.764" _prev_rot="0 0 0.984808 -0.173648" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_033" position="15693.4 11611.6 558.764" rotation="0 0 0.984808 -0.173648" unit_id="102085"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="15893.8 9832.88 558.764" _prev_rot="0 0 0.984808 -0.173648" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/backdrop_veg_wall" name_id="backdrop_veg_wall_034" position="15893.8 9832.88 558.764" rotation="0 0 0.987688 0.156434" unit_id="102096"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="17099.4 11713.4 0" _prev_rot="-0.0909992 -0.0673359 0.982658 -0.146859" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_backdrop_forest_segment/pnau_backdrop_forest_segment_02_a" name_id="pnau_backdrop_forest_segment_02_a_014" position="17099.4 11713.4 0" rotation="-0.0909992 -0.0673359 0.982658 -0.146859" unit_id="102097"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="8890.79 9036 714.081" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_029" position="8890.79 9036 714.081" rotation="0 0 0 -1" unit_id="102098"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="9127.15 7584.02 820.467" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_030" position="9127.15 7584.02 820.467" rotation="0 0 0 -1" unit_id="102099"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="9185.65 6324.16 864.467" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_031" position="9185.65 6324.16 864.467" rotation="0 0 0 -1" unit_id="102100"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="9724.79 4751.71 986.41" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_032" position="9724.79 4751.71 986.41" rotation="0 0 0 -1" unit_id="102101"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10510.4 3739.5 975.004" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_033" position="10510.4 3739.5 975.004" rotation="0 0 0 -1" unit_id="102102"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12147.1 3927.3 986.818" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_034" position="12147.1 3927.3 986.818" rotation="0 0 0 -1" unit_id="102103"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13467.6 5308.18 1034.37" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_035" position="13467.6 5308.18 1034.37" rotation="0 0 0 -1" unit_id="102104"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13742.3 7016.33 1043.98" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_036" position="13742.3 7016.33 1043.98" rotation="0 0 0 -1" unit_id="102105"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14099.1 8439.41 1032.59" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_037" position="14099.1 8439.41 1032.59" rotation="0 0 0 -1" unit_id="102106"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="14777.1 10325.4 526.312" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_038" position="14777.1 10325.4 526.312" rotation="0 0 0 -1" unit_id="102107"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13861.8 12478.9 556.83" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_039" position="13861.8 12478.9 556.83" rotation="0 0 0 -1" unit_id="102108"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="13137.4 14007.8 404.377" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_040" position="13137.4 14007.8 404.377" rotation="0 0 0 -1" unit_id="102109"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12035.3 17467.6 396.577" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_041" position="12035.3 17467.6 396.577" rotation="0 0 0 -1" unit_id="102110"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="12401.9 15278.1 631.046" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_jerry/vegetation/jry_bdrop_trees/jry_bdrop_tree_c" name_id="jry_bdrop_tree_c_042" position="12401.9 15278.1 631.046" rotation="0 0 0 -1" unit_id="102111"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2666.53 -1232 335.136" _prev_rot="0 0 0.92388 -0.382683" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/largeleavebushbig_03" name_id="largeleavebushbig_03_012" position="2666.53 -1232 335.136" rotation="0 0 0.92388 -0.382683" unit_id="102112"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2458.1 -1317.96 365.719" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/bush/bushthickleaves/bush_thickleaves_06" name_id="bush_thickleaves_06_034" position="2458.1 -1317.96 365.719" rotation="0 0 0 -1" unit_id="102113"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2982.19 -1373.24 282.343" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/fanpalmbushbig_02" name_id="fanpalmbushbig_02_019" position="2982.19 -1373.24 282.343" rotation="0 0 0 -1" unit_id="102114"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3218.05 -1379.29 245.27" _prev_rot="0 -0.0958458 0 -0.995396" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_casino/vegetation/sfm_veg_bush_windmillpalm/sfm_veg_bush_windmillpalm_small" name_id="sfm_veg_bush_windmillpalm_small_009" position="3218.05 -1396.29 245.27" rotation="0 -0.0958458 0 -0.995396" unit_id="102115"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3447.12 -1429.99 208.195" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/jungletree_small" name_id="jungletree_small_029" position="3447.12 -1429.99 208.195" rotation="0 0 0 -1" unit_id="102116"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2321.48 -1274.91 388.136" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/vegetation/jungle/thinpalmtree_02" name_id="thinpalmtree_02_015" position="2321.48 -1274.91 388.136" rotation="0 0 0 -1" unit_id="102117"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4359.43 41.8488 1321.33" _prev_rot="0 0 0.989016 0.147809" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_hedge" name_id="ind_ext_warehouse_hedge_033" position="-4336.04 118.353 1321.33" rotation="0 0 0.989016 0.147809" unit_id="102118"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4300.25 -1608.21 933.034" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_medium_01" name_id="pnau_terrain_rock_medium_01_003" position="-4300.25 -1608.21 873.034" rotation="0 0 0 -1" unit_id="102119"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3879.47 -1661.79 762.443" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_medium_05" name_id="pnau_terrain_rock_medium_05_004" position="-3879.47 -1808.79 762.443" rotation="0 0 0 -1" unit_id="102120"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11414.9 4937.02 -465.273" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_sah/props/sah_prop_survivors_pickaxe/sah_prop_survivors_pickaxe" name_id="sah_prop_survivors_pickaxe_001" position="11414.9 4937.02 -465.273" rotation="0 0 0 -1" unit_id="102121"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11461.9 4958.81 -497.312" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket" name_id="pta_prop_barn_bucket_001" position="11461.9 4958.81 -489.312" rotation="0 0 0 -1" unit_id="102122"/>
 		</table>
 	</statics>
 	<values>

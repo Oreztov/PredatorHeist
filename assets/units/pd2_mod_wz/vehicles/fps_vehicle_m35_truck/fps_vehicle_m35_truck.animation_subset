@@ -1,0 +1,7 @@
+<!-- Animate rootpoint if vehicle syncs in the level. -->
+
+<xml>
+	<anim	name="anim_m35_truck_test"				file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_test"					blend_set="all"/>
+	<anim	name="anim_m35_truck_wheels_loop"		file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_wheels_loop"			blend_set="wheels"/>
+	<anim	name="anim_m35_truck_wheels_stop"		file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_wheels_stop"			blend_set="wheels"/>
+</xml>

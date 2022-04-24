@@ -1,0 +1,38 @@
+<xml>
+	<state name="std" type="template_state" segment="base">
+		<default blend="0"/>
+		<to	name="to_stop"							redirect="std/empty"/>
+		<to	name="to_m35_truck_driver"				redirect="std/drive/m35_truck_driver"/>
+		<to	name="to_m35_truck_killed"				redirect="std/drive/m35_truck_killed"/>
+	</state>
+
+	<!---->
+	<state name="std/empty" type="emptyloop" segment="base">
+		<keys>
+			<key at="9" callback="anim_clbk_empty_full_blend" class_name="base"/>
+			<key at="exit" callback="anim_clbk_empty_exit" class_name="base"/>
+		</keys>
+	</state>
+
+	<!---->
+	<state name="std/drive" type="template_state" segment="base">
+		<keys>
+			<key at="enter"		callback="anim_clbk_animated_driving"	class_name="base"	param1="true"/>
+			<key at="exit"		callback="anim_clbk_animated_driving"	class_name="base"	param1="false"/>
+		</keys>
+	</state>
+	
+	<!---->
+	<state name="std/drive/m35_truck_driver" type="loop" segment="base" >
+		<anim name="anim_m35_truck_driver"/>
+		<exit name="std/empty"/>
+	</state>
+	
+	<state name="std/drive/m35_truck_killed" type="once" segment="base" >
+		<anim name="anim_m35_truck_killed"/>
+<!-- 		<keys>
+			<key at="trigger" trigger="force_ragdoll" callback="run_sequence_simple" class_name="damage" param2="'switch_to_ragdoll'"/>
+		</keys> -->
+		<exit name="std/empty"/>
+	</state>
+</xml>

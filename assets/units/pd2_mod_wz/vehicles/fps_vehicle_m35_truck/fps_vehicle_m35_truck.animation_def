@@ -1,0 +1,45 @@
+<xml>
+
+<!-- Animatable sets ------------------------------------------------------------->
+	<animatable_set name="m35_truck">
+		<!-- Root -->
+		<bone name="rp_anim_car"			alias="all root" root="true" alignment="true" />
+		<bone name="anim_body"				alias="all" />
+		<bone name="anim_fake_wheels_front"	alias="all" />
+		<bone name="anim_fake_wheels_rear"	alias="all" />
+		<bone name="anim_fake_wheels_rear2"	alias="all" />
+	</animatable_set>
+	
+
+<!-- Blend sets ------------------------------------------------------------->
+	<blend_set name="all" animatable_set="m35_truck">
+		<blend alias="all"						weight="1.0"/>
+	</blend_set>
+	
+	<blend_set name="all_no_root" animatable_set="m35_truck">
+		<blend alias="all"						weight="1.0"/>
+		<blend name="rp_anim_car"				weight="0.0"/>
+	</blend_set>
+
+	<blend_set name="root" animatable_set="m35_truck">
+		<blend name="rp_anim_car"				weight="1.0"/>
+	</blend_set>
+	
+	<blend_set name="chassis" animatable_set="m35_truck">
+		<blend name="rp_anim_car"				weight="1.0"/>
+		<blend name="anim_body"					weight="1.0"/>
+	</blend_set>
+
+	<blend_set name="wheels" animatable_set="m35_truck">
+		<blend name="anim_fake_wheels_front"	weight="1.0"/>
+		<blend name="anim_fake_wheels_rear"		weight="1.0"/>
+		<blend name="anim_fake_wheels_rear2"	weight="1.0"/>
+	</blend_set>
+	
+<!-- Animation sets ------------------------------------------------------------->
+	
+	<animation_set name="m35_truck" animatable_set="m35_truck">
+		<subset file="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck"/>
+	</animation_set>
+	
+</xml>

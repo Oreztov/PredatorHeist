@@ -1,0 +1,86 @@
+<materials version="3">
+    <material name="shadow_caster"			render_template="shadow_caster_only"				version="2" />
+    <material name="shadow_caster_2side"	render_template="shadow_caster_only:DOUBLE_SIDED"	version="2" />
+	
+    <material name="mtr_m35" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
+        <diffuse_texture		file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_df"/>
+        <bump_normal_texture	file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_nm"/>
+    </material>
+    <material name="mtr_m35_fps" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
+        <diffuse_texture		file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_df"/>
+        <bump_normal_texture	file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_nm"/>
+    </material>
+    <material name="mtr_m35_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2" >
+        <diffuse_texture		file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_df" mip="6"/>
+        <bump_normal_texture	file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_nm" mip="6"/>
+    </material>
+	
+    <material name="mtr_windows" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE" version="2" >
+        <variable value="0 1 0.59999996423721" type="vector3" name="fresnel_settings"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_vehicle_op"/>
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="10 4000 0" type="vector3" name="opacity_fade"/>
+    </material>
+    <material name="cone_light" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/world/street/street_lights/cone_light_df"/>
+        <variable value="2" type="scalar" name="falloff_exp"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+    </material>
+
+
+    <material name="mtr_ls_left" version="2" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_TINT">
+        <variable value="light::color" type="listener" name="il_tint" object="ls_left"/>
+        <diffuse_texture file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_light_df"/>
+        <self_illumination_texture file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_light_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+        <variable value="0" type="scalar" name="specular_power"/>
+    </material>
+    <material name="mtr_ls_right" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_TINT" version="2" >
+        <variable value="light::color" type="listener" name="il_tint" object="ls_right"/>
+        <diffuse_texture file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_light_df"/>
+        <self_illumination_texture file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_light_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+        <variable value="0" type="scalar" name="specular_power"/>
+    </material>
+    <material name="mtr_ls_rear" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_TINT" version="2" >
+        <variable value="light::color" type="listener" name="il_tint" object="ls_rear"/>
+        <diffuse_texture file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_light_rear_df"/>
+        <self_illumination_texture file="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck_light_rear_il"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+        <variable value="0" type="scalar" name="specular_power"/>
+    </material>
+	
+	<!--GUI-->
+    <material name="hud_brackets" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_brackets_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_indicator_driver" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_drive_driver_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_indicator_passenger" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_drive_passenger_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_indicator_repair" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_drive_repair_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_indicator_trunk" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_drive_trunk_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material version="2" unique="true" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_contour">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="0 1 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+</materials>

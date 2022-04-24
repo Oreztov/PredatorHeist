@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="fps_vehicle_m35_truck.glb" type="gltf" create_objects="true"/>
+	<animation file="fps_vehicle_m35_truck.animation"/>
+	<animation file="fps_vehicle_m35_truck_doors.animation"/>
+</modelscript>

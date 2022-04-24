@@ -17,6 +17,9 @@
 		</script_data_mods>
 	</level>
 	<level ai_group_type="America" briefing_dialog="" id="pre2" intro_event="" max_bags="54" player_style="generic">
+		<hooks directory="hooks">
+			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+		</hooks>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -216,4 +219,11 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<instance id="test">
+		<packages>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_surface/world"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_surface/world_sounds"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_surface/world/world"/>
+		</packages>
+	</instance>
 </table>

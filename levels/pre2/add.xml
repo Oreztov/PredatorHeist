@@ -1,7 +1,258 @@
 <table directory="assets">
+	<add unload_on_restart="true">
+		<unit load="true" path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<object path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<model path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<sequence_manager path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<material_config path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation_def path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation_state_machine path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation_states path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation_subset path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_test" unload="true"/>
+		<animation path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_wheels_loop" unload="true"/>
+		<animation path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_wheels_stop" unload="true"/>
+		<unit load="true" path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<object path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<model path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<sequence_manager path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<material_config path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation_def path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation_state_machine path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation_states path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation_subset path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation path="units/pd2_mod_wz/vehicles/vehicle_driver/anims/anim_m35_truck_driver" unload="true"/>
+		<animation path="units/pd2_mod_wz/vehicles/vehicle_driver/anims/anim_m35_truck_killed" unload="true"/>
+		<unit load="true" path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true"/>
+		<object path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true"/>
+		<model path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true"/>
+		<sequence_manager path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true"/>
+		<material_config path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_military_missileammobox/mad_prop_military_missileammobox" type="unit">
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_military_missileammobox/mad_prop_military_missileammobox"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_military_missileammobox/mad_prop_military_missileammobox"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_military_missileammobox/mad_prop_military_missileammobox"/>
+	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
 		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox" type="unit">
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_military_missileammobox/vit_prop_military_missileammobox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door_concrete" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door_concrete"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door_concrete"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_transition_area" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_transition_area"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_transition_area"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_tunnels" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_tunnels"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_tunnels"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_a" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_a"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_cliffs" type="unit">
+		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks"/>
+		<object path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_cliffs"/>
+		<unit path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_cliffs"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_road_vista" type="unit">
+		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks"/>
+		<object path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_road_vista"/>
+		<unit path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_road_vista"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior" type="unit">
+		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks"/>
+		<object path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior"/>
+		<unit path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad_01" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad_01"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad_02" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad_02"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad_03" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad_03"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_helipads/bry_helipad_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_building_exterior_helipad" type="unit">
+		<material_config path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_building_exterior_01"/>
+		<object path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_building_exterior_helipad"/>
+		<unit path="units/pd2_dlc_bph/architecture/bph_ext/bph_ext_building_exterior_helipad"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_office_building/bry_ground_02" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_office_building/bry_office_building"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_office_building/bry_ground_02"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_office_building/bry_ground_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_rooftop_ladder_a/ind_prop_rooftop_ladder_b_mid" type="unit">
+		<material_config path="units/payday2/props/ind_prop_rooftop_ladder_a/ind_prop_rooftop_ladder_a"/>
+		<object path="units/payday2/props/ind_prop_rooftop_ladder_a/ind_prop_rooftop_ladder_b_mid"/>
+		<unit path="units/payday2/props/ind_prop_rooftop_ladder_a/ind_prop_rooftop_ladder_b_mid"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_moutain_powertower/bry_prop_mountain_powertower" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_moutain_powertower/bry_prop_mountain_powertower"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_moutain_powertower/bry_prop_mountain_powertower"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_moutain_powertower/bry_prop_mountain_powertower"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_b_v2" type="unit">
+		<material_config path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_instanced_v2"/>
+		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_b_v2"/>
+		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_b_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate_v2" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate_v2"/>
+		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate_v2"/>
+		<sequence_manager path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate"/>
+		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_gate_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor" type="unit">
+		<unit path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor"/>
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor_damage"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor_damage"/>
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor_damage"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<sequence_manager path="units/pd2_dlc_berry/props/bry_prop_mountain_blastdoor/bry_prop_mountain_blastdoor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b2_cupped" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b2_cupped"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b2_cupped"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_base"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c_outer_corner"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b_ending"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_support_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_v3" type="unit">
+		<unit path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_v3"/>
+		<object path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_v3"/>
+		<material_config path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_01"/>
+		<sequence_manager path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_v3"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="effects/particles/explosions/explosion_grenade"/>
+		<bnk path="soundbanks/regular_sfx"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_fixed_open" type="unit">
+		<material_config path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_01"/>
+		<object path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_fixed_open"/>
+		<unit path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_03_fixed_open"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_industrial_lift/bry_prop_industrial_lift" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_industrial_lift/bry_prop_industrial_lift"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_industrial_lift/bry_prop_industrial_lift"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_industrial_lift/bry_prop_industrial_lift"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_2m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_2m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_ending" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_ending"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_ending"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_1m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_1m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_office_building/bry_office_building_03" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_office_building/bry_office_building"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_office_building/bry_office_building_03"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_office_building/bry_office_building_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_miltary_radar/vit_prop_miltary_radar" type="unit">
+		<effect load="true" path="effects/payday2/particles/explosions/radar_explosion"/>
+		<effect load="true" path="effects/payday2/particles/explosions/explosion_parts/fire_burnpuff_small_light"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_miltary_radar/vit_prop_miltary_radar"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_miltary_radar/vit_prop_miltary_radar"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_miltary_radar/vit_prop_miltary_radar"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_miltary_radar/vit_prop_miltary_radar"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_military_radar/mad_prop_miltary_radar" type="unit">
+		<effect load="true" path="effects/payday2/particles/explosions/radar_explosion"/>
+		<effect load="true" path="effects/payday2/particles/explosions/explosion_parts/fire_burnpuff_small_light"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_military_radar/mad_prop_miltary_radar"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_military_radar/mad_prop_miltary_radar"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_military_radar/mad_prop_miltary_radar"/>
+		<unit path="units/pd2_dlc_mad/props/mad_prop_military_radar/mad_prop_miltary_radar"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_miltary_sam/vit_prop_miltary_sam" type="unit">
+		<effect load="true" path="effects/payday2/particles/fire/fire_trail_missile"/>
+		<effect load="true" path="effects/payday2/particles/explosions/burnpuff"/>
+		<animation_def path="anims/units/level/mad/sam_site/def"/>
+		<animation_state_machine path="anims/units/level/mad/sam_site/machine"/>
+		<animation_states path="anims/units/level/mad/sam_site/states"/>
+		<animation_subset path="anims/units/level/mad/sam_site/anims"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_miltary_sam/vit_prop_miltary_sam"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_miltary_sam/vit_prop_miltary_sam"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_miltary_sam/vit_prop_miltary_sam"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_miltary_sam/vit_prop_miltary_sam"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/props/mad_prop_military_sam/mad_prop_miltary_sam" type="unit">
+		<unit path="units/pd2_dlc_mad/props/mad_prop_military_sam/mad_prop_miltary_sam"/>
+		<object path="units/pd2_dlc_mad/props/mad_prop_military_sam/mad_prop_miltary_sam"/>
+		<material_config path="units/pd2_dlc_mad/props/mad_prop_military_sam/mad_prop_miltary_sam"/>
+		<sequence_manager path="units/pd2_dlc_mad/props/mad_prop_military_sam/mad_prop_miltary_sam"/>
+		<animation_def path="anims/units/level/mad/sam_site/def"/>
+		<animation_subset path="anims/units/level/mad/sam_site/anims"/>
+		<animation_state_machine path="anims/units/level/mad/sam_site/machine"/>
+		<animation_states path="anims/units/level/mad/sam_site/states"/>
+		<effect load="true" path="effects/payday2/particles/fire/fire_trail_missile"/>
 	</add>
 </table>
