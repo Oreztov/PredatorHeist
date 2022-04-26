@@ -24,7 +24,10 @@
 			<asset name="bodybags_bag"/>
 		</assets>
 		<hooks directory="hooks">
+			<hook file="CharacterTweakData.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
+			<hook file="PredatorActionShoot.lua" source_file="lib/units/enemies/cop/copmovement"/>
+			<hook file="PredatorLogicAttack.lua" source_file="lib/units/enemies/cop/copbrain"/>
 		</hooks>
 		<outro_event>
 			<value_node value=""/>
