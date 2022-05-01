@@ -1628,8 +1628,11 @@
 		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2" type="unit">
-		<unit path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2"/>
-		<object path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2"/>
 		<material_config path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt"/>
+		<object path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2"/>
+		<unit path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2"/>
+	</add>
+	<add from_db="true" path="effects/particles/fire/large_light_fire" type="effect">
+		<effect load="true" path="effects/particles/fire/large_light_fire"/>
 	</add>
 </table>

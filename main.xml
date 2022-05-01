@@ -1,7 +1,4 @@
 <table min_lib_ver="4.5" name="PredatorHeist">
-	<Elements directory="elements">
-		<element name="ExpandedModifyPlayer"/> <!-- Remove this if I ever get around to PRing this into BeardLib -Cpone --> 
-	</Elements>
 	<level ai_group_type="America" briefing_dialog="" id="pre1" intro_event="" max_bags="54" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
@@ -9,6 +6,13 @@
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
+		<hooks directory="hooks">
+			<hooks directory="slide_player_state">
+				<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+				<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>
+				<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
+			</hooks>
+		</hooks>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
@@ -18,14 +22,6 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
-		<hooks directory="hooks">
-			<hooks directory="slide_player_state">
-				<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
-
-				<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>
-				<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
-			</hooks>
-		</hooks>
 	</level>
 	<level ai_group_type="America" briefing_dialog="" id="pre2" intro_event="" max_bags="54" player_style="generic">
 		<assets>
@@ -39,10 +35,8 @@
 			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="PredatorActionShoot.lua" source_file="lib/units/enemies/cop/copmovement"/>
 			<hook file="PredatorLogicAttack.lua" source_file="lib/units/enemies/cop/copbrain"/>
-
 			<hooks directory="slide_player_state">
 				<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
-
 				<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>
 				<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
 			</hooks>
@@ -50,7 +44,9 @@
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
-		<packages/>
+		<packages>
+			<value_node value="levels/narratives/dentist/mia/stage2/world/world"/>
+		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
@@ -237,6 +233,9 @@
 	</narrative>
 	<AddFiles directory="assets"/>
 	<AssetUpdates id="-1" provider="modworkshop" version="1"/>
+	<Elements directory="elements">
+		<element name="ExpandedModifyPlayer"/>
+	</Elements>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
