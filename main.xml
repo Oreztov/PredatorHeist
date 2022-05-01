@@ -1,4 +1,7 @@
 <table min_lib_ver="4.5" name="PredatorHeist">
+	<Elements directory="elements">
+		<element name="ExpandedModifyPlayer"/> <!-- Remove this if I ever get around to PRing this into BeardLib -Cpone --> 
+	</Elements>
 	<level ai_group_type="America" briefing_dialog="" id="pre1" intro_event="" max_bags="54" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
