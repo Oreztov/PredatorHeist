@@ -1533,8 +1533,103 @@
 		<unit path="units/pd2_dlc_brb/props/brb_prop_hobo_bucket/brb_prop_hobo_bucket_a"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket" type="unit">
-		<unit path="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket"/>
-		<object path="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket"/>
 		<material_config path="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket"/>
+		<unit path="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plank_2m" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank_2m"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_plywood/gen_prop_plank" type="unit">
+		<material_config path="units/payday2/props/gen_prop_plywood/gen_prop_plywood"/>
+		<object path="units/payday2/props/gen_prop_plywood/gen_prop_plank"/>
+		<unit path="units/payday2/props/gen_prop_plywood/gen_prop_plank"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_01" type="unit">
+		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rocks"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_01"/>
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_01"/>
+	</add>
+	<add from_db="true" path="units/world/environment/mansion/man_ground_ext/man_cov_rock_small_1m" type="unit">
+		<material_config path="units/world/environment/mansion/man_ground_ext/rocks"/>
+		<object path="units/world/environment/mansion/man_ground_ext/man_cov_rock_small_1m"/>
+		<unit path="units/world/environment/mansion/man_ground_ext/man_cov_rock_small_1m"/>
+	</add>
+	<add from_db="true" path="units/world/environment/mansion/man_ground_ext/man_cov_rock_small_2m" type="unit">
+		<material_config path="units/world/environment/mansion/man_ground_ext/rocks"/>
+		<object path="units/world/environment/mansion/man_ground_ext/man_cov_rock_small_2m"/>
+		<unit path="units/world/environment/mansion/man_ground_ext/man_cov_rock_small_2m"/>
+	</add>
+	<add from_db="true" path="units/world/environment/mansion/man_ground_ext/man_rock_medium_01" type="unit">
+		<material_config path="units/world/environment/mansion/man_ground_ext/rocks"/>
+		<object path="units/world/environment/mansion/man_ground_ext/man_rock_medium_01"/>
+		<unit path="units/world/environment/mansion/man_ground_ext/man_rock_medium_01"/>
+	</add>
+	<add from_db="true" path="units/world/environment/mansion/man_ground_ext/man_rock_small_cluster" type="unit">
+		<material_config path="units/world/environment/mansion/man_ground_ext/rocks"/>
+		<object path="units/world/environment/mansion/man_ground_ext/man_rock_small_cluster"/>
+		<unit path="units/world/environment/mansion/man_ground_ext/man_rock_small_cluster"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/nature/mad_rocks/mad_rock_01" type="unit">
+		<material_config path="units/pd2_dlc_mad/nature/mad_rocks/mad_rocks"/>
+		<object path="units/pd2_dlc_mad/nature/mad_rocks/mad_rock_01"/>
+		<unit path="units/pd2_dlc_mad/nature/mad_rocks/mad_rock_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/nature/rocks/sfm_ext_rock_01" type="unit">
+		<material_config path="units/pd2_dlc_friend/nature/rocks/sfm_ext_rocks"/>
+		<object path="units/pd2_dlc_friend/nature/rocks/sfm_ext_rock_01"/>
+		<unit path="units/pd2_dlc_friend/nature/rocks/sfm_ext_rock_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_01" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_01"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_05" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_d_v2"/>
+		<object path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_05"/>
+		<unit path="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_large_05"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_small_rocks/sfm_prop_small_rock_01" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_small_rocks/sfm_prop_small_rocks"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_small_rocks/sfm_prop_small_rock_01"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_small_rocks/sfm_prop_small_rock_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_small_01" type="unit">
+		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rocks"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_small_01"/>
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_small_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_medium_01" type="unit">
+		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rocks"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_medium_01"/>
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_medium_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_large_01" type="unit">
+		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rocks"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_large_01"/>
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_large_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/terrain/jry_rock_01" type="unit">
+		<material_config path="units/pd2_dlc_jerry/terrain/jry_terrain"/>
+		<object path="units/pd2_dlc_jerry/terrain/jry_rock_01"/>
+		<unit path="units/pd2_dlc_jerry/terrain/jry_rock_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/terrain/jry_rock_02" type="unit">
+		<material_config path="units/pd2_dlc_jerry/terrain/jry_terrain"/>
+		<object path="units/pd2_dlc_jerry/terrain/jry_rock_02"/>
+		<unit path="units/pd2_dlc_jerry/terrain/jry_rock_02"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2" type="unit">
+		<unit path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2"/>
+		<object path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2"/>
+		<material_config path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt"/>
 	</add>
 </table>

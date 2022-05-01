@@ -28,6 +28,10 @@
 			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="PredatorActionShoot.lua" source_file="lib/units/enemies/cop/copmovement"/>
 			<hook file="PredatorLogicAttack.lua" source_file="lib/units/enemies/cop/copbrain"/>
+			<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
+			<hook file="fpcameraplayerbase.lua" source_file="lib/units/cameras/fpcameraplayerbase"/>
+			<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>
+			<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
 		</hooks>
 		<outro_event>
 			<value_node value=""/>

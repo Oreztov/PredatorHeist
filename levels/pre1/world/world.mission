@@ -42,31 +42,6 @@
 				</entry>
 			</entry>
 			<entry index="3" type="table">
-				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
-				<entry key="editor_name" type="string" value="spawn_enemy_dummy_001"/>
-				<entry key="id" type="number" value="100002"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="accessibility" type="string" value="any"/>
-					<entry key="amount" type="number" value="0"/>
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/pd2_dlc_bph/characters/ene_murkywater_sniper/ene_murkywater_sniper"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="force_pickup" type="string" value="none"/>
-					<entry key="interval" type="number" value="5"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="participate_to_group_ai" type="boolean" value="true"/>
-					<entry key="position" type="vector3" value="2496.55 16826.3 -285"/>
-					<entry key="rotation" type="quaternion" value="0 0 0.92388 -0.382683"/>
-					<entry key="spawn_action" type="string" value="none"/>
-					<entry key="team" type="string" value="default"/>
-					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="voice" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="4" type="table">
 				<entry key="class" type="string" value="ElementPlayEffect"/>
 				<entry key="editor_name" type="string" value="play_effect_pig_fire"/>
 				<entry key="id" type="number" value="100003"/>
@@ -85,26 +60,6 @@
 					<entry key="random_time" type="number" value="0"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
 					<entry key="screen_space" type="boolean" value="false"/>
-					<entry key="trigger_times" type="number" value="0"/>
-				</entry>
-			</entry>
-			<entry index="5" type="table">
-				<entry key="class" type="string" value="ElementSpawnCivilian"/>
-				<entry key="editor_name" type="string" value="spawn_civilian_001"/>
-				<entry key="id" type="number" value="100004"/>
-				<entry key="script" type="string" value="default"/>
-				<entry key="values" type="table">
-					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="enemy" type="string" value="units/payday2/characters/civ_female_bikini_1/civ_female_bikini_1"/>
-					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="force_pickup" type="string" value="none"/>
-					<entry key="on_executed" type="table">
-					</entry>
-					<entry key="position" type="vector3" value="2643.67 10390.9 311.909"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="state" type="string" value="cf_sp_pole_dancer_expert"/>
-					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

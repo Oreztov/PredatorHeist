@@ -1,4 +1,4 @@
-Hooks:PostHook(CharacterTweakData, "init", "wz_init", function (self)
+Hooks:PostHook(CharacterTweakData, "init", "pre_init", function (self)
 	-- You can name the preset whatever you want, just make sure the logic/action variants in PredatorLogicAttack and PredatorActionShoot are named the same
 	self.predator = deep_clone(self.gangster)
 
@@ -20,4 +20,31 @@ Hooks:PostHook(CharacterTweakData, "init", "wz_init", function (self)
 	self.predator.throwable = "molotov"
 	self.predator.throwable_target_verified = true
 	self.predator.throwable_cooldown = 10
+
+	-- hp tweak
+	self.predator.HEALTH_INIT = 1000
 end)
+
+local character_map_original = CharacterTweakData.character_map
+
+function CharacterTweakData:character_map(...)
+
+    local char_map = character_map_original(self, ...)
+    local new_map ={
+            "ene_rebel_1",
+            "ene_rebel_2",
+            "ene_rebel_3",
+			"ene_rebel_4"
+    }
+
+
+    for _, unit in pairs(new_map) do
+        table.insert(char_map.basic.list, unit)
+    end
+
+
+
+
+
+    return char_map
+end
