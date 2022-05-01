@@ -15,6 +15,14 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
+		<hooks directory="hooks">
+			<hooks directory="slide_player_state">
+				<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+
+				<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>
+				<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
+			</hooks>
+		</hooks>
 	</level>
 	<level ai_group_type="America" briefing_dialog="" id="pre2" intro_event="" max_bags="54" player_style="generic">
 		<assets>
@@ -28,10 +36,13 @@
 			<hook file="VehicleTweakData.lua" source_file="lib/tweak_data/vehicletweakdata"/>
 			<hook file="PredatorActionShoot.lua" source_file="lib/units/enemies/cop/copmovement"/>
 			<hook file="PredatorLogicAttack.lua" source_file="lib/units/enemies/cop/copbrain"/>
-			<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
-			<hook file="fpcameraplayerbase.lua" source_file="lib/units/cameras/fpcameraplayerbase"/>
-			<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>
-			<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+
+			<hooks directory="slide_player_state">
+				<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+
+				<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>
+				<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
+			</hooks>
 		</hooks>
 		<outro_event>
 			<value_node value=""/>
