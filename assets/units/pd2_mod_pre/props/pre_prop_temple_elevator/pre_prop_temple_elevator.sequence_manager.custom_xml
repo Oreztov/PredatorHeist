@@ -1,0 +1,34 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'anim_open_doors'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_door'" to="40/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'anim_close_doors'" triggable="true">
+			<animation_group enabled="true" from="40/30" name="'anim_door'" speed="-1" to="0/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'arrive_stealth'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_body'" speed="0.25" to="30/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_departed'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_body'" to="0/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_arrived'" triggable="true">
+			<animation_group enabled="true" from="30/30" name="'anim_body'" to="30/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'arrive_loud'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_body'" speed="0.0066" to="30/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'arrive_loud_pause'" triggable="true">
+			<animation_group enabled="true" name="'anim_body'" speed="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'arrive_loud_unpause'" triggable="true">
+			<animation_group enabled="true" name="'anim_body'" speed="0.0066"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+	</unit>
+</table>

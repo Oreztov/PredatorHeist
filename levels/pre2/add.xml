@@ -125,17 +125,14 @@
 		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_tunnel_railings/bry_mountain_stairs_b"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_cliffs" type="unit">
-		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks"/>
 		<object path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_cliffs"/>
 		<unit path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_cliffs"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_road_vista" type="unit">
-		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks"/>
 		<object path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_road_vista"/>
 		<unit path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_road_vista"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior" type="unit">
-		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks"/>
 		<object path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior"/>
 		<unit path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_mountain_solid_wall_exterior"/>
 	</add>
@@ -1235,8 +1232,8 @@
 		<unit path="units/pd2_dlc_jerry/airplane/jry_prop_plane_cargocrate_a"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/air_int_terminal/air_terminal_pieces_floor_indoor_2m_v2" type="unit">
-		<unit path="units/payday2/architecture/air_int_terminal/air_terminal_pieces_floor_indoor_2m_v2"/>
-		<object path="units/payday2/architecture/air_int_terminal/air_terminal_pieces_floor_indoor_2m_v2"/>
 		<material_config path="units/payday2/architecture/air_ext_terminal/air_ext_terminal"/>
+		<object path="units/payday2/architecture/air_int_terminal/air_terminal_pieces_floor_indoor_2m_v2"/>
+		<unit path="units/payday2/architecture/air_int_terminal/air_terminal_pieces_floor_indoor_2m_v2"/>
 	</add>
 </table>

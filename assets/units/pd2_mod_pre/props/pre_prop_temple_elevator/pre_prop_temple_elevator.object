@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator" orientation_object="rp_pre_prop_temple_elevator" />
+	<sequence_manager file="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator" />
+	<animations>
+		<animation_group name="anim_door" enabled="false">
+				<object name="anim_door_left" />
+				<object name="anim_door_right" />
+		</animation_group>
+		<animation_group name="anim_body" enabled="false">
+				<object name="anim_body" />
+		</animation_group>
+	</animations>
+	<decal_surfaces default_material="plastic">
+		<decal_mesh name="g_body" material="plastic" enabled="true"/>
+		<decal_mesh name="g_base" material="plastic" enabled="true"/>
+		<decal_mesh name="g_door_right" material="plastic" enabled="true"/>
+		<decal_mesh name="g_door_left" material="plastic" enabled="true"/>
+	</decal_surfaces> 
+	<bodies>
+		<body name="body_static" template="static" enabled="true">
+			<object name="rp_pre_prop_temple_elevator" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_frame" template="animated" enabled="true">
+			<object name="anim_body" />
+			<object name="c_convex_03" collision_type="convex" padding="-2.5"/>
+			<object name="c_mesh_body" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_door_left" template="animated" enabled="true">
+			<object name="anim_door_left" />
+			<object name="g_convex_left" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_door_right" template="animated" enabled="true">
+			<object name="anim_door_right" />
+			<object name="g_convex_right" collision_type="convex" padding="-2.5"/>
+		</body>
+    </bodies>
+	<graphics>
+		<object name="g_base" enabled="true" />
+		<object name="g_body" enabled="true" />
+		<object name="g_door_left" enabled="true" />
+		<object name="g_door_right" enabled="true" />
+	</graphics>
+</dynamic_object>

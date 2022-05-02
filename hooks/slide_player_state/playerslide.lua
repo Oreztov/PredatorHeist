@@ -23,7 +23,7 @@ function PlayerSlide:enter(state_data, enter_data)
 	self._ext_network:send("action_change_pose", 2, self._unit:position())
 	self:_upd_attention()
 
-	-- self._camera_unit:base():set_limits(40, 20)
+	self._camera_unit:base():set_limits(40, 20)
 end
 
 function PlayerSlide:exit(state_data, new_state_name)

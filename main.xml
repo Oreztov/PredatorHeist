@@ -1,4 +1,5 @@
 <table min_lib_ver="4.5" name="PredatorHeist">
+	<Package file="scriptdata/predator2.package" id="package_predator2" unload_on_restart="true"/>
 	<level ai_group_type="America" briefing_dialog="" id="pre1" intro_event="" max_bags="54" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
@@ -46,6 +47,7 @@
 		</outro_event>
 		<packages>
 			<value_node value="levels/narratives/dentist/mia/stage2/world/world"/>
+			<value_node value="package_predator2"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

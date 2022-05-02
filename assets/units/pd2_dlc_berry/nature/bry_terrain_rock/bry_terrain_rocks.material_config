@@ -1,0 +1,28 @@
+<materials version="3">
+	<material name="mat_terrain_rocks" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_rockgrass_df"/>
+		<diffuse_layer0_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossy_01_df"/>
+		<diffuse_layer1_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossystone_01_mask_df"/>
+		<bump_normal_texture file="units/payday2/nature/pnau/pnau_terrain_custom_turfwar/pnau_terrain_custom_rockgrass_nm"/>
+		<normal_layer0_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossy_01_nm"/>
+	</material>
+	<material name="mat_bry_terrain_sands_blend" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossyleafs_01_df"/>
+		<diffuse_layer0_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossy_01_df"/>
+		<diffuse_layer1_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossyleafs_01_mask_df"/>
+		<bump_normal_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossy_01_nm"/>
+		<normal_layer0_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossyleafs_01_nm"/>
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+	<material name="mat_mountain_temp" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_df"/>
+		<bump_normal_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_nm"/>
+	</material>
+	<material name="mat_bry_ground_01" render_template="generic:BLEND_DIFFUSE:BLEND_MASK_SEPERATE:BLEND_NORMAL:BLEND_SMOOTH:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossyleafs_01_df"/>
+		<diffuse_layer0_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossy_01_df"/>
+		<diffuse_layer1_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossyleafs_01_mask_df"/>
+		<bump_normal_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossy_01_nm"/>
+		<normal_layer0_texture file="units/payday2/nature/pnau/pnau_terrain/pnau_terrain_mossyleafs_01_nm"/>
+	</material>
+</materials>
