@@ -6,6 +6,9 @@
 		<sequence editable_state="true" name="'anim_close_doors'" triggable="true">
 			<animation_group enabled="true" from="40/30" name="'anim_door'" speed="-1" to="0/30"/>
 		</sequence>
+		<sequence editable_state="true" name="'anim_screen'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_screen'" speed="0.022" to="10/30"/>
+		</sequence>
 		<sequence editable_state="true" name="'arrive_stealth'" triggable="true">
 			<animation_group enabled="true" from="0/30" name="'anim_body'" speed="0.25" to="30/30"/>
 		</sequence>

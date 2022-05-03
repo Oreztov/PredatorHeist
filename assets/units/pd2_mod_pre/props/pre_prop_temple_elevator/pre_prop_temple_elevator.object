@@ -10,6 +10,9 @@
 		<animation_group name="anim_body" enabled="false">
 				<object name="anim_body" />
 		</animation_group>
+		<animation_group name="anim_screen" enabled="false">
+			<object name="anim_screen" />
+	</animation_group>
 	</animations>
 	<decal_surfaces default_material="plastic">
 		<decal_mesh name="g_body" material="plastic" enabled="true"/>
@@ -40,6 +43,7 @@
 	<graphics>
 		<object name="g_base" enabled="true" />
 		<object name="g_body" enabled="true" />
+		<object name="g_screen" enabled="true" />
 		<object name="g_door_left" enabled="true" />
 		<object name="g_door_right" enabled="true" />
 	</graphics>

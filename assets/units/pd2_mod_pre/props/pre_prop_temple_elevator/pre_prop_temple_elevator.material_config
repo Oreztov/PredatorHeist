@@ -17,4 +17,14 @@
         <variable type="scalar" name="glossiness_control" value="0.2"/>
         <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
     </material>
+    <material name="mat_light" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/architecture/are/are_off_int_wall_02_df"/>
+        <self_illumination_texture file="units/payday2/architecture/are/are_off_int_wall_02_df"/>
+        <variable value="identity" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_elevator_screen" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator_screen_df"/>
+        <self_illumination_texture file="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator_screen_df"/>
+        <variable value="flashlight" type="scalar" name="il_multiplier"/>
+    </material>
 </materials>
