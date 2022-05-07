@@ -10,9 +10,6 @@
 		<animation_group name="anim_body" enabled="false">
 				<object name="anim_body" />
 		</animation_group>
-		<animation_group name="anim_screen" enabled="false">
-			<object name="anim_screen" />
-	</animation_group>
 	</animations>
 	<decal_surfaces default_material="plastic">
 		<decal_mesh name="g_body" material="plastic" enabled="true"/>
@@ -26,7 +23,7 @@
 			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
 			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
 		</body>
-		<body name="body_frame" template="animated" enabled="true">
+		<body name="body_elevator" template="animated" enabled="true">
 			<object name="anim_body" />
 			<object name="c_convex_03" collision_type="convex" padding="-2.5"/>
 			<object name="c_mesh_body" collision_type="mesh_mopp"/>
@@ -43,7 +40,11 @@
 	<graphics>
 		<object name="g_base" enabled="true" />
 		<object name="g_body" enabled="true" />
-		<object name="g_screen" enabled="true" />
+		<object name="g_screen_lab" enabled="true" />
+		<object name="g_screen_temple" enabled="false" />
+		<object name="g_screen_both" enabled="false" />
+		<object name="g_screen_left" enabled="false" />
+		<object name="g_screen_right" enabled="false" />
 		<object name="g_door_left" enabled="true" />
 		<object name="g_door_right" enabled="true" />
 	</graphics>

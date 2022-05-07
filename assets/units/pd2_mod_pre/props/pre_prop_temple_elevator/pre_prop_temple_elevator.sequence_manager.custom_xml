@@ -6,9 +6,6 @@
 		<sequence editable_state="true" name="'anim_close_doors'" triggable="true">
 			<animation_group enabled="true" from="40/30" name="'anim_door'" speed="-1" to="0/30"/>
 		</sequence>
-		<sequence editable_state="true" name="'anim_screen'" triggable="true">
-			<animation_group enabled="true" from="0/30" name="'anim_screen'" speed="0.022" to="10/30"/>
-		</sequence>
 		<sequence editable_state="true" name="'arrive_stealth'" triggable="true">
 			<animation_group enabled="true" from="0/30" name="'anim_body'" speed="0.25" to="30/30"/>
 		</sequence>
@@ -26,6 +23,34 @@
 		</sequence>
 		<sequence editable_state="true" name="'arrive_loud_unpause'" triggable="true">
 			<animation_group enabled="true" name="'anim_body'" speed="0.0066"/>
+		</sequence>
+		<sequence editable_state="true" name="'screen_rnd'" triggable="true">
+			<object name="'g_screen_lab'" enabled="true" />
+			<object name="'g_screen_temple'" enabled="false" />
+			<object name="'g_screen_both'" enabled="false" />
+			<object name="'g_screen_left'" enabled="false" />
+			<object name="'g_screen_right'" enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'screen_temple'" triggable="true">
+			<object name="'g_screen_lab'" enabled="false" />
+			<object name="'g_screen_temple'" enabled="true" />
+			<object name="'g_screen_both'" enabled="false" />
+			<object name="'g_screen_left'" enabled="false" />
+			<object name="'g_screen_right'" enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'screen_down'" triggable="true">
+			<object name="'g_screen_lab'" enabled="false" />
+			<object name="'g_screen_temple'" enabled="false" />
+			<object name="'g_screen_both'" enabled="true" />
+			<object name="'g_screen_left'" enabled="false" />
+			<object name="'g_screen_right'" enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'screen_up'" triggable="true">
+			<object name="'g_screen_lab'" enabled="false" />
+			<object name="'g_screen_temple'" enabled="false" />
+			<object name="'g_screen_both'" enabled="true" />
+			<object name="'g_screen_left'" enabled="true" />
+			<object name="'g_screen_right'" enabled="false" />
 		</sequence>
 		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
 			<interaction enabled="true"/>

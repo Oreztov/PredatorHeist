@@ -22,9 +22,18 @@
         <self_illumination_texture file="units/payday2/architecture/are/are_off_int_wall_02_df"/>
         <variable value="identity" type="scalar" name="il_multiplier"/>
     </material>
-    <material name="mat_elevator_screen" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+    <material name="mat_screen" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
         <diffuse_texture file="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator_screen_df"/>
         <self_illumination_texture file="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator_screen_df"/>
         <variable value="flashlight" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_screen_overlay" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator_screen_df"/>
+        <variable value="monitor" type="scalar" name="intensity"/>
+    </material>
+    <material name="mat_screen_scrolling" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DIFFUSE0_UVANIM" version="2">
+        <diffuse_texture file="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator_screen_df"/>
+        <variable value="-0.05 0 0" type="vector3" name="uv0_speed"/>
+        <variable value="monitor" type="scalar" name="intensity"/>
     </material>
 </materials>
