@@ -1,0 +1,8 @@
+<unit type="gen" slot="1">
+	<object file="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_4x3m" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

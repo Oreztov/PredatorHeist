@@ -9,4 +9,100 @@
 		<object path="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator" unload="true"/>
 		<unit path="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator" unload="true"/>
 	</add>
+	<add unload_on_restart="true">
+		<cooked_physics path="units/pd2_mod_pre/pre_beam_big/pre_beam_big" unload="true"/>
+		<model path="units/pd2_mod_pre/pre_beam_big/pre_beam_big" unload="true"/>
+		<object path="units/pd2_mod_pre/pre_beam_big/pre_beam_big" unload="true"/>
+		<unit path="units/pd2_mod_pre/pre_beam_big/pre_beam_big" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" unload="true"/>
+		<model path="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" unload="true"/>
+		<object path="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" unload="true"/>
+		<texture path="units/pd2_mod_pre/crystal_tunnel/crystal_il" unload="true"/>
+		<unit load="true" path="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<unit load="true" path="units/payday2/characters/ene_rebel_4/ene_rebel_4"/>
+		<unit load="true" path="units/payday2/characters/ene_rebel_4/ene_rebel_4_husk"/>
+		<model path="units/payday2/characters/ene_rebel_4/ene_rebel_4"/>
+		<object path="units/payday2/characters/ene_rebel_4/ene_rebel_4"/>
+		<cooked_physics path="units/payday2/characters/ene_rebel_4/ene_rebel_4"/>
+		<material_config path="units/payday2/characters/ene_rebel_4/ene_rebel_4"/>
+		<material_config path="units/payday2/characters/ene_rebel_4/ene_rebel_4_contour"/>
+		<unit load="true" path="units/payday2/characters/ene_rebel_1/ene_rebel_1"/>
+		<unit load="true" path="units/payday2/characters/ene_rebel_1/ene_rebel_1_husk"/>
+		<model path="units/payday2/characters/ene_rebel_1/ene_rebel_1"/>
+		<object path="units/payday2/characters/ene_rebel_1/ene_rebel_1"/>
+		<cooked_physics path="units/payday2/characters/ene_rebel_1/ene_rebel_1"/>
+		<material_config path="units/payday2/characters/ene_rebel_1/ene_rebel_1"/>
+		<material_config path="units/payday2/characters/ene_rebel_1/ene_rebel_1_contour"/>
+		<unit load="true" path="units/payday2/characters/ene_rebel_beret/ene_rebel_beret"/>
+		<model path="units/payday2/characters/ene_rebel_beret/ene_rebel_beret"/>
+		<object path="units/payday2/characters/ene_rebel_beret/ene_rebel_beret"/>
+		<cooked_physics path="units/payday2/characters/ene_rebel_beret/ene_rebel_beret"/>
+		<material_config path="units/payday2/characters/ene_rebel_beret/ene_rebel_beret"/>
+		<unit load="true" path="units/payday2/characters/ene_rebel_2/ene_rebel_2"/>
+		<unit load="true" path="units/payday2/characters/ene_rebel_2/ene_rebel_2_husk"/>
+		<model path="units/payday2/characters/ene_rebel_2/ene_rebel_2"/>
+		<object path="units/payday2/characters/ene_rebel_2/ene_rebel_2"/>
+		<cooked_physics path="units/payday2/characters/ene_rebel_2/ene_rebel_2"/>
+		<material_config path="units/payday2/characters/ene_rebel_2/ene_rebel_2"/>
+		<material_config path="units/payday2/characters/ene_rebel_2/ene_rebel_2_contour"/>
+		<unit load="true" path="units/payday2/characters/ene_rebel_cap/ene_rebel_cap"/>
+		<model path="units/payday2/characters/ene_rebel_cap/ene_rebel_cap"/>
+		<object path="units/payday2/characters/ene_rebel_cap/ene_rebel_cap"/>
+		<cooked_physics path="units/payday2/characters/ene_rebel_cap/ene_rebel_cap"/>
+		<material_config path="units/payday2/characters/ene_rebel_cap/ene_rebel_cap"/>
+		<unit load="true" path="units/payday2/characters/ene_rebel_3/ene_rebel_3"/>
+		<unit load="true" path="units/payday2/characters/ene_rebel_3/ene_rebel_3_husk"/>
+		<model path="units/payday2/characters/ene_rebel_3/ene_rebel_3"/>
+		<object path="units/payday2/characters/ene_rebel_3/ene_rebel_3"/>
+		<cooked_physics path="units/payday2/characters/ene_rebel_3/ene_rebel_3"/>
+		<material_config path="units/payday2/characters/ene_rebel_3/ene_rebel_3"/>
+		<material_config path="units/payday2/characters/ene_rebel_3/ene_rebel_3_contour"/>
+		<texture path="units/payday2/characters/ene_rebel_1/rebel_body_df"/>
+		<texture path="units/payday2/characters/ene_rebel_1/rebel_body_nm"/>
+	</add>
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_shared" unload="true"/>
+		<material_config path="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_shared_tinted" unload="true"/>
+		<unit path="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_4x3m" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_4x3m" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_4x3m" unload="true"/>
+		<unit path="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_2x3m" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_2x3m" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_2x3m" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_shared" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<unit load="true" path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<object path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<model path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<sequence_manager path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<material_config path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation_def path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation_state_machine path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation_states path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation_subset path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/fps_vehicle_m35_truck" unload="true"/>
+		<animation path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_test" unload="true"/>
+		<animation path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_wheels_loop" unload="true"/>
+		<animation path="units/pd2_mod_wz/vehicles/fps_vehicle_m35_truck/anims/m35_truck_wheels_stop" unload="true"/>
+		<unit load="true" path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<object path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<model path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<sequence_manager path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<material_config path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation_def path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation_state_machine path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation_states path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation_subset path="units/pd2_mod_wz/vehicles/vehicle_driver/vehicle_driver" unload="true"/>
+		<animation path="units/pd2_mod_wz/vehicles/vehicle_driver/anims/anim_m35_truck_driver" unload="true"/>
+		<animation path="units/pd2_mod_wz/vehicles/vehicle_driver/anims/anim_m35_truck_killed" unload="true"/>
+		<unit load="true" path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true"/>
+		<object path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true"/>
+		<model path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true"/>
+		<sequence_manager path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true"/>
+		<material_config path="units/pd2_mod_wz/vehicles/vehicle_loot/veh_loot_bag_test_static/veh_loot_bag_test_static" unload="true"/>
+	</add>
 </table>

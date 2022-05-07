@@ -1,0 +1,20 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name=" 'open_door' " triggable="true">
+			<animation_group enabled="true" name="'open_door'"/>
+			<body enabled="false" name="'player_glitch_blocker'"/>
+		</sequence>
+		<sequence name=" 'close_door' " triggable="true">
+			<animation_group enabled="true" from="4" name="'open_door'" speed="-1" to="0"/>
+			<body enabled="true" name="'player_glitch_blocker'"/>
+		</sequence>
+		
+		<sequence name=" 'set_tinted_glass' " triggable="true">
+			<material_config name="'units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_shared_tinted'"/>
+		</sequence>
+		
+		<sequence name=" 'set_normal_glass' " triggable="true">
+			<material_config name="'units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_shared'"/>
+		</sequence>
+	</unit>
+</table>

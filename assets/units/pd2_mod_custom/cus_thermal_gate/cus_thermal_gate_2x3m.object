@@ -1,0 +1,52 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_shared" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_custom/cus_thermal_gate/cus_thermal_gate_shared" />
+	<animations>
+		<animation_group name="open_door">
+			<object name="a_left" enabled="true" />
+			<object name="a_right" enabled="true" />
+		</animation_group>
+	</animations>
+
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_root" />
+			<object name="c_convex_frame_01" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_02" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_frame_03" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="thermal_door_l" enabled="true" template="animated" >
+			<object name="a_left" enabled="true" />
+			<object name="c_box_door_l_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_door_l_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_door_l_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_door_l_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_door_l_05" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="thermal_door_r" enabled="true" template="animated" >
+			<object name="a_right" enabled="true" />
+			<object name="c_box_door_r_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_door_r_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_door_r_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_door_r_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_door_r_05" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="player_glitch_blocker" enabled="true" template="mover_blocker">
+			<object name="c_box_glitch_blocker" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="steel">
+		<decal_mesh name="dm_glass_unbreakableL" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_glass_unbreakableR" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_metalL" enabled="true" material="steel" />
+		<decal_mesh name="dm_metalR" enabled="true" material="steel" />
+		<decal_mesh name="g_frame" enabled="true" material="steel" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_gate_thermal_l" enabled="true" />
+		<object name="g_gate_thermal_r" enabled="true" />
+		<object name="g_frame" enabled="true" />
+	</graphics>
+</dynamic_object>

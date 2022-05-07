@@ -1,0 +1,17 @@
+<materials version="3">
+	<material name="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" version="2">
+		<variable name="fresnel_settings" type="vector3" value="2 1 0.6" />
+		<diffuse_texture file="units/payday2/glass/glass_clear_small_df" />
+		<opacity_texture file="units/payday2/glass/glass_clear_small_op" />
+		<variable value="0" type="scalar" name="alpha_ref" />
+        <reflection_texture file="environments/cubemaps/cubemap_mirror" type="cubemap"/>
+	</material>
+	<material name="mat_door" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_red/props/red_prop_gate_thermal/red_prop_gate_thermal_df" />
+		<bump_normal_texture file="units/pd2_dlc_red/props/red_prop_gate_thermal/red_prop_gate_thermal_nm" />
+	</material>
+	<material name="vault_doors" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:VERTEX_COLOR" version="2">
+		<diffuse_texture file="units/world/props/bank/vault/vault_hallway_doors_df" />
+		<bump_normal_texture file="units/world/props/bank/vault/vault_hallway_doors_nm" />
+	</material>
+</materials>
