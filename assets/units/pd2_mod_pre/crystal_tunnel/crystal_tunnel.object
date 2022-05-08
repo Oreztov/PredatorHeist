@@ -29,10 +29,7 @@
 	</decal_surfaces>
 	<graphics>
 		<object name="g_g" enabled="true" />
-		<object name="g_cave_001" enabled="true" />
-		<object name="g_cave_002" enabled="true" />
-		<object name="g_cave_003" enabled="true" />
-		<object name="g_cave_004" enabled="true" />
+		<object name="g_cave" enabled="true" />
 		<object name="g_crystals" enabled="true" />
 		<object name="s_s" enabled="true" shadow_caster="true" />
 		<object name="g_mull_fade" enabled="true" />
