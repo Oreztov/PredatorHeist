@@ -14,6 +14,9 @@
 				<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
 			</hooks>
 		</hooks>
+		<Interactions>
+			<interaction id="pre_pku_chaos" interact_distance="150" sound_start="bar_bag_generic" sound_interupt="bar_bag_generic_cancel" sound_done="bar_bag_generic_finished"/>
+		</Interactions>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>

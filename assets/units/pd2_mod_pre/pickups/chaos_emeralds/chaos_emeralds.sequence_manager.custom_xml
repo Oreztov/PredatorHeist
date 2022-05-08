@@ -1,0 +1,33 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'var1'" triggable="true">
+			<material_config name="'units/pd2_mod_pre/pickups/chaos_emeralds/red_emerald'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var2'" triggable="true">
+			<material_config name="'units/pd2_mod_pre/pickups/chaos_emeralds/blue_emerald'"/>
+		</sequence>
+		<sequence editable_state="true" name="'var3'" triggable="true">
+			<material_config name="'units/pd2_mod_pre/pickups/chaos_emeralds/green_emerald'"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			<object enabled="false" name="'g_crystal'"/>
+			<body enabled="false" name="'g_crystal'"/>
+		</sequence>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<interaction enabled="true"/>
+			<object enabled="true" name="'g_crystal'"/>
+			<body enabled="true" name="'g_crystal'"/>
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<run_sequence name="'hide'"/>
+		</sequence>
+		<sequence editable_state="false" name="'load'" triggable="false"/>
+	</unit>
+</table>
