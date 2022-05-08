@@ -6,6 +6,19 @@
 		<texture path="units/pd2_mod_pre/crystal_tunnel/crystal_il" unload="true"/>
 		<unit load="true" path="units/pd2_mod_pre/crystal_tunnel/crystal_tunnel" unload="true"/>
 	</add>
+	<add path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" type="unit">
+		<texture path="units/pd2_mod_pre/pickups/chaos_emeralds/red_emerald" unload="true"/>
+		<texture path="units/pd2_mod_pre/pickups/chaos_emeralds/green_emerald" unload="true"/>
+		<texture path="units/pd2_mod_pre/pickups/chaos_emeralds/blue_emerald" unload="true"/>
+		<texture force="true" path="units/pd2_mod_pre/crystal_tunnel/crystal_il" unload="true"/>
+		<model force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" unload="true"/>
+		<material_config force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/red_emerald" unload="true"/>
+		<material_config force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/green_emerald" unload="true"/>
+		<material_config force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/blue_emerald" unload="true"/>
+		<object force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" unload="true"/>
+		<unit force="true" load="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" unload="true"/>
+	</add>
 	<add unload_on_restart="true">
 		<unit load="true" path="units/payday2/characters/ene_rebel_4/ene_rebel_4"/>
 		<unit load="true" path="units/payday2/characters/ene_rebel_4/ene_rebel_4_husk"/>

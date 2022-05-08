@@ -1,0 +1,12 @@
+<unit type="pre" slot="1">
+	<object file="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" />
+	<network sync="spawn" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="diamonds_pickup" />
+			<var name="_interact_object" value="interaction"/>
+		</extension>
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

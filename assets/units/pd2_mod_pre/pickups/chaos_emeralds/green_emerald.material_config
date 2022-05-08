@@ -1,0 +1,10 @@
+<materials version="3">
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+	
+    <material decal_material="glass" name="g_crystal" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+		<diffuse_texture file="units/pd2_mod_pre/pickups/chaos_emeralds/green_emerald" />
+		<self_illumination_texture file="units/pd2_mod_pre/crystal_tunnel/crystal_il" />
+		<variable name="il_multiplier" type="scalar" value="inside of borg queen" />
+		<variable name="il_bloom" type="scalar" value="10" />
+	</material>
+</materials>
