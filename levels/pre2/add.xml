@@ -1899,8 +1899,344 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_railing_wall_end"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_part_1" type="unit">
-		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_part_1"/>
-		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_part_1"/>
 		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_part_1"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_part_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal"/>
+		<object path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_corner_variation_1" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/veil_tube"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_props"/>
+		<object path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_corner_variation_1"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_corner_variation_1"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_corner_variation_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_straight_variation_1" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/veil_tube"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_props"/>
+		<object path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_straight_variation_1"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_straight_variation_1"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_straight_variation_1"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_cone/des_prop_con_boom_2m" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_cone/des_prop_con_cone"/>
+		<object path="units/world/props/desert/des_prop_con_cone/des_prop_con_boom_2m"/>
+		<unit path="units/world/props/desert/des_prop_con_cone/des_prop_con_boom_2m"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_cone/des_prop_con_boom_4m" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_cone/des_prop_con_cone"/>
+		<object path="units/world/props/desert/des_prop_con_cone/des_prop_con_boom_4m"/>
+		<unit path="units/world/props/desert/des_prop_con_cone/des_prop_con_boom_4m"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_concrete" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_pipes/des_prop_pipes"/>
+		<object path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_concrete"/>
+		<unit path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_concrete"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_drainhose" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_pipes/des_prop_pipes"/>
+		<object path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_drainhose"/>
+		<unit path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_drainhose"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_scaf/des_prop_con_scaf_bot_01" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_scaf/des_prop_con_scaf"/>
+		<object path="units/world/props/desert/des_prop_con_scaf/des_prop_con_scaf_bot_01"/>
+		<unit path="units/world/props/desert/des_prop_con_scaf/des_prop_con_scaf_bot_01"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_scaf/des_prop_con_scaf_top_00" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_scaf/des_prop_con_scaf"/>
+		<object path="units/world/props/desert/des_prop_con_scaf/des_prop_con_scaf_top_00"/>
+		<unit path="units/world/props/desert/des_prop_con_scaf/des_prop_con_scaf_top_00"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_scaf/scaffolding" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_scaf/des_prop_con_scaf"/>
+		<object path="units/world/props/desert/des_prop_con_scaf/scaffolding"/>
+		<unit path="units/world/props/desert/des_prop_con_scaf/scaffolding"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_scaf/scaf_bridge" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_scaf/des_prop_con_scaf"/>
+		<object path="units/world/props/desert/des_prop_con_scaf/scaf_bridge"/>
+		<unit path="units/world/props/desert/des_prop_con_scaf/scaf_bridge"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_wheelbarrow/des_prop_con_wheelbarrow" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_wheelbarrow/des_prop_con_wheelbarrow"/>
+		<object path="units/world/props/desert/des_prop_con_wheelbarrow/des_prop_con_wheelbarrow"/>
+		<unit path="units/world/props/desert/des_prop_con_wheelbarrow/des_prop_con_wheelbarrow"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_concrete_wall/des_prop_concrete_wall" type="unit">
+		<material_config path="units/world/props/desert/des_prop_concrete_wall/des_prop_concrete_wall"/>
+		<object path="units/world/props/desert/des_prop_concrete_wall/des_prop_concrete_wall"/>
+		<unit path="units/world/props/desert/des_prop_concrete_wall/des_prop_concrete_wall"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_roof/des_prop_roof_aircondition_big" type="unit">
+		<material_config path="units/world/props/desert/des_prop_roof/des_prop_roof_aircondition_big"/>
+		<object path="units/world/props/desert/des_prop_roof/des_prop_roof_aircondition_big"/>
+		<sequence_manager path="units/world/props/desert/des_prop_roof/des_prop_roof_aircondition_big"/>
+		<unit path="units/world/props/desert/des_prop_roof/des_prop_roof_aircondition_big"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_small" type="unit">
+		<material_config path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_small"/>
+		<object path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_small"/>
+		<unit path="units/world/props/desert/des_prop_roof/des_prop_roof_antenna_small"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_roof/des_prop_roof_satellite_dish_pole" type="unit">
+		<material_config path="units/world/props/desert/des_prop_roof/des_prop_roof_satelite_dish_pole"/>
+		<object path="units/world/props/desert/des_prop_roof/des_prop_roof_satellite_dish_pole"/>
+		<unit path="units/world/props/desert/des_prop_roof/des_prop_roof_satellite_dish_pole"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_roof/des_prop_roof_wiring_a" type="unit">
+		<material_config path="units/world/props/desert/des_prop_roof/des_prop_roof_wiring"/>
+		<object path="units/world/props/desert/des_prop_roof/des_prop_roof_wiring_a"/>
+		<unit path="units/world/props/desert/des_prop_roof/des_prop_roof_wiring_a"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_street_prop _transformer_pole/des_prop_str_trans_pole" type="unit">
+		<material_config path="units/world/props/desert/des_street_prop _transformer_pole/des_prop_str_trans_pole"/>
+		<object path="units/world/props/desert/des_street_prop _transformer_pole/des_prop_str_trans_pole"/>
+		<unit path="units/world/props/desert/des_street_prop _transformer_pole/des_prop_str_trans_pole"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_alarm_outlets/des_electrics_lightswitch" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_alarm_outlets/des_electrics_lightswitch"/>
+		<object path="units/pd2_dlc_des/props/des_prop_alarm_outlets/des_electrics_lightswitch"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_alarm_outlets/des_electrics_lightswitch"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_alarm_outlets/des_electrics_lightswitch_double" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_alarm_outlets/des_electrics_lightswitch"/>
+		<object path="units/pd2_dlc_des/props/des_prop_alarm_outlets/des_electrics_lightswitch_double"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_alarm_outlets/des_electrics_lightswitch_double"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_binder/des_prop_binder_a" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_binder/des_prop_binder_a"/>
+		<object path="units/pd2_dlc_des/props/des_prop_binder/des_prop_binder_a"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_binder/des_prop_binder_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_chemset/des_prop_chemset_01" type="unit">
+		<effect load="true" path="effects/payday2/particles/water/water_boiling_bubbles"/>
+		<effect load="true" path="effects/payday2/particles/water/water_boiling_bubbles_black"/>
+		<effect load="true" path="effects/payday2/particles/fire/fire_burner"/>
+		<bnk path="soundbanks/des_sfx"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_chemset/des_prop_chemset_01"/>
+		<object path="units/pd2_dlc_des/props/des_prop_chemset/des_prop_chemset_01"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_chemset/des_prop_chemset_01"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_chemset/des_prop_chemset_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_cable_corner/des_prop_cable_corner" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_cable_corner/des_prop_cable_corner"/>
+		<object path="units/pd2_dlc_des/props/des_prop_cable_corner/des_prop_cable_corner"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_cable_corner/des_prop_cable_corner"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_control_screen/des_prop_control_screen" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_control_screen/des_prop_control_screen"/>
+		<object path="units/pd2_dlc_des/props/des_prop_control_screen/des_prop_control_screen"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_control_screen/des_prop_control_screen"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_control_screen/des_prop_control_screen"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<bnk path="soundbanks/des_sfx"/>
+		<effect load="true" path="effects/payday2/particles/flares/spotlight_flare_strong"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane"/>
+		<object path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_crane/des_prop_overhead_crane"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_crane_crate/des_prop_crane_crate_no_hooks" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_crane_crate/des_prop_crane_crate"/>
+		<object path="units/pd2_dlc_des/props/des_prop_crane_crate/des_prop_crane_crate_no_hooks"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_crane_crate/des_prop_crane_crate"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_crane_crate/des_prop_crane_crate_no_hooks"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_crane_crate/des_prop_crane_crate_no_hooks_no_decals" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_crane_crate/des_prop_crane_crate"/>
+		<object path="units/pd2_dlc_des/props/des_prop_crane_crate/des_prop_crane_crate_no_hooks_no_decals"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_crane_crate/des_prop_crane_crate"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_crane_crate/des_prop_crane_crate_no_hooks_no_decals"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_curator_desk/des_prop_curator_desk" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_curator_desk/des_prop_curator_desk"/>
+		<object path="units/pd2_dlc_des/props/des_prop_curator_desk/des_prop_curator_desk"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_curator_desk/des_prop_curator_desk"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_door_weapon_room/des_prop_door_weapon_room" type="unit">
+		<bnk path="soundbanks/des_sfx"/>
+		<effect load="true" path="effects/payday2/particles/laser/laser_beam_impact"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_door_weapon_room/des_prop_door_weapon_room"/>
+		<object path="units/pd2_dlc_des/props/des_prop_door_weapon_room/des_prop_door_weapon_room"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_door_weapon_room/des_prop_door_weapon_room"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_door_weapon_room/des_prop_door_weapon_room"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge" type="unit">
+		<unit path="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge"/>
+		<object path="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_a"/>
+		<object path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_a"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_a"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_b"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_c"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_fridge/spawn_pku_compound_d"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_fridge/des_prop_fridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_exterior_light/des_prop_exterior_light" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_exterior_light/des_prop_exterior_light"/>
+		<object path="units/pd2_dlc_des/props/des_prop_exterior_light/des_prop_exterior_light"/>
+		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_construction_lighttower/brb_prop_construction_lighttower"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_exterior_light/des_prop_exterior_light"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_glass_server_small/des_prop_glass_server_small" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_glass_server_small/des_prop_glass_server_small"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_des/props/des_prop_glass_server_small/des_prop_glass_server_small"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_glass_server_small/des_prop_glass_server_small"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_glass_server_small/des_prop_glass_server_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer"/>
+		<object path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_keyboard_01/des_keyboard_01" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_keyboard_01/des_keyboard_01"/>
+		<object path="units/pd2_dlc_des/props/des_prop_keyboard_01/des_keyboard_01"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_keyboard_01/des_keyboard_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank" type="unit">
+		<effect load="true" path="effects/payday2/particles/water/water_bubbles_slow_short"/>
+		<effect load="true" path="effects/payday2/particles/water/water_bubbles_slow"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank"/>
+		<object path="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel"/>
+		<object path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_medicalcabinet/des_prop_medicalcabinet" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_medicalcabinet/des_prop_medicalcabinet"/>
+		<object path="units/pd2_dlc_des/props/des_prop_medicalcabinet/des_prop_medicalcabinet"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_medicalcabinet/des_prop_medicalcabinet"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_movie_screen/des_prop_movie_screen" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_movie_screen/des_prop_movie_screen"/>
+		<object path="units/pd2_dlc_des/props/des_prop_movie_screen/des_prop_movie_screen"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_movie_screen/des_prop_movie_screen"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_movie_screen/des_prop_movie_screen"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_office_desk_communication_corner/des_prop_office_desk_communication_corner" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_office_desk_communication_corner/des_prop_office_desk_communication_corner"/>
+		<object path="units/pd2_dlc_des/props/des_prop_office_desk_communication_corner/des_prop_office_desk_communication_corner"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_office_desk_communication_corner/des_prop_office_desk_communication_corner"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_ornament_il/des_prop_ornament_il" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_ornament_il/des_prop_ornament_il"/>
+		<object path="units/pd2_dlc_des/props/des_prop_ornament_il/des_prop_ornament_il"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_ornament_il/des_prop_ornament_il"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_puzzle_box/des_prop_puzzle_box" type="unit">
+		<bnk path="soundbanks/des_sfx"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_puzzle_box/des_prop_puzzle_box"/>
+		<object path="units/pd2_dlc_des/props/des_prop_puzzle_box/des_prop_puzzle_box"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_puzzle_box/des_prop_puzzle_box"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_puzzle_box/des_prop_puzzle_box"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_rollupdoor/des_prop_rollupdoor" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_rollupdoor/des_prop_rollupdoor"/>
+		<object path="units/pd2_dlc_des/props/des_prop_rollupdoor/des_prop_rollupdoor"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_rollupdoor/des_prop_rollupdoor"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_rollupdoor/des_prop_rollupdoor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_shelf/des_prop_shelf" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_shelf/des_prop_shelf"/>
+		<object path="units/pd2_dlc_des/props/des_prop_shelf/des_prop_shelf"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_shelf/des_prop_shelf"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_shelves_d/des_prop_shelves_d" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_shelves_d/des_prop_shelves_d"/>
+		<object path="units/pd2_dlc_des/props/des_prop_shelves_d/des_prop_shelves_d"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_shelves_d/des_prop_shelves_d"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_shelves_d/des_prop_shelves_d"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_hay" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate"/>
+		<object path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_hay"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_hay"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate"/>
+		<object path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_stage_table/des_prop_stage_table" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_stage_table/des_prop_stage_table"/>
+		<object path="units/pd2_dlc_des/props/des_prop_stage_table/des_prop_stage_table"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_stage_table/des_prop_stage_table"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_target/des_prop_target" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/payday2/particles/destruction/dest_statue_bust"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_target/des_prop_target"/>
+		<object path="units/pd2_dlc_des/props/des_prop_target/des_prop_target"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_target/des_prop_target"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_target/des_prop_target"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_unknown/des_prop_unknown" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_unknown/des_prop_unknown"/>
+		<object path="units/pd2_dlc_des/props/des_prop_unknown/des_prop_unknown"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_unknown/des_prop_unknown"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_unknown/des_prop_unknown"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_vial_rack/des_hospital_veil_rack_a" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_vial_rack/des_hospital_veil_rack_a"/>
+		<object path="units/pd2_dlc_des/props/des_prop_vial_rack/des_hospital_veil_rack_a"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_vial_rack/des_hospital_veil_rack_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_warehouse_shelf/des_prop_warehouse_shelf" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_warehouse_shelf/des_prop_warehouse_shelf"/>
+		<object path="units/pd2_dlc_des/props/des_prop_warehouse_shelf/des_prop_warehouse_shelf"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_warehouse_shelf/des_prop_warehouse_shelf"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_warehouse_shelf/des_prop_warehouse_shelf_boxes_01" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_warehouse_shelf/des_prop_warehouse_shelf_boxes_01"/>
+		<object path="units/pd2_dlc_des/props/des_prop_warehouse_shelf/des_prop_warehouse_shelf_boxes_01"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_warehouse_shelf/des_prop_warehouse_shelf_boxes_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_letter_a" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_letter_a"/>
+		<object path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_letter_a"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_letter_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_whiteboard_lamp" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_whiteboard_lamp"/>
+		<object path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_whiteboard_lamp"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_whiteboard_lamp"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_whiteboard_lamp"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_writing_1" type="unit">
+		<unit path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_writing_1"/>
+		<object path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_writing_1"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_letter_a"/>
 	</add>
 </table>

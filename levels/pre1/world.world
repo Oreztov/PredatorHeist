@@ -58,11 +58,14 @@
 			<entry index="10" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_02"/>
 			<entry index="11" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_01"/>
 			<entry index="12" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_03"/>
-			<entry index="13" type="string" value="units/world/vegetation/forest/vegetation/vegetation_brush_grass_5a/vegetation_brush_grass_5a"/>
-			<entry index="14" type="string" value="units/world/vegetation/forest/zones/forest/brushes/fst_brush_flower_07/fst_brush_flower_07"/>
-			<entry index="15" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_01"/>
-			<entry index="16" type="string" value="units/payday2/nature/pnau/pnau_brush/pnau_brush_grass/pnau_brush_grass_5a"/>
-			<entry index="17" type="string" value="units/world/vegetation/forest/zones/forest/brushes/fst_brush_flower_05/fst_brush_flower_05"/>
+			<entry index="13" type="string" value="units/world/vegetation/jungle/brushes/brush_tallgrass_lp_medium"/>
+			<entry index="14" type="string" value="units/world/vegetation/jungle/brushes/brush_tallgrass_wall"/>
+			<entry index="15" type="string" value="units/world/vegetation/jungle/brushes/brush_tallgrass_small"/>
+			<entry index="16" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_dry_01"/>
+			<entry index="17" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_dry_03"/>
+			<entry index="18" type="string" value="units/world/vegetation/jungle/brushes/brush_grass_dry_02"/>
+			<entry index="19" type="string" value="units/world/brushes/grass/grass_2x2"/>
+			<entry index="20" type="string" value="units/world/vegetation/jungle/brushes/brush_tallgrass_medium"/>
 		</entry>
 	</entry>
 	<entry key="camera_bookmarks" type="table">

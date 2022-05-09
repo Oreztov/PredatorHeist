@@ -11,13 +11,13 @@
 		<texture path="units/pd2_mod_pre/pickups/chaos_emeralds/green_emerald" unload="true"/>
 		<texture path="units/pd2_mod_pre/pickups/chaos_emeralds/blue_emerald" unload="true"/>
 		<texture force="true" path="units/pd2_mod_pre/crystal_tunnel/crystal_il" unload="true"/>
-		<model force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" unload="true"/>
 		<material_config force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/red_emerald" unload="true"/>
 		<material_config force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/green_emerald" unload="true"/>
 		<material_config force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/blue_emerald" unload="true"/>
+		<model force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" unload="true"/>
 		<object force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" unload="true"/>
-		<unit force="true" load="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" unload="true"/>
+		<unit force="true" load="true" path="units/pd2_mod_pre/pickups/chaos_emeralds/chaos_emeralds" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
 		<unit load="true" path="units/payday2/characters/ene_rebel_4/ene_rebel_4"/>
@@ -1647,5 +1647,55 @@
 	</add>
 	<add from_db="true" path="effects/particles/fire/large_light_fire" type="effect">
 		<effect load="true" path="effects/particles/fire/large_light_fire"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/brushes/brush_tallgrass_big" type="unit">
+		<material_config path="units/world/vegetation/jungle/brushes/brush_tallgrass"/>
+		<object path="units/world/vegetation/jungle/brushes/brush_tallgrass_big"/>
+		<unit path="units/world/vegetation/jungle/brushes/brush_tallgrass_big"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/architecture/cas_grass_01/cas_grass_01" type="unit">
+		<material_config path="units/pd2_dlc_casino/architecture/cas_grass_01/cas_grass_01"/>
+		<object path="units/pd2_dlc_casino/architecture/cas_grass_01/cas_grass_01"/>
+		<unit path="units/pd2_dlc_casino/architecture/cas_grass_01/cas_grass_01"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/brushes/brush_tallgrass_medium" type="unit">
+		<material_config path="units/world/vegetation/jungle/brushes/brush_tallgrass"/>
+		<object path="units/world/vegetation/jungle/brushes/brush_tallgrass_medium"/>
+		<unit path="units/world/vegetation/jungle/brushes/brush_tallgrass_medium"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/brushes/brush_tallgrass_small" type="unit">
+		<material_config path="units/world/vegetation/jungle/brushes/brush_tallgrass"/>
+		<object path="units/world/vegetation/jungle/brushes/brush_tallgrass_small"/>
+		<unit path="units/world/vegetation/jungle/brushes/brush_tallgrass_small"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/brushes/brush_tallgrass_lp_medium" type="unit">
+		<material_config path="units/world/vegetation/jungle/brushes/brush_tallgrass"/>
+		<object path="units/world/vegetation/jungle/brushes/brush_tallgrass_lp_medium"/>
+		<unit path="units/world/vegetation/jungle/brushes/brush_tallgrass_lp_medium"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/burned_palmtree_small_01" type="unit">
+		<material_config path="units/world/vegetation/jungle/burned_palmtrees"/>
+		<object path="units/world/vegetation/jungle/burned_palmtree_small_01"/>
+		<unit path="units/world/vegetation/jungle/burned_palmtree_small_01"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/burned_palmtree_small_03" type="unit">
+		<material_config path="units/world/vegetation/jungle/burned_palmtrees"/>
+		<object path="units/world/vegetation/jungle/burned_palmtree_small_03"/>
+		<unit path="units/world/vegetation/jungle/burned_palmtree_small_03"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/aloeverabushbig_03" type="unit">
+		<material_config path="units/world/vegetation/jungle/aloeverabushbig"/>
+		<object path="units/world/vegetation/jungle/aloeverabushbig_03"/>
+		<unit path="units/world/vegetation/jungle/aloeverabushbig_03"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/aloeverabushbig_b_01" type="unit">
+		<material_config path="units/world/vegetation/jungle/aloeverabushbig"/>
+		<object path="units/world/vegetation/jungle/aloeverabushbig_b_01"/>
+		<unit path="units/world/vegetation/jungle/aloeverabushbig_b_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_large" type="unit">
+		<unit path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_large"/>
+		<object path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_large"/>
+		<material_config path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_large"/>
 	</add>
 </table>

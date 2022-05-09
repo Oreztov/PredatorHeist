@@ -248,7 +248,7 @@
 							<entry key="id" type="number" value="100010"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="3650 -4800 400"/>
+					<entry key="position" type="vector3" value="3650 -4725 400"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="sequence_list" type="table">
 						<entry index="1" type="table">
@@ -271,8 +271,8 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="3550 -4800 400"/>
-					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="position" type="vector3" value="3550 -4725 400"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_list" type="table">
 						<entry index="1" type="table">
 							<entry key="name" type="string" value="run_sequence"/>
