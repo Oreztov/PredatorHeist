@@ -4,8 +4,7 @@
 	<bodies>
 		<body name="body_static" enabled="true" template="static">
 			<object name="rp_root" />
-			<object name="interaction" />
-			<object name="g_crystal" collision_type="mesh_mopp"/>
+			<object name="g_crystal" collision_type="convex" padding="-2.5"/>
 		</body>
 	</bodies>
 	<decal_surfaces default_material="stone">

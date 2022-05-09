@@ -3,10 +3,9 @@
 	<network sync="spawn" />
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
-		<extension name="interaction" class="SpecialEquipmentInteractionExt">
+		<extension name="interaction" class="UseInteractionExt">
 			<var name="tweak_data" value="pre_pku_chaos" />
 			<var name="_interact_object" value="interaction"/>
-			<var name="_remove_on_interact" value="true"/>
 		</extension>
 		<extension name="damage" class="UnitDamage" />
 	</extensions>

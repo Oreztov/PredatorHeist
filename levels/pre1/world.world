@@ -71,13 +71,13 @@
 	<entry key="camera_bookmarks" type="table">
 		<entry key="camp/murky" type="table">
 			<entry key="position" type="vector3" value="4790.94 12421.7 1086.09"/>
-			<entry key="rotation" type="quaternion" value="0.0643973 0.0348924 -0.475115 -0.87687"/>
+			<entry key="rotation" type="quaternion" value="0.0644011 0.0348942 -0.475112 -0.876871"/>
 		</entry>
 		<entry key="cave" type="table">
 			<entry key="position" type="vector3" value="11347.1 5489.78 -278.546"/>
 			<entry key="rotation" type="quaternion" value="9.04509e-005 -0.10366 0.994612 -0.000867867"/>
 		</entry>
-		<entry key="default" type="string" value="cave"/>
+		<entry key="default" type="string" value="camp/murky"/>
 	</entry>
 	<entry key="environment" type="table">
 		<entry key="cubemap_gizmos" type="table">
