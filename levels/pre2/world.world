@@ -47,8 +47,8 @@
 	<entry key="camera_bookmarks" type="table">
 		<entry key="default" type="string" value="elevator"/>
 		<entry key="elevator" type="table">
-			<entry key="position" type="vector3" value="7801 -940 515"/>
-			<entry key="rotation" type="quaternion" value="0.0127121 -0.181792 0.98086 -0.0685883"/>
+			<entry key="position" type="vector3" value="7801 -940 4588.5"/>
+			<entry key="rotation" type="quaternion" value="0.0156615 -0.197894 0.977043 -0.0773239"/>
 		</entry>
 	</entry>
 	<entry key="environment" type="table">

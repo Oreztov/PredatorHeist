@@ -1,0 +1,21 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" orientation_object="rp_pre_temple_arena" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_pre_temple_arena" />
+			<object name="c_convex" collision_type="convex" padding="-2.5" />
+			<object name="c_mesh_side" collision_type="mesh_mopp" />
+			<object name="c_mesh_mopp_bridge" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" enabled="true" />
+		<object name="g_bridge" enabled="true" />
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+
+	<decal_surfaces default_material="marble">
+		<decal_mesh name="g_g" enabled="true" material="marble" />
+		<decal_mesh name="g_bridge" enabled="true" material="marble" />
+	</decal_surfaces>
+</dynamic_object>

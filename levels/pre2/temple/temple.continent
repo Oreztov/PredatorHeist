@@ -1,0 +1,32 @@
+<table>
+	<editor_groups/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="18000 -3050 0" _prev_rot="0 0 1 4.37114e-008" continent="temple" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" name_id="pre_temple_arena_001" position="18000 -3050 0" rotation="0 0 1 -4.37114e-008" unit_id="300000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18000 -3050 0" _prev_rot="0 0 0 -1" continent="temple" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="-0 0 -1 4.37114e-008" name="units/pd2_dlc_uno/architecture/mesh/uno_wall" name_id="uno_wall_003" position="18000 -3050 0" rotation="0 0 0 1" unit_id="300001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18000 -3050 0" _prev_rot="0 0 -0.707107 -0.707107" continent="temple" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="-0 0 -0.707107 0.707107" name="units/pd2_dlc_uno/architecture/mesh/uno_wall" name_id="uno_wall_002" position="18000 -3050 0" rotation="0 0 0.707107 0.707107" unit_id="300002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18000 -3050 0" _prev_rot="0 0 1 4.37114e-008" continent="temple" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_uno/architecture/mesh/uno_wall" name_id="uno_wall_001" position="18000 -3050 0" rotation="0 0 1 4.37114e-008" unit_id="300003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18000 -3050 0" _prev_rot="0 0 0.92388 0.382683" continent="temple" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="-0 0 -0.382683 0.92388" name="units/pd2_dlc_uno/architecture/mesh/uno_wall" name_id="uno_wall_004" position="18000 -3050 0" rotation="0 0 0.92388 0.382683" unit_id="300004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18000 -3050 0" _prev_rot="0 0 -0.382683 -0.92388" continent="temple" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="-0 0 -0.92388 0.382683" name="units/pd2_dlc_uno/architecture/mesh/uno_wall" name_id="uno_wall_005" position="18000 -3050 0" rotation="0 0 0.382683 0.92388" unit_id="300005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18000 -3050 0" _prev_rot="-0 -0 0.382683 -0.92388" continent="temple" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 -0.92388 -0.382683" name="units/pd2_dlc_uno/architecture/mesh/uno_wall" name_id="uno_wall_006" position="18000 -3050 0" rotation="0 0 -0.382683 0.92388" unit_id="300006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="18000 -3050 0" _prev_rot="0 0 0.92388 -0.382683" continent="temple" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0.382683 0.92388" name="units/pd2_dlc_uno/architecture/mesh/uno_wall" name_id="uno_wall_007" position="18000 -3050 0" rotation="0 0 0.92388 -0.382683" unit_id="300007"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

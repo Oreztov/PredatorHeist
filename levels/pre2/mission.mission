@@ -1,4 +1,5 @@
 <table>
 	<editor_only file="editor_only/editor_only"/>
+	<temple file="temple/temple"/>
 	<world file="world/world"/>
 </table>

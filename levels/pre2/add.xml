@@ -2235,8 +2235,13 @@
 		<unit path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_whiteboard_lamp"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_writing_1" type="unit">
-		<unit path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_writing_1"/>
-		<object path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_writing_1"/>
 		<material_config path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_letter_a"/>
+		<object path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_writing_1"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_whiteboard_lamp/des_prop_writing_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/mesh/uno_wall" type="unit">
+		<unit path="units/pd2_dlc_uno/architecture/mesh/uno_wall"/>
+		<object path="units/pd2_dlc_uno/architecture/mesh/uno_wall"/>
+		<material_config path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
 	</add>
 </table>

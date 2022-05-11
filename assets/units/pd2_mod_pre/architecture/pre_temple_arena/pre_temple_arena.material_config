@@ -1,0 +1,177 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_temp" version="2">
+        <diffuse_texture file="units/pd2_dlc_des/test units/uv_wrapper/uv_wrapper_df"/>
+        <bump_normal_texture file="units/pd2_dlc_des/test units/uv_wrapper/uv_wrapper_nm"/>
+        <material_texture file="units/pd2_dlc_des/test units/uv_wrapper/uv_wrapper_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX:VERTEX_COLOR" name="mat_mayan_wall_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/obsidian/uno_obsidian_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/mayan_wall_01/uno_mayan_wall_01_dnm"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/mayan_wall_01/uno_mayan_wall_01_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.0195000009262"/>
+        <variable type="scalar" name="parallax_layers" value="32"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_pipes" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/obsidian/uno_obsidian_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/pipes_01/uno_pipes_01_nm"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/pipes_01/uno_pipes_01_gsma"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" name="mat_platform_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/platform_floor/uno_platform_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/platform_floor/uno_platform_floor_nm"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/platform_floor/uno_platform_floor_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX:PARALLAX_RELIEF" name="mat_bridge_floor" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/obsidian/uno_obsidian_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/bridge_floor/uno_bridge_floor_dnm"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/bridge_floor/uno_bridge_floor_gsma"/>
+        <variable type="scalar" name="parallax_scale" value="0.02750000130618"/>
+        <variable type="scalar" name="parallax_layers" value="32"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_wall_02" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/obsidian/uno_obsidian_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/wall_02/uno_wall_02_nm"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/wall_02/uno_wall_02_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_bottom" version="2">
+        <diffuse_texture file="units/black_df"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX:PARALLAX_RELIEF" name="mat_trims_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/uno_trims_01/uno_trims_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/uno_trims_01/uno_trims_01_dnm"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/uno_trims_01/uno_trims_01_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+        <variable type="scalar" name="parallax_scale" value="0.015000000712462"/>
+        <variable type="scalar" name="parallax_layers" value="32"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_obsidian" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/obsidian/uno_obsidian_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/obsidian/uno_obsidian_nm"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/obsidian/uno_obsidian_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material name="mat_metal_rust" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:VERTEX_COLOR" version="2" decal_material="metal">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/rusty_metal/uno_rusymetal_df"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/rusty_metal/uno_rusymetal_gsma"/>
+    </material>
+    <material unique="true" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" name="mat_outline" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable type="vector3" name="contour_color" value="1.0 0.5 0"/>
+        <variable type="scalar" name="contour_opacity" value="1"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+    <material render_template="generic:BLEND_DIFFUSE:BLEND_GSMA:BLEND_MASK_CONTROL:BLEND_MASK_CROSSBLEND:BLEND_NORMAL:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_rock_blend" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/rockwall_01/uno_rockwall_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/rockwall_01/uno_rockwall_01_nm"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/rockwall_01/uno_rockwall_01_gsma"/>
+        <variable type="vector3" name="blend_control" value="0.26999998092651 0.10000000149012 0"/>
+        <normal_layer0_texture file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_nm"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+        <diffuse_layer0_texture file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_df"/>
+        <diffuse_layer2_texture file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:NORMALMAP:NORMAL_UVANIM" name="mat_rope" version="2">
+        <diffuse_texture file="units/pd2_dlc_cro/ind_ext_harbour_side_stage_02/textures/ind_ext_harbour_orange_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_harbour_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_street_wet_df" type="cubemap"/>
+        <variable type="vector3" name="uv_speed" value="0.05 0.0 0.0"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:SKINNED_1WEIGHT" name="mat_rope_skinned" version="2">
+        <diffuse_texture file="units/pd2_dlc_cro/ind_ext_harbour_side_stage_02/textures/ind_ext_harbour_orange_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_harbour_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_street_wet_df" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mat_rope_not_moving" version="2">
+        <diffuse_texture file="units/pd2_dlc_cro/ind_ext_harbour_side_stage_02/textures/ind_ext_harbour_orange_df"/>
+        <bump_normal_texture file="units/payday2/architecture/ind/ind_ext_harbour_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_street_wet_df" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_tunnel_wood" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/old_wood/uno_old_wood_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/old_wood/uno_old_wood_nm"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/old_wood/uno_old_wood_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_door_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/props/uno_prop_puzzle_door/textures/uno_door_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/props/uno_prop_puzzle_door/textures/uno_door_01_nm"/>
+        <material_texture file="units/pd2_dlc_uno/props/uno_prop_puzzle_door/textures/uno_door_01_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+    </material>
+    <material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED:INTERSECTION_FADEOUT:VIEW_ANGLE_FALLOFF_OP" name="mat_lightray" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/light_rays/uno_spotlight_ligthray_df"/>
+        <variable type="scalar" name="intensity" value="candle"/>
+        <variable type="scalar" name="falloff_exp" value="9.9999997473788e-05"/>
+        <variable type="scalar" name="fadeout_distance" value="0"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" name="mat_small_lamp" version="2">
+        <diffuse_texture file="units/pd2_dlc_dark/props/drk_prop_mechanical_lamp_small/drk_prop_mechanical_lamp_small_df"/>
+        <bump_normal_texture file="units/pd2_dlc_dark/props/drk_prop_mechanical_lamp_small/drk_prop_mechanical_lamp_small_nm"/>
+        <self_illumination_texture file="units/pd2_dlc_dark/props/drk_prop_mechanical_lamp_small/drk_prop_mechanical_lamp_small_il"/>
+        <variable type="scalar" name="il_multiplier" value="inside of borg queen"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_cable" version="2">
+        <diffuse_texture file="units/black_df"/>
+        <bump_normal_texture file="units/payday2/textures/blank_nm"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/pipes_01/uno_pipes_01_gsma"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_text" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/text_atlas/uno_text_atlas_df"/>
+        <self_illumination_texture file="units/pd2_dlc_uno/architecture/tiling_textures/text_atlas/uno_text_atlas_df"/>
+        <variable type="scalar" name="il_bloom" value="4.8750002315501"/>
+        <variable type="scalar" name="il_multiplier" value="neonsign"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_gold" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/uno_gold/uno_gold_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/uno_gold/uno_gold_nm"/>
+        <material_texture file="units/pd2_dlc_uno/architecture/tiling_textures/uno_gold/uno_gold_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" name="mat_construction_light" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_construction_light_a/dah_prop_construction_light_a_df"/>
+        <bump_normal_texture file="units/pd2_dlc_dah/props/dah_prop_construction_light_a/dah_prop_construction_light_a_nm"/>
+        <self_illumination_texture file="units/pd2_dlc_dah/props/dah_prop_construction_light_a/dah_prop_construction_light_a_il"/>
+        <variable type="scalar" name="il_multiplier" value="sun"/>
+    </material>
+    <material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE" name="mat_glass" version="2">
+        <diffuse_texture file="units/payday2/glass/glass_clear_small_df"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_small_op"/>
+        <variable type="vector3" name="fresnel_settings" value="2 1 0.81000000238419"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_box" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/props/uno_prop_door_contoller/uno_prop_door_contoller_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/props/uno_prop_door_contoller/uno_prop_door_contoller_nm"/>
+    </material>
+    <material render_template="decal:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE" name="mat_platform_decal" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/architecture/tiling_textures/obsidian/uno_obsidian_df"/>
+        <opacity_texture file="units/pd2_dlc_uno/architecture/tiling_textures/platform_decal/uno_platform_decals_op"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/platform_decal/uno_platform_decals_nm"/>
+    </material>
+    <material render_template="decal:DIFFUSE_TEXTURE:NORMALMAP:OPACITY_TEXTURE:SIMPLE_TINT" name="mat_carvings_01" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <opacity_texture file="units/pd2_dlc_uno/architecture/tiling_textures/carvings/uno_namncarvings_op"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/architecture/tiling_textures/carvings/uno_namncarvings_nm"/>
+        <variable type="vector3" name="tint_color" value="0.10236221551895 0.099552281200886 0.09272813051939"/>
+    </material>
+    <material name="mat_candles" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2" decal_material="glass_breakable">
+        <diffuse_texture file="units/pd2_dlc_friend/props/sfm_prop_ext_candles/sfm_prop_ext_candles_df" mip="4"/>
+        <material_texture file="units/pd2_dlc_friend/props/sfm_prop_ext_candles/sfm_prop_ext_candles_gsma" mip="4"/>
+        <bump_normal_texture file="units/pd2_dlc_friend/props/sfm_prop_ext_candles/sfm_prop_ext_candles_nm" mip="4"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_nameplate" version="2">
+        <diffuse_texture file="units/pd2_dlc_uno/props/uno_nameplate/uno_nemeplate_df"/>
+        <bump_normal_texture file="units/pd2_dlc_uno/props/uno_nameplate/uno_nemeplate_nm"/>
+        <material_texture file="units/pd2_dlc_uno/props/uno_nameplate/uno_nemeplate_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap"/>
+    </material>
+</materials>

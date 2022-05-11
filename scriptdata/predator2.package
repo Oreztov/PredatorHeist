@@ -8,6 +8,11 @@
 		<model path="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator" unload="true"/>
 		<object path="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator" unload="true"/>
 		<unit path="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator" unload="true"/>
+
+		<material_config path="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" unload="true"/>
+		<model path="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" unload="true"/>
+		<object path="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" unload="true"/>
+		<unit path="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
 		<cooked_physics path="units/pd2_mod_pre/pre_beam_big/pre_beam_big" unload="true"/>
