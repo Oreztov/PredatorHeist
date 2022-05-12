@@ -17,7 +17,7 @@ Hooks:PostHook(CharacterTweakData, "init", "pre_init", function (self)
 	--     true  - throws only if enemy is visible
 	--     false - throws only if enemy isn't visible
 	--     nil   - throws regardless of enemy visibility
-	self.predator.throwable = "molotov"
+	self.predator.throwable = "poison_gas_grenade"
 	self.predator.throwable_target_verified = true
 	self.predator.throwable_cooldown = 10
 
@@ -26,25 +26,19 @@ Hooks:PostHook(CharacterTweakData, "init", "pre_init", function (self)
 end)
 
 local character_map_original = CharacterTweakData.character_map
-
 function CharacterTweakData:character_map(...)
 
-    local char_map = character_map_original(self, ...)
-    local new_map ={
-            "ene_rebel_1",
-            "ene_rebel_2",
-            "ene_rebel_3",
-			"ene_rebel_4"
-    }
+	local char_map = character_map_original(self, ...)
+	local new_map ={
+		"ene_rebel_1",
+		"ene_rebel_2",
+		"ene_rebel_3",
+		"ene_rebel_4"
+	}
 
+	for _, unit in pairs(new_map) do
+		table.insert(char_map.basic.list, unit)
+	end
 
-    for _, unit in pairs(new_map) do
-        table.insert(char_map.basic.list, unit)
-    end
-
-
-
-
-
-    return char_map
+	return char_map
 end
