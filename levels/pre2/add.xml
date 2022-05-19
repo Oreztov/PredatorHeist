@@ -2762,12 +2762,102 @@
 		<unit path="units/world/props/office/computer/server_03"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_des/equipment/des_interactable_hack_computer/des_interactable_hack_computer" type="unit">
-		<unit path="units/pd2_dlc_des/equipment/des_interactable_hack_computer/des_interactable_hack_computer"/>
-		<object path="units/pd2_dlc_des/equipment/des_interactable_hack_computer/des_interactable_hack_computer"/>
-		<material_config path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_props"/>
-		<sequence_manager path="units/pd2_dlc_des/equipment/des_interactable_hack_computer/des_interactable_hack_computer"/>
+		<bnk path="soundbanks/regular_sfx"/>
 		<effect load="true" path="effects/particles/dest/veil_tube"/>
 		<gui path="guis/timer_gui"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_security_console/des_prop_security_console_props"/>
+		<object path="units/pd2_dlc_des/equipment/des_interactable_hack_computer/des_interactable_hack_computer"/>
+		<sequence_manager path="units/pd2_dlc_des/equipment/des_interactable_hack_computer/des_interactable_hack_computer"/>
+		<unit path="units/pd2_dlc_des/equipment/des_interactable_hack_computer/des_interactable_hack_computer"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" type="unit">
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_panel_keycard/item_panel_keycard_double" type="unit">
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/item_panel_keycard_double"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_keycard_box/bry_prop_keycard_box" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_keycard_box/bry_prop_keycard_box"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_keycard_box/bry_prop_keycard_box"/>
+		<sequence_manager path="units/pd2_dlc_berry/props/bry_prop_keycard_box/bry_prop_keycard_box"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_keycard_box/bry_prop_keycard_box"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader" type="unit">
 		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_retinascanner"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
+		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader"/>
+		<object path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader"/>
+		<sequence_manager path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader"/>
+		<unit path="units/pd2_dlc_pex/props/pex_props_keycard_reader/pex_props_keycard_reader"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_red/pickups/gen_pku_keycard_outlined/gen_pku_keycard_outlined" type="unit">
+		<material_config path="units/pd2_dlc_red/pickups/gen_pku_keycard_outlined/gen_pku_keycard_outlined"/>
+		<object path="units/pd2_dlc_red/pickups/gen_pku_keycard_outlined/gen_pku_keycard_outlined"/>
+		<sequence_manager path="units/pd2_dlc_red/pickups/gen_pku_keycard_outlined/gen_pku_keycard_outlined"/>
+		<unit path="units/pd2_dlc_red/pickups/gen_pku_keycard_outlined/gen_pku_keycard_outlined"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_peoc_keycard_reader/vit_prop_peoc_keycard_reader" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_peoc_keycard_reader/vit_prop_peoc_keycard_reader"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_peoc_keycard_reader/vit_prop_peoc_keycard_reader"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_peoc_keycard_reader/vit_prop_peoc_keycard_reader"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_peoc_keycard_reader/vit_prop_peoc_keycard_reader"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_retinascanner"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard_b" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_retinascanner"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard_b"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard_b"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_presidential_keycard/vit_prop_presidential_keycard" type="unit">
+		<unit path="units/pd2_dlc_vit/props/vit_prop_presidential_keycard/vit_prop_presidential_keycard"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_presidential_keycard/vit_prop_presidential_keycard"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_presidential_keycard/vit_prop_presidential_keycard"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_presidential_keycard/vit_prop_presidential_keycard"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>

@@ -1744,8 +1744,13 @@
 		<unit path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a"/>
-		<object path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a"/>
 		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>
