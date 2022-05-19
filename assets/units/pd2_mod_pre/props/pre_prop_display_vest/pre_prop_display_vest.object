@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest" orientation_object="rp_pre_prop_display_vest" />
+	<metadata material_config_group="mrt_display_vest"/>
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_pre_prop_display_vest" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_03" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="g_vest" enabled="true" material="metal" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_vest" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<materials version="3" group="mrt_display_vest">
+	<material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mtr_enforcer_vest" version="2">
+		<diffuse_texture file="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest_df" mip="1"/>
+		<bump_normal_texture file="units/payday2/characters/shared_textures/vest_big_nm" mip="4"/>
+	</material>
+</materials>

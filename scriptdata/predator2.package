@@ -13,6 +13,16 @@
 		<model path="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" unload="true"/>
 		<object path="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" unload="true"/>
 		<unit path="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" unload="true"/>
+
+		<material_config path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest" unload="true"/>
+		<material_config path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest_a" unload="true"/>
+		<material_config path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest_b" unload="true"/>
+		<model path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest" unload="true"/>
+		<object path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest" unload="true"/>
+		<unit path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest" unload="true"/>
+		<texture path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest_df" unload="true"/>
+		<texture path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest_a_df" unload="true"/>
+		<texture path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest_b_df" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
 		<cooked_physics path="units/pd2_mod_pre/pre_beam_big/pre_beam_big" unload="true"/>
