@@ -40,6 +40,8 @@
 			<hook file="PredatorActionShoot.lua" source_file="lib/units/enemies/cop/copmovement"/>
 			<hook file="PredatorLogicAttack.lua" source_file="lib/units/enemies/cop/copbrain"/>
 			<hook file="CopBase.lua" source_file="lib/units/enemies/cop/copbase"/>
+			<hook file="PlayerDamage.lua" source_file="lib/units/beings/player/playerdamage"/>
+			<hook file="PoisonGasEffect.lua" source_file="lib/managers/player/poisongaseffect"/>
 			<hooks directory="slide_player_state">
 				<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
 				<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>

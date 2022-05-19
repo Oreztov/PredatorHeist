@@ -1,4 +1,4 @@
-PlayerDamage.POISON_DMG_MUL = 0.35
+PlayerDamage.POISON_DMG_MUL = 0.5
 
 function PlayerDamage:damage_dot(attack_data)
 	local damage_info = {
