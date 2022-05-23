@@ -1,4 +1,7 @@
 <table directory="assets">
+  <add>
+    <object path="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank" force="true"/>
+  </add>
     <add>
         <material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks" unload="true"/>
         

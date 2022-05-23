@@ -1,0 +1,63 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank" orientation_object="rp_des_prop_lab_tank" />
+	<sequence_manager file="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_des_prop_lab_tank" />
+			<object name="c_meshmopp_01" collision_type="mesh_mopp" padding="-2.5" />
+			<object name="c_meshmopp_02" collision_type="mesh_mopp" padding="-2.5" />
+			<object name="c_meshmopp_03" collision_type="mesh_mopp" padding="-2.5" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_12" collision_type="box" padding="-2.5" />
+			<object name="c_box_13" collision_type="box" padding="-2.5" />
+			<object name="c_box_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_15" collision_type="box" padding="-2.5" />
+			<object name="c_box_16" collision_type="box" padding="-2.5" />
+			<object name="c_box_17" collision_type="box" padding="-2.5" />
+			<object name="c_box_18" collision_type="box" padding="-2.5" />
+			<object name="c_box_19" collision_type="box" padding="-2.5" />
+			<object name="c_box_20" collision_type="box" padding="-2.5" />
+			<object name="c_box_21" collision_type="box" padding="-2.5" />
+			<object name="c_box_22" collision_type="box" padding="-2.5" />
+			<object name="c_box_23" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_nav" enabled="true" template="nav_walk">
+			<object name="rp_des_prop_lab_tank" />
+			<object name="c_navmesh_01" collision_type="mesh_mopp" padding="-2.5" />
+		</body>
+	</bodies>
+	<animations>
+		<animation_group name="anim_tank_fluid_group" enabled="false">
+			<object name="a_tank_fluid" />
+		</animation_group>
+	</animations>
+	<decal_surfaces default_material="plastic">
+		<decal_mesh name="dm_glass" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+
+	<effects>
+		<effect_spawner name="bubbles_slow_short_01" enabled="true" object="e_bubbles_slow_short_01" effect="effects/payday2/particles/water/water_bubbles_slow_short" />
+		<effect_spawner name="bubbles_slow_short_02" enabled="true" object="e_bubbles_slow_short_02" effect="effects/payday2/particles/water/water_bubbles_slow_short" />
+		<effect_spawner name="bubbles_slow_01" enabled="true" object="e_bubbles_slow_01" effect="effects/payday2/particles/water/water_bubbles_slow" />
+		<effect_spawner name="bubbles_slow_02" enabled="true" object="e_bubbles_slow_02" effect="effects/payday2/particles/water/water_bubbles_slow" />
+	</effects>
+
+	<graphics>
+		<object name="g_tank" enabled="true" />
+		<object name="g_tank_glass" enabled="true" />
+		<object name="g_tank_ceiling" enabled="true" />
+	</graphics>
+</dynamic_object>
