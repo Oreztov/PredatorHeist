@@ -3189,8 +3189,13 @@
 		<unit path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_large_02"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall" type="unit">
-		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall"/>
-		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall"/>
 		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/environments/des_indoor/des_indoor" type="environment">
+		<environment path="units/pd2_dlc_des/environments/des_indoor/des_indoor"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
 	</add>
 </table>

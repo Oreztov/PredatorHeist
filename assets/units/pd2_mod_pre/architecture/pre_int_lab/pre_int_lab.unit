@@ -1,0 +1,6 @@
+<unit type="bph" slot="1">
+	<object file="units/pd2_mod_pre/architecture/pre_int_lab/pre_int_lab" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

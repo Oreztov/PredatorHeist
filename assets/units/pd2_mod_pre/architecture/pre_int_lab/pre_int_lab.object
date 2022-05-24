@@ -1,0 +1,13 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_pre/architecture/pre_int_lab/pre_int_lab" orientation_object="rp_pre_lab" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_pre_lab" />
+			<object name="c_mesh_01" collision_type="mesh_mopp"/>
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_rocks" enabled="true" />
+		<object name="g_walls" enabled="true" />
+	</graphics>
+</dynamic_object>

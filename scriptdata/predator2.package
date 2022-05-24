@@ -17,6 +17,11 @@
 		<object path="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" unload="true"/>
 		<unit path="units/pd2_mod_pre/architecture/pre_temple_arena/pre_temple_arena" unload="true"/>
 
+		<material_config path="units/pd2_mod_pre/architecture/pre_int_lab/pre_int_lab" unload="true"/>
+		<model path="units/pd2_mod_pre/architecture/pre_int_lab/pre_int_lab" unload="true"/>
+		<object path="units/pd2_mod_pre/architecture/pre_int_lab/pre_int_lab" unload="true"/>
+		<unit path="units/pd2_mod_pre/architecture/pre_int_lab/pre_int_lab" unload="true"/>
+
 		<material_config path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest" unload="true"/>
 		<material_config path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest_a" unload="true"/>
 		<material_config path="units/pd2_mod_pre/props/pre_prop_display_vest/pre_prop_display_vest_b" unload="true"/>
