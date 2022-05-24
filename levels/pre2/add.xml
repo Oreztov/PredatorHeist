@@ -3076,8 +3076,121 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_locker_v2"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_twin" type="unit">
-		<unit path="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_twin"/>
-		<object path="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_twin"/>
 		<material_config path="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a"/>
+		<object path="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_twin"/>
+		<unit path="units/payday2/props/str_prop_rooftop_ac_unit_a/str_prop_rooftop_ac_unit_a_twin"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/are/are_off_int_wall_plastic_window_tall_2m" type="unit">
+		<material_config path="units/payday2/architecture/are/are_off_int"/>
+		<object path="units/payday2/architecture/are/are_off_int_wall_plastic_window_tall_2m"/>
+		<unit path="units/payday2/architecture/are/are_off_int_wall_plastic_window_tall_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_female_casual_8/civ_female_casual_8" type="unit">
+		<unit path="units/payday2/characters/civ_female_casual_8/civ_female_casual_8"/>
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<unit load="true" path="units/payday2/characters/civ_female_casual_8/civ_female_casual_8_husk"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<material_config path="units/payday2/characters/civ_female_casual_8/civ_female_casual_8"/>
+		<object path="units/payday2/characters/civ_female_casual_8/civ_female_casual_8"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_murkywater_1/ene_murkywater_1" type="unit">
+		<unit path="units/payday2/characters/ene_murkywater_1/ene_murkywater_1"/>
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<unit load="true" path="units/payday2/characters/ene_murkywater_1/ene_murkywater_1_husk"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<effect load="true" path="effects/payday2/particles/character/flashlight_ss"/>
+		<material_config path="units/payday2/characters/ene_murkywater_1/ene_murkywater_1"/>
+		<object path="units/payday2/characters/ene_murkywater_1/ene_murkywater_1"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/are/are_off_int_wall_plastic_single_door" type="unit">
+		<material_config path="units/payday2/architecture/are/are_off_int"/>
+		<object path="units/payday2/architecture/are/are_off_int_wall_plastic_single_door"/>
+		<unit path="units/payday2/architecture/are/are_off_int_wall_plastic_single_door"/>
+	</add>
+	<add from_db="true" path="environments/pd2_cage/pd2_cage" type="environment">
+		<environment path="environments/pd2_cage/pd2_cage"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue" type="scene">
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="environments/pd2_cage_indoor/pd2_cage_indoor" type="environment">
+		<environment path="environments/pd2_cage_indoor/pd2_cage_indoor"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="environments/pd2_cage_indoor2/pd2_cage_indoor2" type="environment">
+		<environment path="environments/pd2_cage_indoor2/pd2_cage_indoor2"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_large_01" type="unit">
+		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rocks"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_large_01"/>
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_large_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_01" type="unit">
+		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rocks"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_01"/>
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_02" type="unit">
+		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rocks"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_02"/>
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_big_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_large_02" type="unit">
+		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rocks"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_large_02"/>
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks/bph_rock_large_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall" type="unit">
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_concrete_solid_wall"/>
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior"/>
 	</add>
 </table>
