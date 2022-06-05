@@ -2130,7 +2130,7 @@
 			<unit_data _prev_pos="691.642 9581.06 -295.5" _prev_rot="-0 0 -0 -1" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="open_door" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_door" name_id="ind_fence_yellow_door_001" position="691.642 9581.06 -293.5" rotation="-0 0 -0 -1" unit_id="100753"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="741.642 9581.06 -295.5" _prev_rot="1.86264e-009 -5.3551e-009 1.65436e-024 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_gate" name_id="ind_fence_yellow_gate_001" position="741.642 9581.06 -295.5" rotation="1.86264e-009 -5.3551e-009 1.65436e-024 -1" unit_id="100754"/>
+			<unit_data _prev_pos="741.642 9581.06 -295.5" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="200 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_gate" name_id="W_001" position="741.642 9581.06 -295.5" rotation="0 -0 0 -1" unit_id="100754"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="347.919 9492.33 81.648" _prev_rot="0 0 0.990268 -0.139173" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_beam_small_4m" name_id="ind_ext_outdoor_beam_small_4m_067" position="227.761 9457.87 81.648" rotation="0 0 0.990268 -0.139173" unit_id="100758"/>
@@ -7701,6 +7701,63 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-255.475 3734.95 797.767" _prev_rot="0 0 -0.199369 -0.979924" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_110" only_visible_in_editor="true" position="-255.475 3734.95 897.767" rotation="0 0 -0.199369 -0.979924" unit_id="102456"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1043.83 441.439 793.927" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_001" position="-1153.83 441.439 793.927" rotation="-0 0 -0 -1" unit_id="102457">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="6.22404" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="770.52 512.401 756.713" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_029" position="672.52 512.401 756.713" rotation="-0 0 -0 -1" unit_id="102458">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="6.8195" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-841.847 4322.81 765.945" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_030" position="-861.847 4322.81 765.945" rotation="-0 0 -0 -1" unit_id="102459">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="5.92631" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="1234.33 4630.23 1088.46" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_031" position="1234.32 4630.23 1061.46" rotation="-0 0 -0 -1" unit_id="102460">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="7.01798" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-625.206 3554.76 726.387" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c" name_id="mus_int_lab_scaffolding_plywood_c_001" position="-625.206 3554.76 726.387" rotation="0 0 0 -1" unit_id="102462"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-668.277 3414.15 725.024" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_001" position="-668.277 3414.15 725.024" rotation="0 0 0 -1" unit_id="102461"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1183.23 -2579.8 723.928" _prev_rot="0 0 1 -0" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_hedge" name_id="ind_ext_warehouse_hedge_034" position="-1427.23 -2579.8 723.928" rotation="0 0 1 -0" unit_id="102463"/>
 		</table>
 	</statics>
 	<values>

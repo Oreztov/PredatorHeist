@@ -1749,8 +1749,60 @@
 		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m"/>
-		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bank_roof_trim_text_a" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bank_roof_trim_text"/>
+		<object path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bank_roof_trim_text_a"/>
+		<unit path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_bank_roof_trim_text_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/props/chainsaw_item/chainsaw_item" type="unit">
+		<material_config path="units/pd2_dlc_cro/props/chainsaw_item/chainsaw_item"/>
+		<object path="units/pd2_dlc_cro/props/chainsaw_item/chainsaw_item"/>
+		<sequence_manager path="units/pd2_dlc_cro/props/chainsaw_item/chainsaw_item"/>
+		<unit path="units/pd2_dlc_cro/props/chainsaw_item/chainsaw_item"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/ind_ext_fuse_box/ind_ext_fuse_box" type="unit">
+		<material_config path="units/pd2_dlc_cro/ind_ext_fuse_box/ind_ext_fuse_box"/>
+		<object path="units/pd2_dlc_cro/ind_ext_fuse_box/ind_ext_fuse_box"/>
+		<unit path="units/pd2_dlc_cro/ind_ext_fuse_box/ind_ext_fuse_box"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_a" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_a"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c" type="unit">
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_a"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_a"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_b"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_b"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_c"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_c"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_d"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_plywood_pieces_d"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_gate_new" type="unit">
+		<unit path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_gate_new"/>
+		<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_gate_new"/>
+		<material_config path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_wall_new"/>
 	</add>
 </table>
