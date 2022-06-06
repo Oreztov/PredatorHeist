@@ -1,6 +1,5 @@
 <table min_lib_ver="4.5" name="PredatorHeist">
-	<Package file="scriptdata/predator2.package" id="package_predator2" unload_on_restart="true"/>
-	<level ai_group_type="America" briefing_dialog="" id="pre1" intro_event="" max_bags="54" player_style="generic">
+	<level ai_group_type="murkywater" briefing_dialog="" id="pre1" intro_event="" max_bags="54" player_style="generic">
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -15,12 +14,14 @@
 			</hooks>
 		</hooks>
 		<interactions>
-			<interaction id="pre_pku_chaos" interact_distance="150" timer="3" sound_start="bar_bag_generic" sound_interupt="bar_bag_generic_cancel" sound_done="bar_bag_generic_finished"/>
+			<interaction id="pre_pku_chaos" interact_distance="150" sound_done="bar_bag_generic_finished" sound_interupt="bar_bag_generic_cancel" sound_start="bar_bag_generic" timer="3"/>
 		</interactions>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
-		<packages/>
+		<packages>
+			<value_node value="packages/dlcs/vit/job_vit"/>
+		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
@@ -247,4 +248,5 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<Package file="scriptdata/predator2.package" id="package_predator2" unload_on_restart="true"/>
 </table>
