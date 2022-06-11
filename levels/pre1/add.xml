@@ -1858,4 +1858,170 @@
 		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x8x8m"/>
 		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x8x8m"/>
 	</add>
+	<add from_db="true" path="environments/env_forest_fog/env_forest_fog" type="environment">
+		<environment path="environments/env_forest_fog/env_forest_fog"/>
+		<material_config path="core/environments/skies/sky_cloudy_blue/sky_cloudy_blue"/>
+		<scene path="core/environments/skies/default/default"/>
+	</add>
+	<add from_db="true" path="environments/pd2_man/pd2_man_main" type="environment">
+		<environment path="environments/pd2_man/pd2_man_main"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue" type="scene">
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_foggy_bright/pd2_env_foggy_bright" type="environment">
+		<environment path="environments/pd2_env_foggy_bright/pd2_env_foggy_bright"/>
+		<material_config path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+		<scene path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark" type="scene">
+		<material_config path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+		<scene path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+	</add>
+	<add from_db="true" path="environments/env_forest_fog2/env_forest_fog2" type="environment">
+		<environment path="environments/env_forest_fog2/env_forest_fog2"/>
+		<material_config path="core/environments/skies/sky_cloudy_blue/sky_cloudy_blue"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/environments/pd2_bph_env_exterior_fog" type="environment">
+		<environment path="units/pd2_dlc_bph/environments/pd2_bph_env_exterior_fog"/>
+		<material_config path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy"/>
+		<scene path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy_dark"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy_dark" type="scene">
+		<material_config path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy"/>
+		<scene path="core/environments/skies/sky_1313_cloudy_dark/sky_1313_cloudy_dark"/>
+	</add>
+	<add from_db="true" path="environments/pd2_man/pd2_man_corridor" type="environment">
+		<environment path="environments/pd2_man/pd2_man_corridor"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="environments/pd2_man/pd2_man_corridor_nofog" type="environment">
+		<environment path="environments/pd2_man/pd2_man_corridor_nofog"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="environments/pd2_man/pd2_man_rooms" type="environment">
+		<environment path="environments/pd2_man/pd2_man_rooms"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
+	</add>
+	<add from_db="true" path="units/payday2/cubemaps/cubemap_forest" type="texture"/>
+	<add from_db="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_gold" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_bridge_01" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_chas_ext_01" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_chas_ext_02" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_disco" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_electionday_df" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_flat_bathroom" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_foggy_night" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_friend_water" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_gold_strong_df" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_mad_forest" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_cash_saferoom" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_fex_sky" type="texture"/>
+	<add from_db="true" path="environments/cubemaps/cubemap_villa_vivaldi" type="texture"/>
+	<add from_db="true" path="core/environments/skies/sky_1345_clear_sky_mountain_01/sky_1345_clear_sky_mountain_01_df" type="texture"/>
+	<add from_db="true" path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop_oakland_bridge" type="unit">
+		<material_config path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop"/>
+		<object path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop_oakland_bridge"/>
+		<unit path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop_oakland_bridge"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_docks" type="unit">
+		<material_config path="units/payday2/architecture/bri_ext_bridge/bigoil_backdrop_1"/>
+		<object path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_docks"/>
+		<unit path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_docks"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_election_1" type="unit">
+		<material_config path="units/payday2/architecture/bri_ext_bridge/bigoil_backdrop_1"/>
+		<object path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_election_1"/>
+		<unit path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_election_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/architecture/ext/sfm_entrance_bridge" type="unit">
+		<material_config path="units/pd2_dlc_friend/architecture/ext/sfm_exteriors"/>
+		<object path="units/pd2_dlc_friend/architecture/ext/sfm_entrance_bridge"/>
+		<unit path="units/pd2_dlc_friend/architecture/ext/sfm_entrance_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge" type="unit">
+		<material_config path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge"/>
+		<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge"/>
+		<unit path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_deck_b" type="unit">
+		<material_config path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge"/>
+		<object path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_deck_b"/>
+		<unit path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_deck_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_2/pta_2_bridge" type="unit">
+		<material_config path="units/pd2_dlc_peta/architecture/pta_2/pta_2_bridge"/>
+		<object path="units/pd2_dlc_peta/architecture/pta_2/pta_2_bridge"/>
+		<unit path="units/pd2_dlc_peta/architecture/pta_2/pta_2_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
+		<object path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
+		<sequence_manager path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
+		<unit path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_hobo_bridge" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_hobo_bridge"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_hobo_bridge"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str_bdrop_bridge_a/str_bdrop_bridge_a" type="unit">
+		<material_config path="units/payday2/architecture/str_bdrop_bridge_a/str_bdrop_bridge_a"/>
+		<object path="units/payday2/architecture/str_bdrop_bridge_a/str_bdrop_bridge_a"/>
+		<unit path="units/payday2/architecture/str_bdrop_bridge_a/str_bdrop_bridge_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_bridge_support/brb_ext_bridge_support" type="unit">
+		<material_config path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_bridge_support/brb_ext_bridge_support"/>
+		<object path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_bridge_support/brb_ext_bridge_support"/>
+		<unit path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_bridge_support/brb_ext_bridge_support"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge"/>
+		<object path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_mid" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge"/>
+		<object path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_mid"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_mid"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_start" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge"/>
+		<object path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_start"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_start"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/architecture/drk_trainyard/drk_trainyard_pillar" type="unit">
+		<material_config path="units/pd2_dlc_dark/architecture/drk_trainyard/drk_trainyard"/>
+		<object path="units/pd2_dlc_dark/architecture/drk_trainyard/drk_trainyard_pillar"/>
+		<unit path="units/pd2_dlc_dark/architecture/drk_trainyard/drk_trainyard_pillar"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_big" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_big"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_big"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_big_2m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_big_2m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_beam_big_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_beam_big_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_beam_big_v2"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_beam_big_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_half_clean" type="unit">
+		<unit path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_half_clean"/>
+		<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_half_clean"/>
+		<material_config path="units/payday2/architecture/ind/ind"/>
+	</add>
 </table>

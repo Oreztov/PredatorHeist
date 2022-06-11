@@ -13,5 +13,7 @@
 	<continent path="editor_only/editor_only" script_data_type="custom_xml"/>
 	<mission path="editor_only/editor_only" script_data_type="generic_xml"/>
 	<cover_data path="cover_data" script_data_type="custom_xml"/>
+	<environment path="environments/predator_day1_nofog" script_data_type="custom_xml"/>
+	<texture path="cubemaps/4"/>
 	<environment path="environments/default" script_data_type="custom_xml"/>
 </table>
