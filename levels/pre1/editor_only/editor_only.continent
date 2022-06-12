@@ -158,42 +158,6 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="3390.03 11198.4 253.754" _prev_rot="0.0922855 -0.0167033 0.976207 -0.195508" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="4543.86 10757 -540.173" local_rot="-0.0922855 0.0167033 -0.976207 0.195508" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_023" position="3390.03 11198.4 253.754" rotation="0.0922855 -0.0167033 0.976207 -0.195508" unit_id="200094">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="9.52" render_template="diffuse_vc_decal" text="PATH---------------" vertical="center" word_wrap="false" wrap="false">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
-			<unit_data _prev_pos="2145.39 10668.3 356.257" _prev_rot="-0.0207976 -0.0593112 0.795956 -0.602083" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3299.22 10226.9 -437.67" local_rot="0.0207976 0.0593112 -0.795956 0.602083" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_024" position="2145.39 10668.3 356.257" rotation="-0.0207976 -0.0593112 0.795956 -0.602083" unit_id="200095">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="9.52" render_template="diffuse_vc_decal" text="PATH---------------" vertical="center" word_wrap="false" wrap="false">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
-			<unit_data _prev_pos="2000.44 9842.42 151.043" _prev_rot="-0.0123407 -0.0616284 0.704416 -0.706999" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="3154.27 9400.98 -642.884" local_rot="0.0123407 0.0616284 -0.704416 0.706999" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_025" position="2000.44 9842.42 151.043" rotation="-0.0123407 -0.0616284 0.704416 -0.706999" unit_id="200096">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="9.52" render_template="diffuse_vc_decal" text="PATH---------------" vertical="center" word_wrap="false" wrap="false">
-					<shape>
-						<value_node value="0"/>
-						<value_node value="0"/>
-						<value_node value="1"/>
-						<value_node value="1"/>
-					</shape>
-				</editable_gui>
-			</unit_data>
-		</table>
-		<table>
 			<unit_data _prev_pos="-1539.27 11240.7 184.197" _prev_rot="0 0 -0.793353 -0.608761" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-385.44 10799.3 -609.73" local_rot="0 0 0.793353 0.608761" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_028" position="-1539.27 11240.7 184.197" rotation="0 0 -0.793353 -0.608761" unit_id="200099">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="9.52" render_template="diffuse_vc_decal" text="armory" vertical="center" word_wrap="false" wrap="false">
 					<shape>
@@ -206,7 +170,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="672.52 512.401 756.713" _prev_rot="0 0 0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_029" position="672.52 512.401 756.713" rotation="0 0 -0 -1" unit_id="200100">
+			<unit_data _prev_pos="672.52 512.401 756.713" _prev_rot="0 0 0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_029" position="672.52 512.401 756.713" rotation="0 0 0 -1" unit_id="200100">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="6.8195" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
@@ -218,7 +182,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-861.847 4322.81 765.945" _prev_rot="0 0 0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="291.983 3881.37 -27.982" local_rot="-0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_030" position="-861.847 4322.81 765.945" rotation="0 0 -0 -1" unit_id="200101">
+			<unit_data _prev_pos="-861.847 4322.81 765.945" _prev_rot="0 0 0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="291.983 3881.37 -27.982" local_rot="-0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_030" position="-861.847 4322.81 765.945" rotation="0 0 0 -1" unit_id="200101">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="5.92631" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
@@ -230,7 +194,7 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="1234.32 4630.23 1061.46" _prev_rot="0 0 0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2388.15 4188.79 267.533" local_rot="-0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_031" position="1234.32 4630.23 1061.46" rotation="0 0 -0 -1" unit_id="200102">
+			<unit_data _prev_pos="1234.32 4630.23 1061.46" _prev_rot="0 0 0 -1" continent="editor_only" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="2388.15 4188.79 267.533" local_rot="-0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_031" position="1234.32 4630.23 1061.46" rotation="0 0 0 -1" unit_id="200102">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="7.01798" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
@@ -714,6 +678,78 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-484.543 -993.614 541.343" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" name_id="dev_nav_blocker_1x1x3m_089" only_exists_in_editor="true" position="-411.543 -993.614 541.343" rotation="0 0 0 -1" unit_id="200191"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="9726.07 10721.9 12.719" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_032" position="9726.07 10721.9 17.719" rotation="0 0 0 -1" unit_id="200084">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="5.92631" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="9742.79 8473.34 23.6626" _prev_rot="0 0 0 -1" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_033" position="9742.79 8473.34 24.6626" rotation="0 0 0 -1" unit_id="200085">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="5.92631" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="11752.4 13223.3 -33.6016" _prev_rot="0 0 0.707107 -0.707107" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_034" position="11752.4 13223.3 4.39843" rotation="0 0 0.707107 -0.707107" unit_id="200086">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="5.92631" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="12953.7 8730.89 82.9677" _prev_rot="0 0 1 -0" continent="editor_only" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_035" position="13034.7 8730.89 82.9677" rotation="0 0 1 -0" unit_id="200087">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="5.92631" render_template="diffuse_vc_decal" text="OBSTACLE" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
 		</table>
 	</statics>
 	<values>

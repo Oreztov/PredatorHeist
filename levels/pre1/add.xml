@@ -1909,81 +1909,7 @@
 		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
 		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue"/>
 	</add>
-	<add from_db="true" path="units/payday2/cubemaps/cubemap_forest" type="texture"/>
-	<add from_db="true" path="core/environments/skies/sky_1313_cloudy/sky_1313_cloudy" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_gold" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_bridge_01" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_chas_ext_01" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_chas_ext_02" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_disco" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_electionday_df" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_flat_bathroom" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_foggy_night" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_friend_water" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_gold_strong_df" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_mad_forest" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_cash_saferoom" type="texture"/>
-	<add from_db="true" path="environments/cubemaps/cubemap_fex_sky" type="texture"/>
 	<add from_db="true" path="environments/cubemaps/cubemap_villa_vivaldi" type="texture"/>
-	<add from_db="true" path="core/environments/skies/sky_1345_clear_sky_mountain_01/sky_1345_clear_sky_mountain_01_df" type="texture"/>
-	<add from_db="true" path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop_oakland_bridge" type="unit">
-		<material_config path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop"/>
-		<object path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop_oakland_bridge"/>
-		<unit path="units/pd2_dlc_chca/architecture/backdrop/chca_ext_backdrop_oakland_bridge"/>
-	</add>
-	<add from_db="true" path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_docks" type="unit">
-		<material_config path="units/payday2/architecture/bri_ext_bridge/bigoil_backdrop_1"/>
-		<object path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_docks"/>
-		<unit path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_docks"/>
-	</add>
-	<add from_db="true" path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_election_1" type="unit">
-		<material_config path="units/payday2/architecture/bri_ext_bridge/bigoil_backdrop_1"/>
-		<object path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_election_1"/>
-		<unit path="units/payday2/architecture/bri_ext_bridge/ind_bdrop_election_1"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_friend/architecture/ext/sfm_entrance_bridge" type="unit">
-		<material_config path="units/pd2_dlc_friend/architecture/ext/sfm_exteriors"/>
-		<object path="units/pd2_dlc_friend/architecture/ext/sfm_entrance_bridge"/>
-		<unit path="units/pd2_dlc_friend/architecture/ext/sfm_entrance_bridge"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge" type="unit">
-		<material_config path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge"/>
-		<object path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge"/>
-		<unit path="units/pd2_dlc_friend/architecture/ext/sfm_ext_bridge"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_deck_b" type="unit">
-		<material_config path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge"/>
-		<object path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_deck_b"/>
-		<unit path="units/pd2_dlc_glace/architecture/glc_ext_bridge/glc_ext_bridge_deck_b"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_2/pta_2_bridge" type="unit">
-		<material_config path="units/pd2_dlc_peta/architecture/pta_2/pta_2_bridge"/>
-		<object path="units/pd2_dlc_peta/architecture/pta_2/pta_2_bridge"/>
-		<unit path="units/pd2_dlc_peta/architecture/pta_2/pta_2_bridge"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<material_config path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
-		<object path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
-		<sequence_manager path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
-		<unit path="units/pd2_dlc_peta/architecture/pta_2/pta_bridge_swing"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_hobo_bridge" type="unit">
-		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
-		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_hobo_bridge"/>
-		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_hobo_bridge"/>
-	</add>
-	<add from_db="true" path="units/payday2/architecture/str_bdrop_bridge_a/str_bdrop_bridge_a" type="unit">
-		<material_config path="units/payday2/architecture/str_bdrop_bridge_a/str_bdrop_bridge_a"/>
-		<object path="units/payday2/architecture/str_bdrop_bridge_a/str_bdrop_bridge_a"/>
-		<unit path="units/payday2/architecture/str_bdrop_bridge_a/str_bdrop_bridge_a"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_bridge_support/brb_ext_bridge_support" type="unit">
-		<material_config path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_bridge_support/brb_ext_bridge_support"/>
-		<object path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_bridge_support/brb_ext_bridge_support"/>
-		<unit path="units/pd2_dlc_brb/architecture/brb_ext/brb_ext_bridge_support/brb_ext_bridge_support"/>
-	</add>
 	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end" type="unit">
 		<material_config path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge"/>
 		<object path="units/payday2/architecture/ind/ind_ext_train_bridge/ind_ext_train_bridge_end"/>
@@ -2020,8 +1946,38 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_beam_big_v2"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_half_clean" type="unit">
-		<unit path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_half_clean"/>
-		<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_half_clean"/>
 		<material_config path="units/payday2/architecture/ind/ind"/>
+		<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_half_clean"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_stairs_c_half_clean"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/jungle/brushes/brush_tallgrass_lp_tall" type="unit">
+		<material_config path="units/world/vegetation/jungle/brushes/brush_tallgrass"/>
+		<object path="units/world/vegetation/jungle/brushes/brush_tallgrass_lp_tall"/>
+		<unit path="units/world/vegetation/jungle/brushes/brush_tallgrass_lp_tall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pines/architecture/ind_ext_dock_bld_roof_support_no_collision" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind"/>
+		<object path="units/pd2_dlc_pines/architecture/ind_ext_dock_bld_roof_support_no_collision"/>
+		<unit path="units/pd2_dlc_pines/architecture/ind_ext_dock_bld_roof_support_no_collision"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/air_hangar_segment/air_hangar_roof_support" type="unit">
+		<material_config path="units/payday2/architecture/air_hangar_segment/air_hangar_segment01"/>
+		<object path="units/payday2/architecture/air_hangar_segment/air_hangar_roof_support"/>
+		<unit path="units/payday2/architecture/air_hangar_segment/air_hangar_roof_support"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_safehouse" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_safehouse"/>
+		<unit path="units/payday2/mockup/occluder_safehouse"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_plane_16x8" type="unit">
+		<material_config path="units/payday2/mockup/occluder_plane"/>
+		<object path="units/payday2/mockup/occluder_plane_16x8"/>
+		<unit path="units/payday2/mockup/occluder_plane_16x8"/>
+	</add>
+	<add from_db="true" path="units/payday2/mockup/occluder_plane_16x16" type="unit">
+		<unit path="units/payday2/mockup/occluder_plane_16x16"/>
+		<object path="units/payday2/mockup/occluder_plane_16x16"/>
+		<material_config path="units/payday2/mockup/occluder_plane"/>
 	</add>
 </table>

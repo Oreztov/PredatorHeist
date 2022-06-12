@@ -233,15 +233,17 @@
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
 					<entry key="use_shape_element_ids" type="table">
 						<entry index="1" type="number" value="100014"/>
-						<entry index="2" type="number" value="100015"/>
-						<entry index="3" type="number" value="100016"/>
-						<entry index="4" type="number" value="100019"/>
-						<entry index="5" type="number" value="100020"/>
-						<entry index="6" type="number" value="100021"/>
-						<entry index="7" type="number" value="100022"/>
-						<entry index="8" type="number" value="100023"/>
-						<entry index="9" type="number" value="100009"/>
-						<entry index="10" type="number" value="100013"/>
+						<entry index="2" type="number" value="100069"/>
+						<entry index="3" type="number" value="100070"/>
+						<entry index="4" type="number" value="100015"/>
+						<entry index="5" type="number" value="100016"/>
+						<entry index="6" type="number" value="100019"/>
+						<entry index="7" type="number" value="100020"/>
+						<entry index="8" type="number" value="100021"/>
+						<entry index="9" type="number" value="100022"/>
+						<entry index="10" type="number" value="100023"/>
+						<entry index="11" type="number" value="100009"/>
+						<entry index="12" type="number" value="100013"/>
 					</entry>
 					<entry key="width" type="number" value="800"/>
 				</entry>
@@ -336,15 +338,17 @@
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
 					<entry key="use_shape_element_ids" type="table">
 						<entry index="1" type="number" value="100014"/>
-						<entry index="2" type="number" value="100015"/>
-						<entry index="3" type="number" value="100016"/>
-						<entry index="4" type="number" value="100019"/>
-						<entry index="5" type="number" value="100020"/>
-						<entry index="6" type="number" value="100021"/>
-						<entry index="7" type="number" value="100022"/>
-						<entry index="8" type="number" value="100023"/>
-						<entry index="9" type="number" value="100009"/>
-						<entry index="10" type="number" value="100013"/>
+						<entry index="2" type="number" value="100069"/>
+						<entry index="3" type="number" value="100070"/>
+						<entry index="4" type="number" value="100015"/>
+						<entry index="5" type="number" value="100016"/>
+						<entry index="6" type="number" value="100019"/>
+						<entry index="7" type="number" value="100020"/>
+						<entry index="8" type="number" value="100021"/>
+						<entry index="9" type="number" value="100022"/>
+						<entry index="10" type="number" value="100023"/>
+						<entry index="11" type="number" value="100009"/>
+						<entry index="12" type="number" value="100013"/>
 					</entry>
 					<entry key="width" type="number" value="800"/>
 				</entry>
@@ -412,7 +416,7 @@
 					<entry key="rotation" type="quaternion" value="0 0 -0.147809 -0.989016"/>
 					<entry key="shape_type" type="string" value="box"/>
 					<entry key="trigger_times" type="number" value="0"/>
-					<entry key="width" type="number" value="500"/>
+					<entry key="width" type="number" value="712"/>
 				</entry>
 			</entry>
 			<entry index="16" type="table">
@@ -1927,6 +1931,50 @@
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="show_instigator" type="boolean" value="false"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="70" type="table">
+				<entry key="class" type="string" value="ElementShape"/>
+				<entry key="editor_name" type="string" value="shape_bottom_grass_002"/>
+				<entry key="id" type="number" value="100069"/>
+				<entry key="module" type="string" value="CoreElementShape"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="depth" type="number" value="403"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="height" type="number" value="439"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="9535.07 11388.2 -50.2007"/>
+					<entry key="radius" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.147809 -0.989016"/>
+					<entry key="shape_type" type="string" value="box"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="width" type="number" value="753"/>
+				</entry>
+			</entry>
+			<entry index="71" type="table">
+				<entry key="class" type="string" value="ElementShape"/>
+				<entry key="editor_name" type="string" value="shape_bottom_grass_003"/>
+				<entry key="id" type="number" value="100070"/>
+				<entry key="module" type="string" value="CoreElementShape"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="depth" type="number" value="555"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="height" type="number" value="439"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="10010.5 7952.06 -50.2007"/>
+					<entry key="radius" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.147809 -0.989016"/>
+					<entry key="shape_type" type="string" value="box"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="width" type="number" value="888"/>
 				</entry>
 			</entry>
 		</entry>
