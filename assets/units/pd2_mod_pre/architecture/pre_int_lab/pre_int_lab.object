@@ -4,6 +4,15 @@
 		<body name="body_static" enabled="true" template="static">
 			<object name="rp_pre_lab" />
 			<object name="c_mesh_01" collision_type="mesh_mopp"/>
+			<object name="c_box_001" collision_type="box" padding="-2.5"/>
+			<object name="c_box_002" collision_type="box" padding="-2.5"/>
+			<object name="c_box_003" collision_type="box" padding="-2.5"/>
+			<object name="c_box_004" collision_type="box" padding="-2.5"/>
+			<object name="c_box_005" collision_type="box" padding="-2.5"/>
+			<object name="c_box_006" collision_type="box" padding="-2.5"/>
+			<object name="c_box_007" collision_type="box" padding="-2.5"/>
+			<object name="c_box_008" collision_type="box" padding="-2.5"/>
+			<object name="c_box_009" collision_type="box" padding="-2.5"/>
 		</body>
 	</bodies>
 	<graphics>
