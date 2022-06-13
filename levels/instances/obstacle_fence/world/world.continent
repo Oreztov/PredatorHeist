@@ -1,0 +1,21 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="300 100 0" _prev_rot="0 0 1 4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_disabled" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence" name_id="air_prop_runway_fence_001" position="300 100 0" rotation="0 0 1 -4.37114e-008" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 100 0" _prev_rot="0 0 1 4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_disabled" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence" name_id="air_prop_runway_fence_002" position="-100 100 0" rotation="0 0 1 4.37114e-008" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="700 100 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_disabled" name="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence" name_id="air_prop_runway_fence_003" position="700 100 0" rotation="0 0 1 4.37114e-008" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 50 0" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" name_id="dev_door_blocker_1x8x3_001" only_visible_in_editor="true" position="400 50 0" rotation="-0 0 -0 -1" unit_id="100007"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

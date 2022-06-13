@@ -249,4 +249,7 @@
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<Package file="scriptdata/predator2.package" id="package_predator2" unload_on_restart="true"/>
+	<instance id="obstacle_fence">
+		<packages/>
+	</instance>
 </table>
