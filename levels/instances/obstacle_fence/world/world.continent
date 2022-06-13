@@ -14,6 +14,15 @@
 		<table>
 			<unit_data _prev_pos="400 50 0" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" name_id="dev_door_blocker_1x8x3_001" only_visible_in_editor="true" position="400 50 0" rotation="-0 0 -0 -1" unit_id="100007"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-100 100 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m" name_id="dev_bag_collision_4x32m_001" only_visible_in_editor="true" position="-100 100 300" rotation="0 0 0.707107 -0.707107" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="300 100 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m" name_id="dev_bag_collision_4x32m_002" only_visible_in_editor="true" position="300 100 300" rotation="0 0 0.707107 -0.707107" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-500 100 300" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m" name_id="dev_bag_collision_4x32m_003" only_visible_in_editor="true" position="-500 100 300" rotation="0 0 0.707107 -0.707107" unit_id="100003"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
