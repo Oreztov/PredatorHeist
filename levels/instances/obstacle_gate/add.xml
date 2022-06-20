@@ -1,0 +1,39 @@
+<table directory="assets">
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_wall" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind"/>
+		<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_wall"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_wall"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_gate" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind"/>
+		<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_gate"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_gate"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_door" type="unit">
+		<unit path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_door"/>
+		<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_door"/>
+		<material_config path="units/payday2/architecture/ind/ind"/>
+		<sequence_manager path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_door"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<gui path="guis/timer_gui"/>
+		<effect load="true" path="effects/payday2/environment/drill"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/explosions/explosion_grenade"/>
+	</add>
+</table>

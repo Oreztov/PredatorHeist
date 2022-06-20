@@ -12,4 +12,9 @@
 		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3"/>
 		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3"/>
 	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
 </table>

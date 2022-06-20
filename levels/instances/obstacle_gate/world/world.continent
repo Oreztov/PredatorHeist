@@ -1,0 +1,54 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="400 100 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_wall" name_id="ind_fence_yellow_wall_001" position="350 100 0" rotation="0 0 0 -1" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="150 100 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_gate" name_id="ind_fence_yellow_gate_001" position="150 100 0" rotation="0 0 0 -1" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 100 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="-400 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_wall" name_id="ind_fence_yellow_wall_002" position="-50 100 0" rotation="0 0 0 -1" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="100 100 0" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="activate_door" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_door" name_id="ind_fence_yellow_door_001" position="100 100 0" rotation="-0 0 -0 -1" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-50 100 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_wall" name_id="ind_fence_yellow_wall_003" position="-250 100 0" rotation="0 0 0 -1" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="350 100 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_wall" name_id="ind_fence_yellow_wall_004" position="550 100 0" rotation="0 0 0 -1" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="50 100 300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="true" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 250 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_001" position="50 100 300" rotation="0 0 -0.707107 -0.707107" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-200 100 300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="true" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 500 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_002" position="-200 100 300" rotation="0 0 -0.707107 -0.707107" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="300 100 300" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="true" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/csgo_models/props_fortifications/barricade_razorwire001_128_reference" name_id="barricade_razorwire001_128_reference_003" position="300 100 300" rotation="0 0 -0.707107 -0.707107" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 50 -50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" name_id="dev_door_blocker_1x8x3_001" only_visible_in_editor="true" position="-150 50 -50" rotation="0 0 0 -1" unit_id="100009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="800 50 -50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" name_id="dev_door_blocker_1x8x3_002" only_visible_in_editor="true" position="850 50 -50" rotation="0 0 0 -1" unit_id="100010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 50 -100" _prev_rot="0 -0.707107 0 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" name_id="dev_door_blocker_1x8x3_003" only_visible_in_editor="true" position="-100 50 -100" rotation="0 -0.707107 0 -0.707107" unit_id="100011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="242 91 288" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 400 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m" name_id="dev_bag_collision_4x32m_001" only_visible_in_editor="true" position="242 91 238" rotation="0 0 0.707107 -0.707107" unit_id="100012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-158 91 288" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m" name_id="dev_bag_collision_4x32m_002" only_visible_in_editor="true" position="-158 91 238" rotation="0 0 0.707107 -0.707107" unit_id="100013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-558 91 288" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 -400 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x32m" name_id="dev_bag_collision_4x32m_003" only_visible_in_editor="true" position="-558 91 238" rotation="0 0 0.707107 -0.707107" unit_id="100014"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

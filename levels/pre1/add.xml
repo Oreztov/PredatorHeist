@@ -1991,11 +1991,17 @@
 		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence" type="unit">
-		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence"/>
-		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence"/>
-		<material_config path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_instanced"/>
-		<sequence_manager path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence"/>
-		<effect load="true" path="effects/payday2/particles/interact/lighting_fence"/>
 		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/payday2/particles/interact/lighting_fence"/>
+		<material_config path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence_instanced"/>
+		<object path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence"/>
+		<sequence_manager path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence"/>
+		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox" type="unit">
+		<unit path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox"/>
+		<object path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox"/>
+		<material_config path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox"/>
 	</add>
 </table>

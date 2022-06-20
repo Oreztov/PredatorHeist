@@ -1,0 +1,11 @@
+<table>
+	<world path="world" script_data_type="generic_xml"/>
+	<continents path="continents" script_data_type="custom_xml"/>
+	<mission path="mission" script_data_type="custom_xml"/>
+	<nav_data path="nav_manager_data" script_data_type="generic_xml"/>
+	<world_sounds path="world_sounds" script_data_type="generic_xml"/>
+	<world_cameras path="world_cameras" script_data_type="custom_xml"/>
+	<continent path="world/world" script_data_type="custom_xml"/>
+	<mission path="world/world" script_data_type="generic_xml"/>
+	<cover_data path="cover_data" script_data_type="custom_xml"/>
+</table>

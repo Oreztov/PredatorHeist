@@ -419,7 +419,7 @@
 				</entry>
 			</entry>
 			<entry key="unit_data" type="table">
-				<entry key="_prev_pos" type="vector3" value="1335.55 3948.61 1087.79"/>
+				<entry key="_prev_pos" type="vector3" value="1309.55 3948.61 1115.79"/>
 				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
 				<entry key="continent" type="string" value="world"/>
 				<entry key="instance_data" type="boolean" value="false"/>
@@ -427,7 +427,7 @@
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
 				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
 				<entry key="name_id" type="string" value="nav_surface_018"/>
-				<entry key="position" type="vector3" value="1335.55 3948.61 1115.79"/>
+				<entry key="position" type="vector3" value="1309.55 3996.61 1115.79"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="unit_id" type="number" value="21"/>
 			</entry>
