@@ -4175,7 +4175,48 @@
 	</add>
 	<add from_db="true" path="environments/pd2_env_mid_day/pd2_env_mid_day" type="environment">
 		<environment path="environments/pd2_env_mid_day/pd2_env_mid_day"/>
-		<scene path="core/environments/skies/default/default"/>
 		<material_config path="core/environments/skies/sky_cloudy_blue/sky_cloudy_blue"/>
+		<scene path="core/environments/skies/default/default"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/terrain/jry_terrain" type="unit">
+		<material_config path="units/pd2_dlc_jerry/terrain/jry_terrain"/>
+		<object path="units/pd2_dlc_jerry/terrain/jry_terrain"/>
+		<unit path="units/pd2_dlc_jerry/terrain/jry_terrain"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/backdrop/sand_ext_backdrop_water" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/backdrop/sand_ext_backdrop"/>
+		<object path="units/pd2_dlc_sand/architecture/backdrop/sand_ext_backdrop_water"/>
+		<unit path="units/pd2_dlc_sand/architecture/backdrop/sand_ext_backdrop_water"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/vehicles/veh_helicopter_water/veh_helicopter_water" type="unit">
+		<material_config path="units/pd2_dlc_cro/vehicles/veh_helicopter_water/veh_helicopter_water"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<animation_def path="anims/units/helicopter/helicopter"/>
+		<animation_state_machine path="anims/units/helicopter/helicopter"/>
+		<animation_states path="anims/units/helicopter/std"/>
+		<animation_subset path="anims/units/helicopter/std"/>
+		<object path="units/pd2_dlc_cro/vehicles/veh_helicopter_water/veh_helicopter_water"/>
+		<sequence_manager path="units/pd2_dlc_cro/vehicles/veh_helicopter_water/veh_helicopter_water"/>
+		<unit path="units/pd2_dlc_cro/vehicles/veh_helicopter_water/veh_helicopter_water"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_water" type="unit">
+		<material_config path="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_water"/>
+		<object path="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_water"/>
+		<unit path="units/pd2_mcmansion/nature/mcm_ext_landscape/mcm_water"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/architecture/des_ext/des_boulders/des_rock_boulder_01" type="unit">
+		<material_config path="units/pd2_dlc_des/architecture/des_ext/des_boulders/des_rock_boulder_01"/>
+		<object path="units/pd2_dlc_des/architecture/des_ext/des_boulders/des_rock_boulder_01"/>
+		<unit path="units/pd2_dlc_des/architecture/des_ext/des_boulders/des_rock_boulder_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong" type="unit">
+		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong"/>
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder" type="unit">
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder"/>
+		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain"/>
 	</add>
 </table>
