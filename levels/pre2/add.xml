@@ -4215,8 +4215,153 @@
 		<unit path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder" type="unit">
-		<unit path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder"/>
-		<object path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder"/>
 		<material_config path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain"/>
+		<object path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder"/>
+		<unit path="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_trim_1x1m_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_trim_1x1m_a"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_trim_1x1m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_trim_1x1m_b" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_trim_1x1m_b"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_trim_1x1m_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_building_small/ranc_ext_building_small_01" type="unit">
+		<material_config path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_building_small/ranc_ext_building_small_01"/>
+		<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_building_small/ranc_ext_building_small_01"/>
+		<unit path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_building_small/ranc_ext_building_small_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_old_shed" type="unit">
+		<material_config path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_ground"/>
+		<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_old_shed"/>
+		<unit path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_old_shed"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_shooting_range_fence" type="unit">
+		<material_config path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_ground"/>
+		<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_shooting_range_fence"/>
+		<unit path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_shooting_range_fence"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_parking_structure" type="unit">
+		<material_config path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_ground"/>
+		<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_parking_structure"/>
+		<unit path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_parking_structure"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_wood_fence_01" type="unit">
+		<material_config path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_ground"/>
+		<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_wood_fence_01"/>
+		<unit path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_wood_fence_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_shed/ranc_ext_shed_01" type="unit">
+		<material_config path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_shed/ranc_ext_shed_01"/>
+		<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_shed/ranc_ext_shed_01"/>
+		<unit path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_shed/ranc_ext_shed_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_workshop/ranc_ext_workshop_a" type="unit">
+		<material_config path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_workshop/ranc_ext_workshop_a"/>
+		<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_workshop/ranc_ext_workshop_a"/>
+		<unit path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_workshop/ranc_ext_workshop_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_4x2" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_barbedwire_4x4"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_4x2"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_4x2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_4x4" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_barbedwire_4x4"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_4x4"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_4x4"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_4x8" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_barbedwire_4x4"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_4x8"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_4x8"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_camera_pole" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_camera_pole"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_camera_pole"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_camera_pole"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_barbedwire_4x2" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_barbedwire_4x4"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_barbedwire_4x2"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_prop_metal_wall_barbedwire_4x2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_cover_01" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_cover_01"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_cover_01"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_cover_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_fence_1m" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_fence_1m"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_fence_1m"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_fence_1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_int_prop_anvil/ranc_pku_silver_crate" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_int_prop_anvil/ranc_pku_silver_crate"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_int_prop_anvil/ranc_pku_silver_crate"/>
+		<sequence_manager path="units/pd2_dlc_ranc/props/ranc_int_prop_anvil/ranc_pku_silver_crate"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_int_prop_anvil/ranc_pku_silver_crate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_prop_ceiling_fan/ranc_prop_fan_ceiling" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_prop_ceiling_fan/ranc_prop_fan_ceiling"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_prop_ceiling_fan/ranc_prop_fan_ceiling"/>
+		<sequence_manager path="units/pd2_dlc_ranc/props/ranc_prop_ceiling_fan/ranc_prop_fan_ceiling"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_prop_ceiling_fan/ranc_prop_fan_ceiling"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_drain_pipes/bor_prop_drain_pipe_2m" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_drain_pipes/bor_prop_drain_pipes"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_drain_pipes/bor_prop_drain_pipe_2m"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_drain_pipes/bor_prop_drain_pipe_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_basement_pipes_big_01" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_basement_pipes"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_basement_pipes_big_01"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_basement_pipes_big_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_pipe_1_short" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_pipe_1_short"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_pipe_1_short"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_plastic_pile" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_pipes/des_prop_pipes"/>
+		<object path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_plastic_pile"/>
+		<unit path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_plastic_pile"/>
+	</add>
+	<add from_db="true" path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_plastic_single" type="unit">
+		<material_config path="units/world/props/desert/des_prop_con_pipes/des_prop_pipes"/>
+		<object path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_plastic_single"/>
+		<unit path="units/world/props/desert/des_prop_con_pipes/des_prop_con_pipe_plastic_single"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/mansion/man_exterior/man_drainpipe_ext_long" type="unit">
+		<material_config path="units/world/architecture/mansion/man_exterior/exterior"/>
+		<object path="units/world/architecture/mansion/man_exterior/man_drainpipe_ext_long"/>
+		<unit path="units/world/architecture/mansion/man_exterior/man_drainpipe_ext_long"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_b_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_b_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_b_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_t_intersect_entry_4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer"/>
+		<object path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_t_intersect_entry_4m"/>
+		<unit path="units/pd2_dlc2/architecture/csb_sewer/csb_sewer_t_intersect_entry_4m"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/hospital/props/rooftop/pipeset32d/pipeset32d_128_001a" type="unit">
+		<material_config path="units/world/architecture/hospital/props/rooftop/pipeset32d"/>
+		<object path="units/world/architecture/hospital/props/rooftop/pipeset32d/pipeset32d_128_001a"/>
+		<unit path="units/world/architecture/hospital/props/rooftop/pipeset32d/pipeset32d_128_001a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris" type="unit">
+		<unit path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris"/>
+		<object path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris"/>
+		<material_config path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window"/>
+		<sequence_manager path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 	</add>
 </table>
