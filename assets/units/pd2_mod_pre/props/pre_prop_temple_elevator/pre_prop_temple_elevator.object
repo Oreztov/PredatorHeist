@@ -10,6 +10,10 @@
 		<animation_group name="anim_body" enabled="false">
 				<object name="anim_body" />
 		</animation_group>
+		<animation_group name="anim_winch" enabled="false">
+			<object name="anim_roll_01" />
+			<object name="anim_roll_02" />
+	</animation_group>
 	</animations>
 	<decal_surfaces default_material="plastic">
 		<decal_mesh name="g_body" material="plastic" enabled="true"/>
@@ -36,16 +40,38 @@
 			<object name="anim_door_right" />
 			<object name="g_convex_right" collision_type="convex" padding="-2.5"/>
 		</body>
+		<body name="body_winch_01" enabled="false" template="static">
+            <object     name="c_box_winch_01"         collision_type="box" />
+        </body>
+       <body name="body_winch_02" enabled="false" template="static">
+            <object     name="c_box_winch_02"         collision_type="box" />
+        </body>
     </bodies>
 	<graphics>
-		<object name="g_base" enabled="true" />
-		<object name="g_body" enabled="true" />
-		<object name="g_screen_lab" enabled="true" />
-		<object name="g_screen_temple" enabled="false" />
-		<object name="g_screen_both" enabled="false" />
-		<object name="g_screen_left" enabled="false" />
-		<object name="g_screen_right" enabled="false" />
-		<object name="g_door_left" enabled="true" />
-		<object name="g_door_right" enabled="true" />
+		<graphic_group name="elevator" enabled="true">
+			<object name="g_base" enabled="true" />
+			<object name="g_body" enabled="true" />
+			<object name="g_screen_lab" enabled="true" />
+			<object name="g_screen_temple" enabled="false" />
+			<object name="g_screen_both" enabled="false" />
+			<object name="g_screen_left" enabled="false" />
+			<object name="g_screen_right" enabled="false" />
+			<object name="g_door_left" enabled="true" />
+			<object name="g_door_right" enabled="true" />
+		</graphic_group>
+		<graphic_group name="winch_01" enabled="false">
+            <object name="g_roll_01"                enabled="true" />
+            <object name="g_winch_01"               enabled="true" />
+        </graphic_group>
+        <graphic_group name="winch_02" enabled="false">
+            <object name="g_roll_02"                enabled="true" />
+            <object name="g_winch_02"               enabled="true" />
+        </graphic_group>
+		<object name="g_hooks_ext_02"           enabled="false" />
+		<object name="g_hooks_ext_01"           enabled="false" />
+		<object name="g_hook_outline_01" enabled="false" />
+		<object name="g_hook_outline_02" enabled="false" />
+		<object name="g_outline_01" enabled="false" />
+		<object name="g_outline_02"	enabled="false" />
 	</graphics>
 </dynamic_object>

@@ -4357,11 +4357,16 @@
 		<unit path="units/world/architecture/hospital/props/rooftop/pipeset32d/pipeset32d_128_001a"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris" type="unit">
-		<unit path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris"/>
-		<object path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris"/>
 		<material_config path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window"/>
-		<sequence_manager path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris"/>
-		<physic_effect path="physic_effects/push_sphere_unit"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris"/>
+		<unit path="units/pd2_dlc2/architecture/gov_c_ext/gov_c_ext_window_debris"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_railing_2m" type="unit">
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_railing_2m"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_railing_2m"/>
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
 	</add>
 </table>

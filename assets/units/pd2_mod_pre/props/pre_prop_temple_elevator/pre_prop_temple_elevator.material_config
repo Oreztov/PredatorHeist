@@ -36,4 +36,20 @@
         <variable value="-0.05 0 0" type="vector3" name="uv0_speed"/>
         <variable value="monitor" type="scalar" name="intensity"/>
     </material>
+    <material name="mat_outline" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="1.0 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_portable_winch" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/props/sfm_prop_portable_winch/sfm_prop_portable_winch_df"/>
+        <bump_normal_texture file="units/pd2_dlc_friend/props/sfm_prop_portable_winch/sfm_prop_portable_winch_nm"/>
+        <material_texture file="units/pd2_dlc_friend/props/sfm_prop_portable_winch/sfm_prop_portable_winch_gsma"/>
+        <reflection_texture file="environments/cubemaps/cubemap" type="cubemap"/>
+    </material>
+        <material name="mat_wire" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_friend/props/sfm_prop_portable_winch/sfm_prop_portable_winch_wire_df"/>
+        <bump_normal_texture file="units/pd2_dlc_friend/props/sfm_prop_portable_winch/sfm_prop_portable_winch_wire_nm"/>
+    </material>
 </materials>

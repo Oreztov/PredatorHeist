@@ -1,9 +1,18 @@
 <?xml version="1.0"?>
 <unit type="pre" slot="1">
-	<object file="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator" />
 	<network sync="spawn"/>
+	<object file="units/pd2_mod_pre/props/pre_prop_temple_elevator/pre_prop_temple_elevator" />
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension class="UnitDamage" name="damage" />
 	</extensions>
+	<sounds>
+		<default_soundsource source="rp_pre_prop_temple_elevator"/>
+		<soundsource name="snd_elevator" source="snd_elevator" />
+		<soundsource name="snd_winch_01" source="snd_winch_01" />
+		<soundsource name="snd_winch_02" source="snd_winch_02" />
+	</sounds>
 </unit>

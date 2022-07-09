@@ -17,12 +17,32 @@
 		</sequence>
 		<sequence editable_state="true" name="'arrive_loud'" triggable="true">
 			<animation_group enabled="true" from="0/30" name="'anim_body'" speed="0.0066" to="30/30"/>
+			<animation_group enabled="true" from="0/30" name="'anim_winch'" speed="0.1" to="30/30" loop="true"/>
+			<sound action="'play'" event="'friend_winch_start'" source="'snd_winch_01'"/>
+			<sound action="'play'" event="'friend_winch_start'" source="'snd_winch_02'"/>
+			<sound action="'play'" event="'friend_safe_metal_creaks'" source="'snd_elevator'"/>
 		</sequence>
 		<sequence editable_state="true" name="'arrive_loud_pause'" triggable="true">
 			<animation_group enabled="true" name="'anim_body'" speed="0"/>
+			<animation_group enabled="true" name="'anim_winch'" speed="0"/>
+			<sound action="'play'" event="'friend_winch_interupt'" source="'snd_winch_01'"/>
+			<sound action="'play'" event="'friend_winch_interupt'" source="'snd_winch_02'"/>
+			<sound action="'play'" event="'friend_safe_metal_creaks_stop'" source="'snd_elevator'"/>
 		</sequence>
 		<sequence editable_state="true" name="'arrive_loud_unpause'" triggable="true">
 			<animation_group enabled="true" name="'anim_body'" speed="0.0066"/>
+			<animation_group enabled="true" name="'anim_winch'" speed="0.1" start_loop_time="0/30" to="30/30" loop="true"/>
+			<sound action="'play'" event="'friend_winch_resume'" source="'snd_winch_01'"/>
+			<sound action="'play'" event="'friend_winch_resume'" source="'snd_winch_02'"/>
+			<sound action="'play'" event="'friend_safe_metal_creaks'" source="'snd_elevator'"/>
+		</sequence>
+		<sequence editable_state="true" name="'arrive_loud_done'" triggable="true">
+			<animation_group enabled="false" name="'anim_winch'"/>
+			<object name="'g_hooks_ext_01'" enabled="false"/>
+			<object name="'g_hooks_ext_02'" enabled="false"/>
+			<sound action="'play'" event="'friend_safe_metal_creaks_stop'" source="'snd_elevator'"/>
+			<sound action="'play'" event="'friend_winch_finished'" source="'snd_winch_01'"/>
+			<sound action="'play'" event="'friend_winch_finished'" source="'snd_winch_02'"/>
 		</sequence>
 		<sequence editable_state="true" name="'screen_rnd'" triggable="true">
 			<object name="'g_screen_lab'" enabled="true" />
@@ -57,6 +77,38 @@
 		</sequence>
 		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
 			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_winch_01'" triggable="true">
+			<body enabled="true" name="'body_winch_01'"/>
+			<graphic_group name="'winch_01'" visibility="true"/>
+			<object name="'g_outline_01'" enabled="false"/>
+			<object name="'g_hook_outline_01'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide_winch_01'" triggable="true">
+			<body enabled="false" name="'body_winch_01'"/>
+			<graphic_group name="'winch_01'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_winch_02'" triggable="true">
+			<body enabled="true" name="'body_winch_02'"/>
+			<graphic_group name="'winch_02'" visibility="true"/>
+			<object name="'g_outline_02'" enabled="false"/>
+			<object name="'g_hook_outline_02'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide_winch_02'" triggable="true">
+			<body enabled="false" name="'body_winch_02'"/>
+			<graphic_group name="'winch_02'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_outlines'" triggable="true">
+			<object name="'g_outline_01'" enabled="true"/>
+			<object name="'g_outline_02'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_wire_01'" triggable="true">
+			<object name="'g_hooks_ext_01'" enabled="true"/>
+			<object name="'g_hook_outline_01'" enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_wire_02'" triggable="true">
+			<object name="'g_hooks_ext_02'" enabled="true"/>
+			<object name="'g_hook_outline_02'" enabled="false"/>
 		</sequence>
 	</unit>
 </table>
