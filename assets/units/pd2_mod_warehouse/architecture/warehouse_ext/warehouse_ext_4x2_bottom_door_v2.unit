@@ -1,0 +1,6 @@
+<unit type="ind" slot="1" >
+    <object file="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_door_v2" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

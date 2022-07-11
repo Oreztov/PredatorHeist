@@ -1,4 +1,64 @@
 <table directory="assets">
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext"/>
+		<texture path="units/pd2_mod_warehouse/architecture/warehouse_ext/ext_grey_df" unload="true"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_top_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_top_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_top_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_top_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_corner_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_corner_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_corner_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_corner_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_door_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_door_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_door_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_door_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_bottom_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_bottom_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_bottom_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_bottom_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_window_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_window_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_window_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_window_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x6_big_door_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x6_big_door_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x6_big_door_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x6_big_door_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill_b"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill_b"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill_b"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_corner_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_corner_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_corner_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_corner_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_door_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_door_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_door_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_door_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_v2"/>
+	</add>
 	<add>
 		<object force="true" path="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank"/>
 	</add>
