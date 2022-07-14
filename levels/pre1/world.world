@@ -533,7 +533,6 @@
 				<entry key="continent" type="string" value="world"/>
 				<entry key="cubemap" type="table">
 				</entry>
-				<entry key="cubemap_fake_light" type="nil"/>
 				<entry key="instance_data" type="boolean" value="false"/>
 				<entry key="local_pos" type="vector3" value="0 0 0"/>
 				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>

@@ -1,0 +1,99 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="-144.442 102 196.382" _prev_rot="0.700803 0.012448 0.713142 -0.0122326" continent="world" instance_data="false" local_pos="-2 705.558 -53.6182" local_rot="-0.48674 -0.504344 -0.495618 0.512917" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_001" position="-194.442 102 196.382" rotation="0.700803 0.012448 0.713142 -0.0122326" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-202.154 99 -2.8912" _prev_rot="0 -0.0261769 0 -0.999657" continent="world" instance_data="false" local_pos="1 647.846 -252.891" local_rot="-0.0185099 0.0185099 0.706865 0.706865" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_002" position="-252.154 99 -2.8912" rotation="0 -0.0261769 0 -0.999657" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-336.861 99 -2.31552" _prev_rot="0 0.0261769 0 -0.999657" continent="world" instance_data="false" local_pos="1 513.139 -252.316" local_rot="0.0185099 -0.0185099 0.706865 0.706865" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_003" position="-386.861 99 -2.31552" rotation="0 0.0261769 0 -0.999657" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-50 99 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="1 800 -250" local_rot="0 0 0.707107 0.707107" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_004" position="-100 99 0" rotation="0 0 0 -1" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="125.101 99 252.795" _prev_rot="0 0.999848 0 0.0174525" continent="world" instance_data="false" local_pos="1 975.101 2.795" local_rot="0.706999 -0.706999 -0.0123408 -0.0123408" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_005" position="75.1011 99 252.795" rotation="0 0.999848 0 0.0174525" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 99 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="1 1250 -250" local_rot="0 0 0.707107 0.707107" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_006" position="350 99 0" rotation="0 0 0 -1" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="550 99 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="1 1400 -250" local_rot="0 0 0.707107 0.707107" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_007" position="500 99 0" rotation="0 0 0 -1" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-610.746 99 256.147" _prev_rot="0 0.999657 0 -0.0261765" continent="world" instance_data="false" local_pos="1 239.254 6.147" local_rot="0.706865 -0.706865 0.0185096 0.0185096" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_008" position="-660.746 99 256.147" rotation="0 0.999657 0 -0.0261765" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="350 103 253" _prev_rot="0 1 0 4.37114e-008" continent="world" instance_data="false" local_pos="-3 1200 3" local_rot="0.707107 -0.707107 -3.09086e-008 -3.09086e-008" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_009" position="300 103 253" rotation="0 1 0 4.37114e-008" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="200 104 253" _prev_rot="0.00872654 0.999962 3.81449e-010 4.37097e-008" continent="world" instance_data="false" local_pos="-4 1050 3" local_rot="0.700909 -0.71325 -3.11772e-008 -3.06377e-008" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_010" position="150 104 253" rotation="0.00872654 0.999962 3.81449e-010 4.37097e-008" unit_id="100009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 103 253" _prev_rot="0 1 0 4.37114e-008" continent="world" instance_data="false" local_pos="-3 925 3" local_rot="0.707107 -0.707107 -3.09086e-008 -3.09086e-008" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_011" position="25 103 253" rotation="0 1 0 4.37114e-008" unit_id="100010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-258 103 253" _prev_rot="0 1 0 4.37114e-008" continent="world" instance_data="false" local_pos="-3 592 3" local_rot="0.707107 -0.707107 -3.09086e-008 -3.09086e-008" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_012" position="-308 103 253" rotation="0 1 0 4.37114e-008" unit_id="100011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-400 103 253" _prev_rot="4.37114e-008 1 4.37114e-008 1.91069e-015" continent="world" instance_data="false" local_pos="-3 450 3" local_rot="0.707107 -0.707107 -3.09086e-008 3.09086e-008" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_013" position="-450 103 253" rotation="4.37114e-008 1 4.37114e-008 1.91069e-015" unit_id="100012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-550 103 253" _prev_rot="-4.37114e-008 1 -4.37114e-008 1.91069e-015" continent="world" instance_data="false" local_pos="-3 300 3" local_rot="0.707107 -0.707107 3.09086e-008 -3.09086e-008" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_014" position="-600 103 253" rotation="-4.37114e-008 1 -4.37114e-008 1.91069e-015" unit_id="100013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-700 103 253" _prev_rot="0 1 0 4.37114e-008" continent="world" instance_data="false" local_pos="-3 150 3" local_rot="0.707107 -0.707107 -3.09086e-008 -3.09086e-008" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_015" position="-750 103 253" rotation="0 1 0 4.37114e-008" unit_id="100014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-642.405 104 469.016" _prev_rot="0 0.990268 0 -0.139173" continent="world" instance_data="false" local_pos="-4 207.595 219.016" local_rot="0.700225 -0.700225 0.0984102 0.0984102" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_016" position="-692.405 104 469.016" rotation="0 0.990268 0 -0.139173" unit_id="100015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-494.921 105 407.296" _prev_rot="0 0.999848 0 -0.0174521" continent="world" instance_data="false" local_pos="-5 355.079 157.296" local_rot="0.706999 -0.706999 0.0123405 0.0123405" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_017" position="-544.921 105 407.296" rotation="0 0.999848 0 -0.0174521" unit_id="100016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-130.529 105 252.507" _prev_rot="0 -0.731353 0 -0.681999" continent="world" instance_data="false" local_pos="-5 719.471 2.50684" local_rot="-0.517145 0.517145 0.482246 0.482246" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_018" position="-180.529 105 252.507" rotation="0 -0.731353 0 -0.681999" unit_id="100017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-365.999 105 402.794" _prev_rot="0 0.999848 0 -0.0174521" continent="world" instance_data="false" local_pos="-5 484.001 152.794" local_rot="0.706999 -0.706999 0.0123405 0.0123405" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_019" position="-415.999 105 402.794" rotation="0 0.999848 0 -0.0174521" unit_id="100018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="350.63 105 237.933" _prev_rot="0 0.0174529 0 -0.999848" continent="world" instance_data="false" local_pos="-5 1200.63 -12.067" local_rot="0.0123411 -0.0123411 0.706999 0.706999" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_020" position="300.63 105 237.933" rotation="0 0.0174529 0 -0.999848" unit_id="100019"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="577.845 105 166.614" _prev_rot="0 0.069757 0 -0.997564" continent="world" instance_data="false" local_pos="-5 1427.84 -83.386" local_rot="0.0493257 -0.0493257 0.705384 0.705384" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_021" position="527.845 105 166.614" rotation="0 0.069757 0 -0.997564" unit_id="100020"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-430.074 98 160.389" _prev_rot="0 0.113204 0 -0.993572" continent="world" instance_data="false" local_pos="2 419.926 -89.611" local_rot="0.0800473 -0.0800473 0.702561 0.702561" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_022" position="-480.074 98 160.389" rotation="0 0.113204 0 -0.993572" unit_id="100021"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-267.934 98 178.881" _prev_rot="0 -0.469471 0 -0.882948" continent="world" instance_data="false" local_pos="2 582.066 -71.1189" local_rot="-0.331966 0.331966 0.624339 0.624339" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_023" position="-317.934 98 178.881" rotation="0 -0.469471 0 -0.882948" unit_id="100022"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="111.395 98 400.023" _prev_rot="0 0.999962 0 -0.00872585" continent="world" instance_data="false" local_pos="2 961.395 150.023" local_rot="0.70708 -0.70708 0.00617011 0.00617011" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_024" position="61.395 98 400.023" rotation="0 0.999962 0 -0.00872585" unit_id="100023"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="285.805 76 355.597" _prev_rot="0 0.978148 0 0.207912" continent="world" instance_data="false" local_pos="24 1135.81 105.597" local_rot="0.691655 -0.691655 -0.147016 -0.147016" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_025" position="235.805 76 355.597" rotation="0 0.978148 0 0.207912" unit_id="100024"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-250 50 -50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" name_id="dev_door_blocker_1x8x3_001" only_visible_in_editor="true" position="-200 50 -50" rotation="0 0 0 -1" unit_id="100025"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="750 50 -50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="1000 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" name_id="dev_door_blocker_1x8x3_002" only_visible_in_editor="true" position="800 50 -50" rotation="0 0 0 -1" unit_id="100026"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-250 50 0" _prev_rot="0 -0.707107 0 -0.707107" continent="world" instance_data="false" local_pos="0 0 50" local_rot="0 0.707107 0 0.707107" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" name_id="dev_door_blocker_1x8x3_door" only_visible_in_editor="true" position="-200 50 0" rotation="0 -0.707107 0 -0.707107" unit_id="100027"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-850 100 250" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" name_id="dev_bag_collision_8x32m_001" only_visible_in_editor="true" position="-850 100 250" rotation="0 0 0.707107 -0.707107" unit_id="100028"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 100 250" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 800 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x32m" name_id="dev_bag_collision_8x32m_002" only_visible_in_editor="true" position="-50 100 250" rotation="0 0 0.707107 -0.707107" unit_id="100029"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

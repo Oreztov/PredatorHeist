@@ -1999,9 +1999,27 @@
 		<unit path="units/payday2/props/air_prop_runway_fence/air_prop_runway_fence"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox" type="unit">
-		<unit path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox"/>
-		<object path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox"/>
 		<material_config path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox"/>
+		<object path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox"/>
 		<sequence_manager path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox"/>
+		<unit path="units/payday2/props/bnk_prop_security_fusebox/bnk_prop_security_fusebox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel" type="unit">
+		<unit path="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel"/>
+		<object path="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel"/>
+		<unit path="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/spawn_barrel_debris"/>
+		<object path="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/spawn_barrel_debris"/>
+		<effect load="true" path="effects/payday2/particles/fire/fire_trail"/>
+		<effect load="true" path="effects/payday2/particles/explosions/burnpuff"/>
+		<effect load="true" path="effects/payday2/particles/fire/small_burning"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_8m" type="unit">
+		<unit path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_8m"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_8m"/>
+		<material_config path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser"/>
 	</add>
 </table>

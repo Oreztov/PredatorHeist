@@ -3,6 +3,8 @@
 	<instances>
 		<table continent="world" folder="levels/instances/mods/PredatorHeist/obstacle_fence/world" index_size="250" mission_placed="true" name="obstacle_fence" position="368.4 -2662.27 4908.58" rotation="-0 0 -0 -1" script="default" start_index="0"/>
 		<table continent="world" folder="levels/instances/mods/PredatorHeist/obstacle_gate/world" index_size="250" mission_placed="true" name="obstacle_gate" position="368.4 -3562.27 4908.58" rotation="-0 0 -0 -1" script="default" start_index="250"/>
+		<table continent="world" folder="levels/instances/mods/PredatorHeist/obstacle_barrels/world" index_size="250" mission_placed="true" name="obstacle_barrels" position="2454.58 -3730.31 4908.58" rotation="-0 0 -0 -1" script="default" start_index="500"/>
+		<table continent="world" folder="levels/instances/mods/PredatorHeist/obstacle_plywood/world" index_size="250" mission_placed="true" name="obstacle_plywood" position="2388.81 -2658.75 4908.58" rotation="-0 0 -0 -1" script="default" start_index="750"/>
 	</instances>
 	<statics>
 		<table>
@@ -546,7 +548,7 @@
 			<unit_data _prev_pos="-633.091 9222.93 -295" _prev_rot="0 -0 -0.275637 -0.961262" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_wall" name_id="ind_fence_yellow_wall_001" position="-631.395 9223.99 -295" rotation="0 -0 -0.275637 -0.961262" unit_id="100752"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="691.642 9581.06 -293.5" _prev_rot="0 0 0 -1" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="open_door" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_door" name_id="ind_fence_yellow_door_001" position="691.642 9581.06 -293.5" rotation="-0 0 -0 -1" unit_id="100753"/>
+			<unit_data _prev_pos="691.642 9581.06 -293.5" _prev_rot="0 0 0 -1" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_door" name_id="ind_fence_yellow_door_001" position="691.642 9581.06 -293.5" rotation="-0 0 -0 -1" unit_id="100753"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="741.642 9581.06 -295.5" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="200 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_fence_yellow_gate" name_id="W_001" position="741.642 9581.06 -295.5" rotation="0 -0 0 -1" unit_id="100754"/>
@@ -3367,12 +3369,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="2265.67 6219.98 822.037" _prev_rot="0 0 0.71934 -0.694659" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_02_boulder" name_id="bph_rock_terrain_02_boulder_004" position="2247.23 6293.67 822.037" rotation="0 0 0.71934 -0.694659" unit_id="102455"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1006.34 729.119 745.328" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="43.0708 140.61 1.36304" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_c" name_id="mus_int_lab_scaffolding_plywood_c_001" position="-1006.34 729.119 1120.33" rotation="0 0 0 -1" unit_id="102462"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="-1049.41 588.509 743.965" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_scaffolding_plywood_a" name_id="mus_int_lab_scaffolding_plywood_a_001" position="-1049.41 588.509 1118.96" rotation="0 0 0 -1" unit_id="102461"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-1183.23 -2579.8 723.928" _prev_rot="0 0 1 -0" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_hedge" name_id="ind_ext_warehouse_hedge_034" position="-1427.23 -2579.8 723.928" rotation="0 0 1 -0" unit_id="102463"/>

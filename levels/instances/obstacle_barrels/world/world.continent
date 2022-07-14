@@ -1,0 +1,48 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="-100 222 0" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 -110" local_rot="0 0 -0.92388 0.382683" mesh_variation="" name="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel" name_id="gen_explosive_barrel_001" position="-100 222 -20" rotation="0 0 1 -4.37114e-008" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="200 50 -50" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x8x3" name_id="dev_door_blocker_1x8x3_002" only_visible_in_editor="true" position="200 100 -50" rotation="0 0 0 -1" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 222 110" _prev_rot="0 0 0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel" name_id="gen_explosive_barrel_002" position="-100 222 90" rotation="0 0 0.382683 -0.92388" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 148 110" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="52.3258 -52.326 0" local_rot="0 0 -0.382684 0.923879" mesh_variation="" name="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel" name_id="gen_explosive_barrel_003" position="-100 148 90" rotation="0 0 0.707107 -0.707107" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 148 0" _prev_rot="0 0 0.92388 -0.382683" continent="world" instance_data="false" local_pos="52.3258 -52.326 -110" local_rot="0 0 -0.707108 0.707106" mesh_variation="" name="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel" name_id="gen_explosive_barrel_004" position="-100 148 -20" rotation="0 0 0.92388 -0.382683" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 73 110" _prev_rot="0 0 0.382683 -0.92388" continent="world" instance_data="false" local_pos="105.359 -105.359 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel" name_id="gen_explosive_barrel_005" position="-100 73 90" rotation="0 0 0.382683 -0.92388" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 73 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="105.359 -105.359 -110" local_rot="0 0 0.382683 0.92388" mesh_variation="" name="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel" name_id="gen_explosive_barrel_006" position="-100 73 -20" rotation="0 0 0 -1" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-65 150 42" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="-70 -6.1196e-006 0" local_rot="0 0 1 -4.37114e-008" name="units/pd2_dlc2/props/gen_prop_swat_tripmine_shootable/gen_prop_swat_tripmine_shootable" name_id="gen_prop_swat_tripmine_shootable_001" position="-65 150 45" rotation="0 0 0 -1" unit_id="100012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-65 150 92" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="-70 -6.1196e-006 50" local_rot="0 0 1 -4.37114e-008" name="units/pd2_dlc2/props/gen_prop_swat_tripmine_shootable/gen_prop_swat_tripmine_shootable" name_id="gen_prop_swat_tripmine_shootable_002" position="-65 150 95" rotation="0 0 0 -1" unit_id="100013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-65 150 142" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="-70 -6.1196e-006 100" local_rot="0 0 1 -4.37114e-008" name="units/pd2_dlc2/props/gen_prop_swat_tripmine_shootable/gen_prop_swat_tripmine_shootable" name_id="gen_prop_swat_tripmine_shootable_003" position="-65 150 145" rotation="0 0 0 -1" unit_id="100015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-135 150 142" _prev_rot="0 0 1 4.37114e-008" continent="world" instance_data="false" local_pos="0 0 100" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_swat_tripmine_shootable/gen_prop_swat_tripmine_shootable" name_id="gen_prop_swat_tripmine_shootable_004" position="-135 150 145" rotation="0 0 1 4.37114e-008" unit_id="100017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-135 150 92" _prev_rot="0 0 1 4.37114e-008" continent="world" instance_data="false" local_pos="0 0 50" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_swat_tripmine_shootable/gen_prop_swat_tripmine_shootable" name_id="gen_prop_swat_tripmine_shootable_005" position="-135 150 95" rotation="0 0 1 4.37114e-008" unit_id="100018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-135 150 42" _prev_rot="0 0 1 4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc2/props/gen_prop_swat_tripmine_shootable/gen_prop_swat_tripmine_shootable" name_id="gen_prop_swat_tripmine_shootable_006" position="-135 150 45" rotation="0 0 1 4.37114e-008" unit_id="100019"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

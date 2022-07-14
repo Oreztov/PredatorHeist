@@ -35,20 +35,14 @@
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
-		<interactions>
-			<interaction id="hold_pre_winch_right" based_on="hold_friend_attach_winch" special_equipment_block="pre_hook_left" text_id="hud_int_hold_moon_attach_winch" action_text_id="hud_action_attaching_winch"/>
-			<interaction id="hold_pre_winch_left" based_on="hold_friend_attach_winch" special_equipment_block="pre_hook_right" text_id="hud_int_hold_moon_attach_winch" action_text_id="hud_action_attaching_winch"/>
-			<interaction id="hold_pre_hook_right" based_on="chca_connect_winch_hook" special_equipment="pre_hook_right" text_id="chca_connect_winch_hook" action_text_id="chca_action_connecting_winch_hook"/>
-			<interaction id="hold_pre_hook_left" based_on="chca_connect_winch_hook" special_equipment="pre_hook_left" text_id="chca_connect_winch_hook" action_text_id="chca_action_connecting_winch_hook"/>
-		</interactions>
 		<equipments>
-			<special id="pre_hook_left" based_on="cas_winch_hook" text_id="hud_equipment_winch_hook">
+			<special based_on="cas_winch_hook" id="pre_hook_left" text_id="hud_equipment_winch_hook">
 				<shares_pickup_with>
 					<value_node value="pre_hook_left"/>
 					<value_node value="pre_hook_right"/>
 				</shares_pickup_with>
 			</special>
-			<special id="pre_hook_right" based_on="cas_winch_hook" text_id="hud_equipment_winch_hook">
+			<special based_on="cas_winch_hook" id="pre_hook_right" text_id="hud_equipment_winch_hook">
 				<shares_pickup_with>
 					<value_node value="pre_hook_left"/>
 					<value_node value="pre_hook_right"/>
@@ -69,6 +63,12 @@
 				<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
 			</hooks>
 		</hooks>
+		<interactions>
+			<interaction action_text_id="hud_action_attaching_winch" based_on="hold_friend_attach_winch" id="hold_pre_winch_right" special_equipment_block="pre_hook_left" text_id="hud_int_hold_moon_attach_winch"/>
+			<interaction action_text_id="hud_action_attaching_winch" based_on="hold_friend_attach_winch" id="hold_pre_winch_left" special_equipment_block="pre_hook_right" text_id="hud_int_hold_moon_attach_winch"/>
+			<interaction action_text_id="chca_action_connecting_winch_hook" based_on="chca_connect_winch_hook" id="hold_pre_hook_right" special_equipment="pre_hook_right" text_id="chca_connect_winch_hook"/>
+			<interaction action_text_id="chca_action_connecting_winch_hook" based_on="chca_connect_winch_hook" id="hold_pre_hook_left" special_equipment="pre_hook_left" text_id="chca_connect_winch_hook"/>
+		</interactions>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
@@ -264,6 +264,12 @@
 		<packages/>
 	</instance>
 	<instance id="obstacle_gate">
+		<packages/>
+	</instance>
+	<instance id="obstacle_barrels">
+		<packages/>
+	</instance>
+	<instance id="obstacle_plywood">
 		<packages/>
 	</instance>
 	<AddFiles directory="assets"/>
