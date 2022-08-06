@@ -1,0 +1,7 @@
+<materials version="3">
+    <material version="2" render_template="generic:DIFFUSE_TEXTURE:DOUBLE_SIDED:GSMA_TEXTURE:NORMALMAP" name="mat_art">
+        <diffuse_texture		file="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art_df"/>
+        <material_texture		file="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art_gsma"/>
+        <bump_normal_texture	file="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art_nm"/>
+    </material>
+</materials>

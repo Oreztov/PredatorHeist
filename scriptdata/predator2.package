@@ -1,5 +1,14 @@
 <table directory="assets">
 	<add unload_on_restart="true">
+		<dds path="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art_df" unload="true"/>
+		<dds path="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art_gsma" unload="true"/>
+		<dds path="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art_nm" unload="true"/>
+		<material_config path="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art" unload="true"/>
+		<unit path="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
 		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2"/>
 		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2"/>
 		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2" unload="true"/>
@@ -61,6 +70,7 @@
 	</add>
 	<add>
 		<object force="true" path="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank"/>
+		<texture force="true" path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks" unload="true"/>
