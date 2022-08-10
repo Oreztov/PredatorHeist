@@ -71,6 +71,7 @@
 	<add>
 		<object force="true" path="units/pd2_dlc_des/props/des_prop_lab_tank/des_prop_lab_tank"/>
 		<texture force="true" path="units/payday2/props/gen_prop_container_murky/murkywater_container_logos_df"/>
+		<texture force="true" path="units/pd2_dlc_cage/props/ind_prop_cardealership_info_display/ind_prop_cardealership_info_display_screen_df"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_dlc_berry/nature/bry_terrain_rock/bry_terrain_rocks" unload="true"/>
