@@ -6241,9 +6241,26 @@
 		<unit path="units/payday2/architecture/lux/lux_int_wall3_050m_cap_a"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_dark/props/drk_prop_grilles/drk_prop_grilles" type="unit">
-		<unit path="units/pd2_dlc_dark/props/drk_prop_grilles/drk_prop_grilles"/>
-		<object path="units/pd2_dlc_dark/props/drk_prop_grilles/drk_prop_grilles"/>
 		<material_config path="units/pd2_dlc_dark/props/drk_prop_grilles/drk_prop_grilles"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_grilles/drk_prop_grilles"/>
 		<sequence_manager path="units/pd2_dlc_dark/props/drk_prop_grilles/drk_prop_grilles"/>
+		<unit path="units/pd2_dlc_dark/props/drk_prop_grilles/drk_prop_grilles"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles" type="unit">
+		<material_config path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+		<object path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+		<sequence_manager path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+		<unit path="units/pd2_dlc_chca/props/chca_prop_grilles/chca_prop_grilles"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop" type="unit">
+		<material_config path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop"/>
+		<object path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop"/>
+		<sequence_manager path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop"/>
+		<unit path="units/pd2_dlc_dark/equipment/drk_interactable_military_laptop/drk_interactable_military_laptop"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_prop_military_bunk/ranc_prop_military_bunk" type="unit">
+		<unit path="units/pd2_dlc_ranc/props/ranc_prop_military_bunk/ranc_prop_military_bunk"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_prop_military_bunk/ranc_prop_military_bunk"/>
+		<material_config path="units/pd2_dlc_ranc/props/ranc_prop_military_bunk/ranc_prop_military_bunk"/>
 	</add>
 </table>

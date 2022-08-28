@@ -9,6 +9,11 @@
 		<unit path="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
+		<model path="units/pd2_mod_pre/architecture/are/are_off_int_wall_plastic_2m_hole"/>
+		<object path="units/pd2_mod_pre/architecture/are/are_off_int_wall_plastic_2m_hole"/>
+		<unit path="units/pd2_mod_pre/architecture/are/are_off_int_wall_plastic_2m_hole"/>
+	</add>
+	<add unload_on_restart="true">
 		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2"/>
 		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2"/>
 		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2" unload="true"/>

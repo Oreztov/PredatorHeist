@@ -1,0 +1,6 @@
+<unit type="are" slot="1" >
+    <object file="units/pd2_mod_pre/architecture/are/are_off_int_wall_plastic_2m_hole" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>
