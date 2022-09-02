@@ -1,1 +1,6 @@
-{}
+{
+	"menu_jukebox_jungle": "Jungle D1 Track",
+	"menu_jukebox_screen_jungle": "Jungle D1 Track",
+	"menu_jukebox_synth": "Synth D2 Track",
+	"menu_jukebox_screen_synth": "Synth D2 Track"
+}

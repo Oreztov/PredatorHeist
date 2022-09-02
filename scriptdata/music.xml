@@ -1,0 +1,37 @@
+<table>
+<HeistMusic directory="assets/sounds/music/jungle" id="jungle" volume="1">
+	<event name="setup"
+		   start_source="JungleStealth_Intro.ogg"
+		   source="JungleStealth_Loop.ogg" 
+		   />
+	<event name="control"
+		   start_source="JungleControl_WithIntro.ogg"
+		   source="JungleControl_Loop.ogg"
+		   />
+	<event name="anticipation"
+		   source="JungleAnticipationWithEnd.ogg"
+		   />
+	<event name="assault"
+		   start_source="JungleAssault_Intro.ogg"
+		   source="JungleAssault_Loop.ogg"
+		   />
+</HeistMusic>
+<HeistMusic directory="assets/sounds/music/synth" id="synth" volume="1">
+	<event name="setup"
+		   start_source="SynthStealth_Intro.ogg"
+		   source="SynthStealth_Loop.ogg"
+		   />
+	<event name="control"
+		   start_source="SynthControl_Intro.ogg"
+		   source="SynthControl_Loop.ogg"
+		   />
+	<event name="anticipation"
+		   source="SynthAnticipation.ogg"
+		   />
+	<event name="assault"
+		   start_source="SynthAssault_Intro.ogg">
+		<track source="SynthAssault_Loop.ogg" weight="1"/>
+		<track source="SynthAssault_Loop_ALIEN.ogg" weight="5"/>
+	</event>
+</HeistMusic>
+</table>
