@@ -1,9 +1,4 @@
-local jukebox_default_tracks = MusicManager.jukebox_default_tracks
-function MusicManager:jukebox_default_tracks()
-    local trax = jukebox_default_tracks(self)
-    
-    trax.heist_pre1_name = "jungle"
-    trax.heist_pre2_name = "synth"
-    
-    return trax
-end
+Hooks:PostHook(MusicManager, "jukebox_default_tracks", "PRE_default_track", function(self)
+    self:track_attachment_add("heist_pre_name1", "jungle")
+    self:track_attachment_add("heist_pre_name2", "synth")
+end)
