@@ -58,7 +58,7 @@
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="participate_to_group_ai" type="boolean" value="true"/>
-					<entry key="position" type="vector3" value="1771.93 802.737 4505"/>
+					<entry key="position" type="vector3" value="1500 -35175 36.6196"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 -4.37114e-008"/>
 					<entry key="spawn_action" type="string" value="none"/>
 					<entry key="team" type="string" value="default"/>
@@ -87,7 +87,7 @@
 							<entry key="id" type="number" value="100002"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="1778.88 643.78 4608.99"/>
+					<entry key="position" type="vector3" value="1506.95 -35334 140.61"/>
 					<entry key="radius" type="number" value="250"/>
 					<entry key="rotation" type="quaternion" value="0 0 1.06581e-014 -1"/>
 					<entry key="shape_type" type="string" value="box"/>

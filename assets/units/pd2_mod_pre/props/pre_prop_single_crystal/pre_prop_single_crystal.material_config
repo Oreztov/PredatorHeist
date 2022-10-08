@@ -1,0 +1,32 @@
+<materials version="3">
+    <material render_template="shadow_caster_only" name="shadow_caster" version="2"/>
+	
+    <material decal_material="glass" name="mat_transparent_crystal" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP:OPACITY_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM:VERTEX_COLOR" version="2">
+        <!--
+            <diffuse_texture file="units/pd2_dlc_fish/props/lxy_int_prop_ceiling_ribbon/lxy_int_prop_ceiling_ribbon_df"/>
+        <opacity_texture file="units/pd2_dlc_fish/props/lxy_int_prop_ceiling_ribbon/lxy_int_prop_ceiling_ribbon_op"/>
+        <variable type="scalar" name="alpha_ref" value="0.49600002355874"/>
+        <bump_normal_texture file="units/pd2_dlc_fish/props/lxy_int_prop_ceiling_ribbon/lxy_int_prop_ceiling_ribbon_nm"/>
+        <self_illumination_texture file="units/pd2_dlc_fish/props/lxy_int_prop_ceiling_ribbon/lxy_int_prop_ceiling_ribbon_il"/>
+        <variable type="scalar" name="il_multiplier" value="inside of borg queen"/>
+        <variable type="scalar" name="il_bloom" value="8.4100003994536"/>
+        -->
+		<diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_01_df" />
+		<reflection_texture file="environments/cubemaps/cubemap_gold_strong_df" type="cubemap" />
+		<bump_normal_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_rock_interior_01_nm" />
+        <opacity_texture file="units/payday2/glass/glass_clear_vehicle_op"/>
+		<!--<self_illumination_texture file="units/pd2_dlc_lxy/architecture/yacht_dhruva/textures/lxy_yellowlight_il" />-->
+		<self_illumination_texture file="units/pd2_mod_pre/crystal_tunnel/crystal_il" />
+		<variable name="il_multiplier" type="scalar" value="inside of borg queen" />
+		<variable name="il_bloom" type="scalar" value="10" />
+		<variable name="depth_opacity" type="scalar" value="100" />
+		<variable name="uv_speed" type="vector3" value="0.1 0.1 0" />
+		<variable name="il_tint" type="vector3" value="0 0.01 0.3" />
+        <variable type="scalar" name="intensity" value="searchlight"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+		<variable type="vector3" name="fresnel_settings" value="1.0900000333786 0.26999998092651 0.70999997854233"/>
+		<variable name="opacity_fade_to_solid" type="vector3" value="10 4000 0" />
+		<variable name="opacity_fade" type="vector3" value="10 4000 0" />
+        <variable type="scalar" name="alpha_ref" value="0.5"/>
+	</material>
+</materials>

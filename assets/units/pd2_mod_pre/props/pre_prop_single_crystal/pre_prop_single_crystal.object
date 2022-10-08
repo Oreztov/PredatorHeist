@@ -1,0 +1,14 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_pre/props/pre_prop_single_crystal/pre_prop_single_crystal" orientation_object="rp_root" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_root" />
+			<object name="g_crystals" collision_type="mesh_mopp"/>
+		</body>
+	</bodies>
+	<decal_surfaces default_material="stone">
+	</decal_surfaces>
+	<graphics>
+		<object name="g_crystals" enabled="true" />
+	</graphics>
+</dynamic_object>

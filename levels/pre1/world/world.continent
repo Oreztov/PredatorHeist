@@ -3250,7 +3250,7 @@
 			<unit_data _prev_pos="7407.17 11871.9 758.684" _prev_rot="-0.0829284 -0.0636332 -0.789007 -0.605426" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/terrain/bph_rocks_terrain/bph_rock_terrain_01_oblong" name_id="bph_rock_terrain_01_oblong_005" position="7428.44 11790.8 754.164" rotation="-0.0829284 -0.0636332 -0.789007 -0.605426" unit_id="102062"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="10776.6 7145.11 -78.3616" _prev_rot="0.0166139 0.0081939 0.241855 -0.970136" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interact_disabled" name="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck" name_id="str_vehicle_m35_truck_003" position="10776.6 7145.11 -78.362" rotation="0.0166167 0.00818875 0.241858 -0.970135" unit_id="102063">
+			<unit_data _prev_pos="10650 5850 -90" _prev_rot="0.0184476 0.00168996 -0.121871 -0.992373" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_interact_disabled" name="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck" name_id="str_vehicle_m35_truck_003" position="10650 5850 -90" rotation="0.0184476 0.00168996 -0.121871 -0.992373" unit_id="102063">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 1 0.647059" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_left" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
 					<table clipping_values="10000 -10000 0" color="1 1 0.65" enabled="false" falloff_exponent="1" far_range="2000" multiplier="@IDbca13ba1d306f87b@" name="ls_right" near_range="0" spot_angle_end="40.0728" spot_angle_start="40.0728"/>
@@ -3306,12 +3306,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-3879.47 -1661.79 762.443" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_medium_05" name_id="pnau_terrain_rock_medium_05_004" position="-3879.47 -1808.79 762.443" rotation="0 0 0 -1" unit_id="102120"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="11414.9 4937.02 -465.273" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_sah/props/sah_prop_survivors_pickaxe/sah_prop_survivors_pickaxe" name_id="sah_prop_survivors_pickaxe_001" position="11414.9 4937.02 -465.273" rotation="0 0 0 -1" unit_id="102121"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="11461.9 4958.81 -497.312" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_peta/props/pta_prop_barn_bucket/pta_prop_barn_bucket" name_id="pta_prop_barn_bucket_001" position="11461.9 4958.81 -489.312" rotation="0 0 0 -1" unit_id="102122"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="20019.8 17488.5 247.2" _prev_rot="-0.539339 0.11672 0.830509 0.0757991" continent="world" instance_data="false" local_pos="244.801 -11.5195 247.2" local_rot="0.539339 -0.11672 -0.830509 -0.0757991" name="units/pd2_dlc_peta/terrain/pta_2_rock_01" name_id="pta_2_rock_01_009" position="20019.8 17488.5 247.2" rotation="-0.539339 0.11672 0.830509 0.0757991" unit_id="102126"/>
@@ -4874,6 +4868,53 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="1119.75 6148.77 760.394" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/ai_coverpoint" name_id="ai_coverpoint_261" only_exists_in_editor="true" position="1119.75 6148.77 760.394" rotation="0 0 0.994721 -0.102616" unit_id="100494"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11300 4550 -316.054" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_001" only_visible_in_editor="true" position="11300 4550 -316.054" rotation="-0 0 -0 -1" unit_id="100495">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.6 1 0.607843" enabled="true" falloff_exponent="1" far_range="1296" multiplier="identity" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="11275.1 4547.99 -399.173" _prev_rot="6.50443e-005 -0.000493246 0.000444782 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick" name_id="bph_prop_lightstick_001" position="11275.1 4547.99 -399.173" rotation="-4.32555e-005 -0.000495633 -0.216005 -0.976392" unit_id="100497"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11316 4510 -492" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_mex/vehicles/gen_vehicle_motrec/gen_vehicle_motrec" name_id="gen_vehicle_motrec_001" position="11316 4510 -492" rotation="-0 0 -0 -1" unit_id="100496"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="10700 6900 -76.2535" _prev_rot="0 0 -0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_logging_machine/str_vehicle_logging_machine_scoop" name_id="str_vehicle_logging_machine_scoop_001" position="10700 6900 -78.2535" rotation="0 0 -0.382683 -0.92388" unit_id="100498"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2700 -4050 421.19" _prev_rot="0 0 -0.382683 -0.92388" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_logging_machine/str_vehicle_logging_machine_scoop" name_id="str_vehicle_logging_machine_scoop_002" position="2700 -4050 421.19" rotation="0 0 -0.382683 -0.92388" unit_id="100499"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2200 -3475 407.274" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/nature/pnau/pnau_terrain_rock_edge/pnau_terrain_rock_edge_01_a" name_id="pnau_terrain_rock_edge_01_a_012" position="2200 -3475 407.274" rotation="0 0 0 -1" unit_id="100500"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11300.1 4547.96 -399.198" _prev_rot="6.50443e-005 -0.000493246 0.000444783 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick" name_id="bph_prop_lightstick_002" position="11300.1 4547.96 -399.198" rotation="8.22187e-005 -0.000490676 0.035344 -0.999375" unit_id="100501"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11325.1 4547.94 -399.223" _prev_rot="6.50443e-005 -0.000493246 0.000444784 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick" name_id="bph_prop_lightstick_003" position="11325.1 4547.94 -399.223" rotation="0.000157965 -0.000471773 0.191246 -0.981542" unit_id="100502"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11325.1 4547.94 -399.223" _prev_rot="6.50443e-005 -0.000493246 0.000444784 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick" name_id="bph_prop_lightstick_004" position="11350.1 4547.92 -399.247" rotation="6.50443e-005 -0.000493246 0.000444785 -1" unit_id="100503"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11150 5036.35 -482.48" _prev_rot="0.0162932 0.00625438 0.358313 -0.933438" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick" name_id="bph_prop_lightstick_005" position="11150 5036.35 -482.48" rotation="0.0162932 0.00625438 0.358313 -0.933438" unit_id="100504"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11380 5293 -500.176" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick" name_id="bph_prop_lightstick_006" position="11380 5259 -500.176" rotation="0 0 0 -1" unit_id="100505"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11372.9 4835.73 -475.474" _prev_rot="-0.120722 0.29821 -0.388671 -0.863384" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick" name_id="bph_prop_lightstick_007" position="11360.5 4821.35 -490.085" rotation="-0.120722 0.29821 -0.388671 -0.863384" unit_id="100506"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="11300 6975 -316.054" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="light_omni_002" only_visible_in_editor="true" position="11300 5100 -316.054" rotation="-0 0 -0 -1" unit_id="100507">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="0.6 1 0.607843" enabled="true" falloff_exponent="1" far_range="568" multiplier="candle" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
 		</table>
 	</statics>
 	<values>

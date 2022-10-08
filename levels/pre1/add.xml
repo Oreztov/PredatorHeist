@@ -2018,8 +2018,64 @@
 		<sequence_manager path="units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/gen_explosive_barrel"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_8m" type="unit">
-		<unit path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_8m"/>
-		<object path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_8m"/>
 		<material_config path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_8m"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_laser/are_prop_laser_8m"/>
+	</add>
+	<add from_db="true" path="core/units/light_omni/light_omni" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="core/units/light_omni/light_omni"/>
+		<unit path="core/units/light_omni/light_omni"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_red_lantern/chas_prop_red_lantern" type="unit">
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_red_lantern/chas_prop_red_lantern_on"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_red_lantern/chas_prop_red_lantern"/>
+		<sequence_manager path="units/pd2_dlc_chas/props/chas_prop_red_lantern/chas_prop_red_lantern"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_red_lantern/chas_prop_red_lantern"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_barn_lamp_lantern/pta_prop_barn_lamp_lantern" type="unit">
+		<material_config path="units/pd2_dlc_peta/props/pta_prop_barn_lamp_lantern/pta_prop_barn_lamp_lantern"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_barn_lamp_lantern/pta_prop_barn_lamp_lantern"/>
+		<unit path="units/pd2_dlc_peta/props/pta_prop_barn_lamp_lantern/pta_prop_barn_lamp_lantern"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern"/>
+		<effect load="true" path="effects/payday2/particles/explosions/fire/dripping_fire"/>
+		<effect load="true" path="effects/payday2/particles/destruction/des_glass_small"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern_02" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/destruction/des_glass_small"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern_02"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern_02"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern_03" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/destruction/des_glass_small"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern_03"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern_03"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_hanging_lantern/sah_prop_hanging_lantern_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick" type="unit">
+		<material_config path="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick"/>
+		<object path="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick"/>
+		<unit path="units/pd2_dlc_bph/props/bph_prop_glowstick/bph_prop_lightstick"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/vehicles/gen_vehicle_motrec/gen_vehicle_motrec" type="unit">
+		<material_config path="units/pd2_dlc_mex/vehicles/gen_vehicle_motrec/gen_vehicle_motrec"/>
+		<object path="units/pd2_dlc_mex/vehicles/gen_vehicle_motrec/gen_vehicle_motrec"/>
+		<unit path="units/pd2_dlc_mex/vehicles/gen_vehicle_motrec/gen_vehicle_motrec"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/str_vehicle_logging_machine/str_vehicle_logging_machine" type="unit">
+		<unit path="units/payday2/vehicles/str_vehicle_logging_machine/str_vehicle_logging_machine"/>
+		<object path="units/payday2/vehicles/str_vehicle_logging_machine/str_vehicle_logging_machine"/>
+		<material_config path="units/payday2/vehicles/str_vehicle_logging_machine/str_vehicle_logging_machine"/>
 	</add>
 </table>
